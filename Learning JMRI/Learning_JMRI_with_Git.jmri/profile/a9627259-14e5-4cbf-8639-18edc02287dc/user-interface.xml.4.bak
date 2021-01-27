@@ -27,10 +27,10 @@
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
             <columns>
-                <column hidden="false" name="Owner" order="8" width="85"/>
+                <column hidden="false" name="Owner" order="8" width="67"/>
                 <column hidden="false" name="Manufacturer" order="6" width="116"/>
                 <column hidden="false" name="Model" order="7" width="63"/>
-                <column hidden="false" name="ID" order="0" width="77"/>
+                <column hidden="false" name="ID" order="0" width="34"/>
                 <column hidden="false" name="Icon" order="2" width="49"/>
                 <column hidden="false" name="Road Number" order="5" width="115"/>
                 <column hidden="false" name="Date Modified" order="9" width="119"/>
@@ -46,7 +46,7 @@
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="Create New Loco" height="573.0" locX="72.0" locY="27.0" width="759.0"/>
-        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="670.0" locX="357.0" locY="49.0" width="982.0">
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="680.0" locX="357.0" locY="49.0" width="976.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>

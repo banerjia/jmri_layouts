@@ -46,7 +46,7 @@
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="Create New Loco" height="573.0" locX="72.0" locY="27.0" width="759.0"/>
-        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="690.0" locX="357.0" locY="49.0" width="970.0">
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="700.0" locX="357.0" locY="49.0" width="964.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
@@ -55,7 +55,7 @@
             </properties>
         </window>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WDM 5513" height="792.0" locX="72.0" locY="27.0" width="1516.0"/>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="496.0" locX="72.0" locY="27.0" width="973.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="506.0" locX="72.0" locY="27.0" width="967.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WDM 5513 in Service Mode (Programming Track)" height="759.0" locX="109.0" locY="32.0" width="1301.0"/>
         <window xmlns="" class="jmri.jmrit.simpleprog.SimpleProgFrame" height="403.0" locX="72.0" locY="27.0" width="435.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>

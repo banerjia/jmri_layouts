@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profileConfig>
+  <profiles>
+    <profile id="Learning_JMRI_with_Git.3dfac2ff" path="home:JMRI Layouts/Learning JMRI/Learning_JMRI_with_Git.jmri/" />
+  </profiles>
+  <searchPaths>
+    <path path="settings:" default="false" />
+    <path path="home:JMRI Layouts/" default="true" />
+  </searchPaths>
+</profileConfig>
