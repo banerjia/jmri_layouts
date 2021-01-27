@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="DCC++ Simulator" name="DCC++"/>
+    </comboBoxLastValue>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
+        <setting xmlns="">jmri.jmrit.roster.swing.RosterFrame.hideGroups</setting>
+    </settings>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
+            <columns>
+                <column hidden="false" name="Owner" order="8" width="85"/>
+                <column hidden="false" name="Manufacturer" order="6" width="116"/>
+                <column hidden="false" name="Model" order="7" width="63"/>
+                <column hidden="false" name="ID" order="0" width="77"/>
+                <column hidden="false" name="Icon" order="2" width="49"/>
+                <column hidden="false" name="Road Number" order="5" width="115"/>
+                <column hidden="false" name="Date Modified" order="9" width="119"/>
+                <column hidden="false" name="Decoder Model" order="3" width="126"/>
+                <column hidden="true" name="Protocol" order="10" width="79"/>
+                <column hidden="false" name="Road Name" order="4" width="100"/>
+                <column hidden="false" name="DCC Address" order="1" width="110"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="8" sortOrder="DESCENDING"/>
+            </sortOrder>
+        </table>
+    </tableDetails>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="Create New Loco" height="573.0" locX="72.0" locY="27.0" width="759.0"/>
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="640.0" locX="357.0" locY="49.0" width="1000.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">service</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WDM 5513" height="792.0" locX="72.0" locY="27.0" width="1516.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="486.0" locX="72.0" locY="27.0" width="979.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program WDM 5513 in Service Mode (Programming Track)" height="759.0" locX="109.0" locY="32.0" width="1301.0"/>
+        <window xmlns="" class="jmri.jmrit.simpleprog.SimpleProgFrame" height="403.0" locX="72.0" locY="27.0" width="435.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="Local JMRI throttles" height="230.0" locX="72.0" locY="27.0" width="330.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="633.0" locX="72.0" locY="27.0" width="425.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WDM ITARSI 5513" height="769.0" locX="72.0" locY="27.0" width="1295.0"/>
+        <window xmlns="" class="Throttles preferences" height="443.0" locX="599.0" locY="45.0" width="830.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="72.0" locY="56.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">service</value>
+                </property>
+            </properties>
+        </window>
+    </windowDetails>
+</auxiliary-configuration>
