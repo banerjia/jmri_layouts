@@ -1,9 +1,9 @@
 #JMRI Preferences version 4.20+Rc7ba8249b
-#Wed Jan 27 13:15:10 EST 2021
+#Wed Jan 27 13:28:45 EST 2021
 jmri-util-gui.showToolTipDismissDelay=4000
 jmri-jmrit-symbolicprog.showCvNumbers=false
 jmri-server-json.heartbeatInterval=15000
-jmri-jmrit-roster.directory=preference\:
+jmri-jmrit-roster.directory=home\:JMRI Layouts/Learning_JMRI/Learning_JMRI.jmri
 jmri-web-server.port=12080
 profile.name=Learning JMRI
 apps-systemconsole.fontStyle=0
@@ -17,7 +17,7 @@ jmri-web-server.useAjax=true
 jmri-util-gui.locale=en
 jmri-web-server.allowRemoteConfig=false
 jmri-util-gui.lookAndFeel=javax.swing.plaf.metal.MetalLookAndFeel
-jmri-implementation.user-files=home\:JMRI Layouts/Learning_JMRI.jmri/
+jmri-implementation.user-files=home\:JMRI Layouts/Learning_JMRI/Learning_JMRI.jmri
 jmri-util-gui.graphicTableState=false
 jmri-web-server.railroadName=My JMRI Railroad
 jmri-util-gui.nonstandardMouseEvent=false

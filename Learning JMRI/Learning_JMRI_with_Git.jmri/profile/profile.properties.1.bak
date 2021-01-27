@@ -1,12 +1,12 @@
 #JMRI Preferences version 4.20+Rc7ba8249b
-#Wed Jan 27 13:40:15 EST 2021
+#Wed Jan 27 13:41:55 EST 2021
 jmri-util-gui.showToolTipDismissDelay=4000
 jmri-jmrit-symbolicprog.showCvNumbers=false
 jmri-server-json.heartbeatInterval=15000
 jmri-jmrit-roster.directory=preference\:
 jmri-web-server.port=12080
-apps-systemconsole.fontStyle=0
 profile.name=Learning JMRI with Git
+apps-systemconsole.fontStyle=0
 jmri-managers.defaults.jmri-ConsistManager=DCC++
 jmri-web-server.clickDelay=1
 jmri-jmrit-symbolicprog.doConfirmRead=false
@@ -23,8 +23,8 @@ jmri-util-gui.graphicTableState=false
 jmri-web-server.railroadName=My JMRI Railroad
 jmri-util-gui.nonstandardMouseEvent=false
 jmri-managers.defaults.jmri-CommandStation=DCC++
-jmri-server-json.validateServerMessages=false
 profile.id=Learning_JMRI_with_Git.3dfac2ff
+jmri-server-json.validateServerMessages=false
 jmri-jmrit-symbolicprog.canCacheDefault=false
 jmri-managers.defaults.jmri-GlobalProgrammerManager=Internal
 apps-systemconsole.scheme=0

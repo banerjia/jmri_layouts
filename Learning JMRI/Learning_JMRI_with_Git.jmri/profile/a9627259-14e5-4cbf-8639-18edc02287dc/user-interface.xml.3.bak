@@ -30,7 +30,7 @@
                 <column hidden="false" name="Owner" order="8" width="67"/>
                 <column hidden="false" name="Manufacturer" order="6" width="116"/>
                 <column hidden="false" name="Model" order="7" width="63"/>
-                <column hidden="false" name="ID" order="0" width="34"/>
+                <column hidden="false" name="ID" order="0" width="107"/>
                 <column hidden="false" name="Icon" order="2" width="49"/>
                 <column hidden="false" name="Road Number" order="5" width="115"/>
                 <column hidden="false" name="Date Modified" order="9" width="119"/>
@@ -40,13 +40,13 @@
                 <column hidden="false" name="DCC Address" order="1" width="110"/>
             </columns>
             <sortOrder>
-                <sortKey column="8" sortOrder="DESCENDING"/>
+                <sortKey column="1" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="Create New Loco" height="573.0" locX="72.0" locY="27.0" width="759.0"/>
-        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="680.0" locX="357.0" locY="49.0" width="976.0">
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="690.0" locX="357.0" locY="49.0" width="970.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
@@ -60,7 +60,7 @@
         <window xmlns="" class="jmri.jmrit.simpleprog.SimpleProgFrame" height="403.0" locX="72.0" locY="27.0" width="435.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="72.0" locY="27.0" width="330.0"/>
-        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="633.0" locX="72.0" locY="27.0" width="425.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="643.0" locX="72.0" locY="27.0" width="419.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WDM ITARSI 5513" height="769.0" locX="72.0" locY="27.0" width="1295.0"/>
         <window xmlns="" class="Throttles preferences" height="443.0" locX="599.0" locY="45.0" width="830.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="72.0" locY="56.0" width="1024.0">
