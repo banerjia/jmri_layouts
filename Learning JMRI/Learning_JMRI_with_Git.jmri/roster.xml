@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Wed Jan 27 14:58:04 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Wed Jan 27 16:41:48 EST 2021-->
   <roster>
-    <locomotive id="WDM ITR 5513" fileName="WDM_5513.xml" roadNumber="5513" roadName="Indian Railways" mfg="Itarsi" owner="Abs Banerji" model="Diesel Electric 3D" dccAddress="5513" comment="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2021-01-27T17:51:18.035+0000</dateUpdated>
+    <locomotive id="WDM ITR 5513" fileName="WDM_5513.xml" roadNumber="" roadName="Indian Railways" mfg="Itarsi" owner="Abs Banerji" model="Diesel Electric 3D" dccAddress="5513" comment="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-01-27T21:41:21.413+0000</dateUpdated>
       <decoder model="Diesel" family="Paragon 2" comment="" />
       <locoaddress>
         <dcclocoaddress number="5513" longaddress="yes" />
@@ -38,6 +38,17 @@
         <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
         <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
       </functionlabels>
+      <soundlabels />
+    </locomotive>
+    <locomotive id="WSP BNR 2217" fileName="WSP_CCH_2217.xml" roadNumber="" roadName="Indian Railways" mfg="Banaras Locos" owner="Abs Banerji" model="Steam" dccAddress="2217" comment="" maxSpeed="50" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-01-27T21:41:48.245+0000</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="2217" longaddress="yes" />
+        <number>2217</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
       <soundlabels />
     </locomotive>
   </roster>
