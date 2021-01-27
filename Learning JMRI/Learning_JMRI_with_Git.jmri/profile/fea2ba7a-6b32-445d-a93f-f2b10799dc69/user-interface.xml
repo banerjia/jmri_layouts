@@ -3,7 +3,6 @@
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
         <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
@@ -29,7 +28,7 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="620.0" locX="72.0" locY="27.0" width="1012.0">
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="650.0" locX="72.0" locY="27.0" width="994.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
@@ -37,7 +36,7 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="476.0" locX="109.0" locY="64.0" width="985.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="496.0" locX="109.0" locY="64.0" width="973.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="263.0" locX="485.0" locY="280.0" width="604.0"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="146.0" locY="101.0" width="330.0"/>
