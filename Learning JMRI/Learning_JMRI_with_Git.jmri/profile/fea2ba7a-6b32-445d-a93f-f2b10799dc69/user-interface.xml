@@ -3,6 +3,7 @@
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
         <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
@@ -28,7 +29,10 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="650.0" locX="72.0" locY="27.0" width="994.0">
+        <window xmlns="" class="Create New Loco" height="563.0" locX="109.0" locY="64.0" width="765.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WSP BNR 2217" height="523.0" locX="109.0" locY="64.0" width="758.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WSP CCH 2217" height="523.0" locX="109.0" locY="64.0" width="758.0"/>
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="660.0" locX="72.0" locY="27.0" width="988.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
@@ -36,9 +40,10 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="496.0" locX="109.0" locY="64.0" width="973.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="506.0" locX="109.0" locY="64.0" width="967.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="263.0" locX="485.0" locY="280.0" width="604.0"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="146.0" locY="101.0" width="330.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WDM ITR 5513" height="523.0" locX="109.0" locY="64.0" width="758.0"/>
     </windowDetails>
 </auxiliary-configuration>
