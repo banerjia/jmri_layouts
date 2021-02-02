@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Wed Jan 27 16:41:21 EST 2021-->
-  <locomotive id="WDM ITR 5513" fileName="WDM_5513.xml" roadNumber="" roadName="Indian Railways" mfg="Itarsi" owner="Abs Banerji" model="Diesel Electric 3D" dccAddress="5513" comment="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-01-27T21:41:21.413+0000</dateUpdated>
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Feb 01 23:53:11 EST 2021-->
+  <locomotive id="WDM ITR 52" fileName="WDM_5513.xml" roadNumber="" roadName="Indian Railways" mfg="Itarsi" owner="Abs Banerji" model="Diesel Electric 3D" dccAddress="52" comment="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2021-02-02T04:53:11.652+0000</dateUpdated>
     <decoder model="Diesel" family="Paragon 2" comment="" />
     <locoaddress>
-      <dcclocoaddress number="5513" longaddress="yes" />
-      <number>5513</number>
-      <protocol>dcc_long</protocol>
+      <dcclocoaddress number="52" longaddress="no" />
+      <number>52</number>
+      <protocol>dcc_short</protocol>
     </locoaddress>
     <functionlabels>
       <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
@@ -167,7 +167,7 @@
         <varValue item="DC Motor Control Vmax" value="120" />
         <varValue item="DC Motor Control Vmin" value="92" />
         <varValue item="Primary Address" value="0" />
-        <varValue item="Extended Address" value="5513" />
+        <varValue item="Extended Address" value="52" />
         <varValue item="Address Format" value="1" />
         <varValue item="Vstart" value="0" />
         <varValue item="Vhigh" value="0" />
@@ -335,8 +335,8 @@
       <CVvalue name="251" value="120" />
       <CVvalue name="252" value="92" />
       <CVvalue name="1" value="0" />
-      <CVvalue name="17" value="213" />
-      <CVvalue name="18" value="137" />
+      <CVvalue name="17" value="192" />
+      <CVvalue name="18" value="52" />
       <CVvalue name="29" value="32" />
       <CVvalue name="2" value="0" />
       <CVvalue name="5" value="0" />
