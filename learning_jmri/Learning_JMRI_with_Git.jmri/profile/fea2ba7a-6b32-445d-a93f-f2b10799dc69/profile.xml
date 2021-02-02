@@ -3,7 +3,18 @@
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
         <connection xmlns="" class="jmri.jmrix.cmri.serial.sim.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="" speed="19200" systemPrefix="C" userName="C/MRI Simulator">
             <options/>
-            <polllist pollseq=""/>
+            <polllist pollseq="1"/>
+            <node name="1">
+                <parameter name="nodetype">1</parameter>
+                <parameter name="bitspercard">24</parameter>
+                <parameter name="transmissiondelay">0</parameter>
+                <parameter name="num2lsearchlights">0</parameter>
+                <parameter name="pulsewidth">500</parameter>
+                <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc"/>
+            </node>
         </connection>
         <connection xmlns="" class="jmri.jmrix.dccpp.serial.configurexml.ConnectionConfigXml" disabled="no" manufacturer="DCC++" port="ttyACM0" speed="115200" systemPrefix="D" userName="DCC++">
             <options/>
