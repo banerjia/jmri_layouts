@@ -27,7 +27,23 @@
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="jmri.jmrit.roster.swing.RosterFrame:Roster:roster">
-            <columns/>
+            <columns>
+                <column hidden="false" name="Owner" order="8" width="85"/>
+                <column hidden="false" name="Manufacturer" order="6" width="116"/>
+                <column hidden="false" name="Model" order="7" width="126"/>
+                <column hidden="false" name="ID" order="0" width="105"/>
+                <column hidden="false" name="Icon" order="2" width="49"/>
+                <column hidden="false" name="Road Number" order="5" width="115"/>
+                <column hidden="false" name="Date Modified" order="9" width="119"/>
+                <column hidden="false" name="Decoder Model" order="3" width="196"/>
+                <column hidden="true" name="Protocol" order="10" width="79"/>
+                <column hidden="false" name="Road Name" order="4" width="116"/>
+                <column hidden="false" name="DCC Address" order="1" width="110"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
@@ -42,16 +58,17 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="506.0" locX="130.0" locY="105.0" width="967.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="536.0" locX="276.0" locY="207.0" width="949.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="PanelPro" height="263.0" locX="1169.0" locY="408.0" width="604.0"/>
+        <window xmlns="" class="PanelPro" height="263.0" locX="1076.0" locY="408.0" width="604.0"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="146.0" locY="101.0" width="330.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WDM ITR 5513" height="523.0" locX="109.0" locY="64.0" width="758.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="0.0" locY="36.0" width="1024.0">
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="773.0" locX="72.0" locY="27.0" width="726.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="610.0" locX="72.0" locY="36.0" width="1018.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
-                    <value class="java.lang.String">service</value>
+                    <value class="java.lang.String">edit</value>
                 </property>
             </properties>
         </window>
