@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
+<roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Feb 01 23:53:35 EST 2021-->
+  <roster>
+    <locomotive id="WDM ITR 52" fileName="WDM_5513.xml" roadNumber="" roadName="Indian Railways" mfg="Itarsi" owner="Abs Banerji" model="Diesel Electric 3D" dccAddress="52" comment="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-02-02T04:53:11.652+0000</dateUpdated>
+      <decoder model="Diesel" family="Paragon 2" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="52" longaddress="no" />
+        <number>52</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn 1</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Blower</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Rev Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Rev Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">L1 Effect</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Radiator Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release and Fill</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Passenger Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Freight Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+    </locomotive>
+    <locomotive id="WSP BNR 2217" fileName="WSP_CCH_2217.xml" roadNumber="" roadName="Indian Railways" mfg="Banaras Locos" owner="Abs Banerji" model="Steam" dccAddress="2217" comment="" maxSpeed="50" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-01-27T21:41:48.245+0000</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="2217" longaddress="yes" />
+        <number>2217</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+  </roster>
+</roster-config>
