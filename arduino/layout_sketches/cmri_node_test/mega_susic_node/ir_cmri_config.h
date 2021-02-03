@@ -1,0 +1,8 @@
+#ifndef IR_CMRI_CFG
+
+#define IR_CMRI_CFG
+
+#define IR_CMRI_CFG_CMRI_NODE_BAUD 9600
+#define IR_CMRI_CFG_ARDUINO_DEBUG_PIN 13
+
+#endif
