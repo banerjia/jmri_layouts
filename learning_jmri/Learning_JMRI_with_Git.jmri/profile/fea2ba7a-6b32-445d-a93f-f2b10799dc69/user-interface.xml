@@ -27,6 +27,9 @@
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.toolBarThin</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
+            <columns/>
+        </table>
         <table xmlns="" name="jmri.jmrit.roster.swing.RosterFrame:Roster:roster">
             <columns>
                 <column hidden="false" name="Owner" order="8" width="85"/>
@@ -57,10 +60,12 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:WDS-2D ITR 110" height="904.0" locX="0.0" locY="36.0" width="1333.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program &lt;new loco&gt; in Service Mode (Programming Track)" height="627.0" locX="442.0" locY="193.0" width="1097.0"/>
         <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="546.0" locX="276.0" locY="207.0" width="943.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame" height="550.0" locX="241.0" locY="171.0" width="950.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WDM ITR 5513" height="523.0" locX="109.0" locY="64.0" width="758.0"/>
-        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="773.0" locX="72.0" locY="27.0" width="726.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="773.0" locX="855.0" locY="38.0" width="726.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="620.0" locX="72.0" locY="36.0" width="1012.0">
             <properties>
                 <property>
@@ -72,9 +77,13 @@
         <window xmlns="" class="Create New Loco" height="563.0" locX="109.0" locY="64.0" width="765.0"/>
         <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="853.0" locX="0.0" locY="27.0" width="1540.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WSP CCH 2217" height="523.0" locX="109.0" locY="64.0" width="758.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Program WDS-2D ITR 110 in Operations Mode (Main Track)" height="613.0" locX="0.0" locY="36.0" width="1097.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WDS-2D ITR 110" height="918.0" locX="0.0" locY="34.0" width="1333.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="745.0" locX="200.0" locY="200.0" width="1684.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="273.0" locX="786.0" locY="132.0" width="598.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program &lt;new loco&gt; in Service Mode (Programming Track):1" height="918.0" locX="30.0" locY="34.0" width="1333.0"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="146.0" locY="101.0" width="330.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:WDS ITR 110" height="952.0" locX="-2.0" locY="0.0" width="1820.0"/>
     </windowDetails>
 </auxiliary-configuration>

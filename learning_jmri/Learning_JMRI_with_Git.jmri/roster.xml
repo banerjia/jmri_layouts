@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Feb 02 11:43:48 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Feb 02 21:29:42 EST 2021-->
   <roster>
     <locomotive id="WDM ITR 52" fileName="WDM_5513.xml" roadNumber="" roadName="Indian Railways" mfg="Itarsi" owner="Abs Banerji" model="Diesel Electric 3D" dccAddress="52" comment="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2021-02-02T04:53:11.652+0000</dateUpdated>
@@ -38,6 +38,17 @@
         <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
         <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
       </functionlabels>
+      <soundlabels />
+    </locomotive>
+    <locomotive id="WDS-2D ITR 110" fileName="WDS_2D_ITR_110.xml" roadNumber="" roadName="Indian Railways" mfg="Itarsi Loco Works" owner="Abs Banerji" model="Diesel" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-02-03T02:29:42.725+0000</dateUpdated>
+      <decoder model="Rolling Thunder Receiver" family="Paragon 3" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
       <soundlabels />
     </locomotive>
     <locomotive id="WSP BNR 2217" fileName="WSP_CCH_2217.xml" roadNumber="" roadName="Indian Railways" mfg="Banaras Locos" owner="Abs Banerji" model="Steam" dccAddress="2217" comment="" maxSpeed="50" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
