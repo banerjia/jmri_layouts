@@ -70,10 +70,31 @@
     <sensor inverted="false">
       <systemName>DS6</systemName>
     </sensor>
-    <sensor inverted="false">
-      <systemName>DS7</systemName>
-    </sensor>
   </sensors>
+  <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1005</systemName>
+      <userName>MNL 1 MM W SG 1R - G</userName>
+      <comment>SignalHead:IH1:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1006</systemName>
+      <userName>MNL 1 MM W SG 1R - Y</userName>
+      <comment>SignalHead:IH1:Yellow</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1007</systemName>
+      <userName>MNL 1 MM W SG 1R - R</userName>
+      <comment>SignalHead:IH1:Red</comment>
+    </turnout>
+  </turnouts>
   <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
     <operations automate="false">
       <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
@@ -103,115 +124,27 @@
       <comment>MM Switch on track 2 East LH to RH on track 1 mainline</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1005</systemName>
-      <userName>MNL 1 MM W SG 1R - Y2</userName>
-      <comment>SignalHead:IH1:Dark:Yellow</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1006</systemName>
-      <userName>MNL 1 MM W SG 1R - G</userName>
-      <comment>SignalHead:IH2:Green</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1007</systemName>
-      <userName>MNL 1 MM W SG 1R - Y</userName>
-      <comment>SignalHead:IH2:Yellow</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT1008</systemName>
-      <userName>MNL 1 MM W SG 1R - R</userName>
-      <comment>SignalHead:IH2:Red</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1009</systemName>
-      <userName>MNL 1 MM W SG 2R - Diverging</userName>
-      <comment>SignalHead:IH3:Dark:Yellow</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1010</systemName>
-      <userName>MNL 1 MM W SG 2R - G</userName>
-      <comment>SignalHead:IH4:Green</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1011</systemName>
-      <userName>MNL 1 MM W SG 2R - Y</userName>
-      <comment>SignalHead:IH4:Yellow</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1012</systemName>
-      <userName>MNL 1 MM W SG 2R - R</userName>
-      <comment>SignalHead:IH4:Red</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1013</systemName>
-      <userName>MNL 1 MM E SG 3R - Y</userName>
-      <comment>SignalHead:IH5:Green</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1014</systemName>
-      <userName>MNL 1 MM E SG 3R - R</userName>
-      <comment>SignalHead:IH5:Red</comment>
+      <userName>MNL 1 MM W SG 1R - Y2</userName>
+      <comment>SignalHead:IH2:Dark:Yellow</comment>
     </turnout>
   </turnouts>
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
-    <signalhead class="jmri.implementation.configurexml.SingleTurnoutSignalHeadXml">
-      <systemName>IH1</systemName>
-      <userName>MM SG 1R UPPER</userName>
-      <appearance defines="thrown">dark</appearance>
-      <appearance defines="closed">yellow</appearance>
-      <turnoutname defines="aspect">MNL 1 MM W SG 1R - Y2</turnoutname>
-    </signalhead>
     <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
-      <systemName>IH2</systemName>
-      <userName>MM SG 1R LOWER</userName>
+      <systemName>IH1</systemName>
+      <userName>MM SG 1RA</userName>
       <turnoutname defines="green">MNL 1 MM W SG 1R - G</turnoutname>
       <turnoutname defines="yellow">MNL 1 MM W SG 1R - Y</turnoutname>
       <turnoutname defines="red">MNL 1 MM W SG 1R - R</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.SingleTurnoutSignalHeadXml">
-      <systemName>IH3</systemName>
-      <userName>MM SG 2R UPPER</userName>
+      <systemName>IH2</systemName>
+      <userName>MM SG 1RB</userName>
       <appearance defines="thrown">dark</appearance>
       <appearance defines="closed">yellow</appearance>
-      <turnoutname defines="aspect">MNL 1 MM W SG 2R - Diverging</turnoutname>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
-      <systemName>IH4</systemName>
-      <userName>MM SG 2R LOWER</userName>
-      <turnoutname defines="green">MNL 1 MM W SG 2R - G</turnoutname>
-      <turnoutname defines="yellow">MNL 1 MM W SG 2R - Y</turnoutname>
-      <turnoutname defines="red">MNL 1 MM W SG 2R - R</turnoutname>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>IH5</systemName>
-      <userName>MM SG 3R</userName>
-      <turnoutname defines="green">MNL 1 MM E SG 3R - Y</turnoutname>
-      <turnoutname defines="red">MNL 1 MM E SG 3R - R</turnoutname>
+      <turnoutname defines="aspect">MNL 1 MM W SG 1R - Y2</turnoutname>
     </signalhead>
   </signalheads>
-  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:IndianRailways-2021:2-general(MM SG 3R)</systemName>
-      <userName>MNL 1 MM E SG 3R</userName>
-      <unlit allowed="no" />
-    </signalmast>
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:IndianRailways-2021:3-home-diverging(MM SG 2R UPPER)(MM SG 2R LOWER)</systemName>
-      <userName>MNL 1 MM W SG 2R</userName>
-      <unlit allowed="no" />
-      <disabledAspects>
-        <disabledAspect>Unlit</disabledAspect>
-      </disabledAspects>
-    </signalmast>
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:IndianRailways-2021:4-distant-approach(MM SG 1R UPPER)(MM SG 1R LOWER)</systemName>
-      <userName>MNL 1 MM W SG 1R</userName>
-      <unlit allowed="no" />
-      <disabledAspects>
-        <disabledAspect>Unlit</disabledAspect>
-      </disabledAspects>
-    </signalmast>
-  </signalmasts>
   <blocks class="jmri.configurexml.BlockManagerXml">
     <defaultspeed>Normal</defaultspeed>
     <block systemName="IB1">
@@ -469,7 +402,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Simple Layout with Siding" x="87" y="34" windowheight="818" windowwidth="1264" panelheight="495" panelwidth="1168" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Simple Layout with Siding" x="87" y="34" windowheight="797" windowwidth="1236" panelheight="495" panelwidth="1168" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Simple Layout with Siding" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -518,104 +451,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Feb 05 12:00:44 EST 2021</date>
+      <date>Fri Feb 05 10:59:25 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Feb 05 12:00:57 EST 2021</date>
+      <date>Fri Feb 05 10:59:38 EST 2021</date>
       <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Feb 05 11:48:37 EST 2021</date>
+          <date>Fri Feb 05 10:04:56 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Feb 05 11:48:49 EST 2021</date>
+          <date>Fri Feb 05 10:05:09 EST 2021</date>
           <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Feb 05 11:42:33 EST 2021</date>
+              <date>Fri Feb 05 09:51:09 EST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Feb 05 11:42:45 EST 2021</date>
+              <date>Fri Feb 05 09:51:22 EST 2021</date>
               <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Feb 05 10:59:25 EST 2021</date>
+                  <date>Thu Feb 04 12:09:28 EST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Feb 05 10:59:38 EST 2021</date>
+                  <date>Thu Feb 04 12:09:41 EST 2021</date>
                   <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Feb 05 10:04:56 EST 2021</date>
+                      <date>Thu Feb 04 11:50:02 EST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Feb 05 10:05:09 EST 2021</date>
+                      <date>Thu Feb 04 11:50:16 EST 2021</date>
                       <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Fri Feb 05 09:51:09 EST 2021</date>
+                          <date>Wed Feb 03 22:44:47 EST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Fri Feb 05 09:51:22 EST 2021</date>
+                          <date>Wed Feb 03 22:45:01 EST 2021</date>
                           <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Fri Feb 05 10:04:24 EST 2021</date>
+                          <date>Thu Feb 04 08:36:29 EST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Feb 05 10:07:03 EST 2021</date>
+                      <date>Thu Feb 04 12:09:09 EST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Feb 05 11:05:34 EST 2021</date>
+                  <date>Thu Feb 04 23:03:16 EST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Feb 05 11:45:51 EST 2021</date>
+              <date>Fri Feb 05 10:04:24 EST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Feb 05 11:57:36 EST 2021</date>
+          <date>Fri Feb 05 10:07:03 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Feb 05 12:18:20 EST 2021</date>
+      <date>Fri Feb 05 11:05:34 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Fri Feb 05 12:18:20 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Fri Feb 05 11:05:34 EST 2021-->
 </layout-config>

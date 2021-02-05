@@ -142,16 +142,6 @@
       <userName>MNL 1 MM W SG 2R - R</userName>
       <comment>SignalHead:IH4:Red</comment>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1013</systemName>
-      <userName>MNL 1 MM E SG 3R - Y</userName>
-      <comment>SignalHead:IH5:Green</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1014</systemName>
-      <userName>MNL 1 MM E SG 3R - R</userName>
-      <comment>SignalHead:IH5:Red</comment>
-    </turnout>
   </turnouts>
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
     <signalhead class="jmri.implementation.configurexml.SingleTurnoutSignalHeadXml">
@@ -182,27 +172,8 @@
       <turnoutname defines="yellow">MNL 1 MM W SG 2R - Y</turnoutname>
       <turnoutname defines="red">MNL 1 MM W SG 2R - R</turnoutname>
     </signalhead>
-    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>IH5</systemName>
-      <userName>MM SG 3R</userName>
-      <turnoutname defines="green">MNL 1 MM E SG 3R - Y</turnoutname>
-      <turnoutname defines="red">MNL 1 MM E SG 3R - R</turnoutname>
-    </signalhead>
   </signalheads>
   <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:IndianRailways-2021:2-general(MM SG 3R)</systemName>
-      <userName>MNL 1 MM E SG 3R</userName>
-      <unlit allowed="no" />
-    </signalmast>
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:IndianRailways-2021:3-home-diverging(MM SG 2R UPPER)(MM SG 2R LOWER)</systemName>
-      <userName>MNL 1 MM W SG 2R</userName>
-      <unlit allowed="no" />
-      <disabledAspects>
-        <disabledAspect>Unlit</disabledAspect>
-      </disabledAspects>
-    </signalmast>
     <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
       <systemName>IF$shsm:IndianRailways-2021:4-distant-approach(MM SG 1R UPPER)(MM SG 1R LOWER)</systemName>
       <userName>MNL 1 MM W SG 1R</userName>
@@ -613,9 +584,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Feb 05 12:18:20 EST 2021</date>
+      <date>Fri Feb 05 12:10:33 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Fri Feb 05 12:18:20 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Fri Feb 05 12:10:33 EST 2021-->
 </layout-config>

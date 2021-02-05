@@ -67,12 +67,6 @@
         </property>
       </properties>
     </sensor>
-    <sensor inverted="false">
-      <systemName>DS6</systemName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>DS7</systemName>
-    </sensor>
   </sensors>
   <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
     <operations automate="false">
@@ -104,128 +98,66 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT1005</systemName>
-      <userName>MNL 1 MM W SG 1R - Y2</userName>
-      <comment>SignalHead:IH1:Dark:Yellow</comment>
+      <userName>MNL 1 MM W SG 1 R</userName>
+      <comment>SignalHead:SH1:Dark:Red</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT1006</systemName>
-      <userName>MNL 1 MM W SG 1R - G</userName>
-      <comment>SignalHead:IH2:Green</comment>
+      <userName>MNL 1 MM W SG 1 Y</userName>
+      <comment>SignalHead:SH2:Dark:Yellow</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT1007</systemName>
-      <userName>MNL 1 MM W SG 1R - Y</userName>
-      <comment>SignalHead:IH2:Yellow</comment>
+      <userName>MNL 1 MM W SG 1 G</userName>
+      <comment>SignalHead:SH3:Dark:Green</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT1008</systemName>
-      <userName>MNL 1 MM W SG 1R - R</userName>
-      <comment>SignalHead:IH2:Red</comment>
+      <comment>SignalHead:SH2:Red</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT1009</systemName>
-      <userName>MNL 1 MM W SG 2R - Diverging</userName>
-      <comment>SignalHead:IH3:Dark:Yellow</comment>
+      <comment>SignalHead:SH2:Green</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT1010</systemName>
-      <userName>MNL 1 MM W SG 2R - G</userName>
-      <comment>SignalHead:IH4:Green</comment>
+      <comment>SignalHead:SH3:Red</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT1011</systemName>
-      <userName>MNL 1 MM W SG 2R - Y</userName>
-      <comment>SignalHead:IH4:Yellow</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1012</systemName>
-      <userName>MNL 1 MM W SG 2R - R</userName>
-      <comment>SignalHead:IH4:Red</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1013</systemName>
-      <userName>MNL 1 MM E SG 3R - Y</userName>
-      <comment>SignalHead:IH5:Green</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT1014</systemName>
-      <userName>MNL 1 MM E SG 3R - R</userName>
-      <comment>SignalHead:IH5:Red</comment>
+      <comment>SignalHead:SH3:Green</comment>
     </turnout>
   </turnouts>
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
-    <signalhead class="jmri.implementation.configurexml.SingleTurnoutSignalHeadXml">
-      <systemName>IH1</systemName>
-      <userName>MM SG 1R UPPER</userName>
-      <appearance defines="thrown">dark</appearance>
-      <appearance defines="closed">yellow</appearance>
-      <turnoutname defines="aspect">MNL 1 MM W SG 1R - Y2</turnoutname>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
-      <systemName>IH2</systemName>
-      <userName>MM SG 1R LOWER</userName>
-      <turnoutname defines="green">MNL 1 MM W SG 1R - G</turnoutname>
-      <turnoutname defines="yellow">MNL 1 MM W SG 1R - Y</turnoutname>
-      <turnoutname defines="red">MNL 1 MM W SG 1R - R</turnoutname>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.SingleTurnoutSignalHeadXml">
-      <systemName>IH3</systemName>
-      <userName>MM SG 2R UPPER</userName>
-      <appearance defines="thrown">dark</appearance>
-      <appearance defines="closed">yellow</appearance>
-      <turnoutname defines="aspect">MNL 1 MM W SG 2R - Diverging</turnoutname>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
-      <systemName>IH4</systemName>
-      <userName>MM SG 2R LOWER</userName>
-      <turnoutname defines="green">MNL 1 MM W SG 2R - G</turnoutname>
-      <turnoutname defines="yellow">MNL 1 MM W SG 2R - Y</turnoutname>
-      <turnoutname defines="red">MNL 1 MM W SG 2R - R</turnoutname>
+    <signalhead class="jmri.implementation.configurexml.TripleOutputSignalHeadXml">
+      <systemName>SH1</systemName>
+      <userName>MNL 1 MM W SG 1E</userName>
+      <turnoutname defines="green">MNL 1 MM W SG 1 G</turnoutname>
+      <turnoutname defines="blue">MNL 1 MM W SG 1 Y</turnoutname>
+      <turnoutname defines="red">MNL 1 MM W SG 1 R</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>IH5</systemName>
-      <userName>MM SG 3R</userName>
-      <turnoutname defines="green">MNL 1 MM E SG 3R - Y</turnoutname>
-      <turnoutname defines="red">MNL 1 MM E SG 3R - R</turnoutname>
+      <systemName>SH2</systemName>
+      <userName>MNL 1 MM W SG 1W</userName>
+      <turnoutname defines="green">CT1009</turnoutname>
+      <turnoutname defines="red">CT1008</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>SH3</systemName>
+      <userName>MNL 1 MM W SG 2W</userName>
+      <turnoutname defines="green">CT1011</turnoutname>
+      <turnoutname defines="red">CT1010</turnoutname>
     </signalhead>
   </signalheads>
   <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
     <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:IndianRailways-2021:2-general(MM SG 3R)</systemName>
-      <userName>MNL 1 MM E SG 3R</userName>
+      <systemName>IF$shsm:BR-2003:3(SGH1)</systemName>
+      <userName>MNL 1 MM W SGM 1</userName>
       <unlit allowed="no" />
-    </signalmast>
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:IndianRailways-2021:3-home-diverging(MM SG 2R UPPER)(MM SG 2R LOWER)</systemName>
-      <userName>MNL 1 MM W SG 2R</userName>
-      <unlit allowed="no" />
-      <disabledAspects>
-        <disabledAspect>Unlit</disabledAspect>
-      </disabledAspects>
-    </signalmast>
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$shsm:IndianRailways-2021:4-distant-approach(MM SG 1R UPPER)(MM SG 1R LOWER)</systemName>
-      <userName>MNL 1 MM W SG 1R</userName>
-      <unlit allowed="no" />
-      <disabledAspects>
-        <disabledAspect>Unlit</disabledAspect>
-      </disabledAspects>
     </signalmast>
   </signalmasts>
   <blocks class="jmri.configurexml.BlockManagerXml">
     <defaultspeed>Normal</defaultspeed>
-    <block systemName="IB1">
-      <systemName>IB1</systemName>
-      <userName>JN1 Platform 1 BLK</userName>
-    </block>
-    <block systemName="IB2">
-      <systemName>IB2</systemName>
-      <userName>JN1 WB Exit BLK</userName>
-    </block>
-    <block systemName="IB3">
-      <systemName>IB3</systemName>
-      <userName>JN 1 WB Mainline BLK</userName>
-    </block>
     <block systemName="IB:AUTO:0001">
       <systemName>IB:AUTO:0001</systemName>
       <userName>MNL 1 MM W BLK 2 OS</userName>
@@ -269,21 +201,6 @@
     <block systemName="IB:AUTO:0018">
       <systemName>IB:AUTO:0018</systemName>
       <userName>MNL 2 MM E BLK 10</userName>
-    </block>
-    <block systemName="IB1" length="0.0" curve="0">
-      <systemName>IB1</systemName>
-      <userName>JN1 Platform 1 BLK</userName>
-      <permissive>no</permissive>
-    </block>
-    <block systemName="IB2" length="0.0" curve="0">
-      <systemName>IB2</systemName>
-      <userName>JN1 WB Exit BLK</userName>
-      <permissive>no</permissive>
-    </block>
-    <block systemName="IB3" length="0.0" curve="0">
-      <systemName>IB3</systemName>
-      <userName>JN 1 WB Mainline BLK</userName>
-      <permissive>no</permissive>
     </block>
     <block systemName="IB:AUTO:0001" length="0.0" curve="0">
       <systemName>IB:AUTO:0001</systemName>
@@ -377,6 +294,11 @@
           <turnout systemName="MNL 1 MM SW 3" />
         </beansetting>
       </path>
+      <path todir="128" fromdir="64" block="IB:AUTO:0016">
+        <beansetting setting="2">
+          <turnout systemName="MNL 2 MM SW 4" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB:AUTO:0015" length="0.0" curve="0">
       <systemName>IB:AUTO:0015</systemName>
@@ -421,6 +343,18 @@
     </block>
   </blocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
+    <layoutblock systemName="ILB1" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB1</systemName>
+      <userName>JN1 Platform 1 BLK</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB2" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB2</systemName>
+      <userName>JN1 WB Exit BLK</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB3" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB3</systemName>
+      <userName>JN 1 WB Mainline BLK</userName>
+    </layoutblock>
     <layoutblock systemName="ILB4" occupancysensor="MM BD 2" occupiedsense="2" trackcolor="darkGray" occupiedcolor="orange" extracolor="white">
       <systemName>ILB4</systemName>
       <userName>MNL 1 MM W BLK 2 OS</userName>
@@ -469,7 +403,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Simple Layout with Siding" x="87" y="34" windowheight="818" windowwidth="1264" panelheight="495" panelwidth="1168" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Simple Layout with Siding" x="84" y="48" windowheight="779" windowwidth="1212" panelheight="495" panelwidth="1168" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Simple Layout with Siding" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -498,19 +432,19 @@
     </layoutTrackDrawingOptions>
     <positionablelabel x="920" y="40" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="EAST &gt;" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="80" y="40" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt; WEST" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="220.0" ycen="240.0" xa="160.0" ya="240.0" xb="280.0" yb="240.0" xc="280.0" yc="180.0" xd="160.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MNL 1 MM SW 1" blockname="MNL 1 MM W BLK 2 OS" connectaname="T9" connectbname="T2" connectcname="T4" />
-    <layoutturnout ident="TO3" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="540.0" ycen="240.0" xa="600.0" ya="240.0" xb="480.0" yb="240.0" xc="480.0" yc="180.0" xd="600.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MNL 1 MM SW 2" blockname="MNL 1 MM E BLK 4 OS" connectaname="T3" connectbname="T2" connectcname="T4" />
+    <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="220.0" ycen="240.0" xa="160.0" ya="240.0" xb="280.0" yb="240.0" xc="280.0" yc="180.0" xd="160.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MNL 1 MM SW 1" blockname="MNL 1 MM W BLK 2 OS" connectaname="T1" connectbname="T2" connectcname="T4" />
+    <layoutturnout ident="TO3" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="540.0" ycen="240.0" xa="580.0" ya="240.0" xb="500.0" yb="240.0" xc="480.0" yc="180.0" xd="580.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MNL 1 MM SW 2" blockname="MNL 1 MM E BLK 4 OS" connectaname="T3" connectbname="T2" connectcname="T4" />
     <layoutturnout ident="TO2" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="763.0" ycen="297.0" xa="783.0" ya="297.0" xb="743.0" yb="297.0" xc="743.0" yc="277.0" xd="783.0" yd="297.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MNL 2 MM SW 4" blockname="MNL 1 MM E BLK 9 OS" connectaname="T7" connectbname="T6" connectcname="T5" />
     <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="700.0" ycen="240.0" xa="660.0" ya="240.0" xb="740.0" yb="240.0" xc="720.0" yc="260.0" xd="660.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MNL 1 MM SW 3" blockname="MNL 1 MM E BLK 6 OS" connectaname="T3" connectbname="T8" connectcname="T5" />
     <tracksegment ident="T2" blockname="MNL 1 MM W BLK 3A" connect1name="TO1" type1="TURNOUT_B" connect2name="TO3" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" blockname="MNL 1 MM W BLK 3B PFM" connect1name="TO1" type1="TURNOUT_C" connect2name="TO3" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T1" blockname="MNL 1 MM W BLK 1" connect1name="EB1" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="MNL 1 MM E BLK 5" connect1name="TO3" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T6" blockname="MNL 2 MM W BLK 8" connect1name="EB3" type1="POS_POINT" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T7" blockname="MNL 2 MM E BLK 10" connect1name="TO2" type1="TURNOUT_A" connect2name="EB4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T8" blockname="MNL 1 MM E BLK 7" connect1name="TO4" type1="TURNOUT_B" connect2name="EC1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T5" connect1name="TO4" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T9" blockname="MNL 1 MM W BLK 1" connect1name="EB1" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <positionablepoint ident="EB1" type="END_BUMPER" x="80.0" y="240.0" connect1name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB1" type="END_BUMPER" x="80.0" y="240.0" connect1name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB3" type="END_BUMPER" x="83.0" y="297.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB4" type="END_BUMPER" x="903.0" y="297.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC1" type="EDGE_CONNECTOR" x="900.0" y="240.0" connect1name="T8" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -518,104 +452,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Feb 05 12:00:44 EST 2021</date>
+      <date>Thu Feb 04 12:09:28 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Feb 05 12:00:57 EST 2021</date>
+      <date>Thu Feb 04 12:09:41 EST 2021</date>
       <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Feb 05 11:48:37 EST 2021</date>
+          <date>Thu Feb 04 11:50:02 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Feb 05 11:48:49 EST 2021</date>
+          <date>Thu Feb 04 11:50:16 EST 2021</date>
           <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Feb 05 11:42:33 EST 2021</date>
+              <date>Wed Feb 03 22:44:47 EST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Feb 05 11:42:45 EST 2021</date>
+              <date>Wed Feb 03 22:45:01 EST 2021</date>
               <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Feb 05 10:59:25 EST 2021</date>
+                  <date>Wed Feb 03 14:40:25 EST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Feb 05 10:59:38 EST 2021</date>
-                  <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
+                  <date>Wed Feb 03 14:40:39 EST 2021</date>
+                  <filename>/home/banerjia/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Feb 05 10:04:56 EST 2021</date>
+                      <date>Wed Feb 03 13:45:00 EST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Feb 05 10:05:09 EST 2021</date>
-                      <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
+                      <date>Wed Feb 03 13:45:14 EST 2021</date>
+                      <filename>/home/banerjia/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Fri Feb 05 09:51:09 EST 2021</date>
+                          <date>Wed Feb 03 12:55:04 EST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Fri Feb 05 09:51:22 EST 2021</date>
-                          <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
+                          <date>Wed Feb 03 12:55:19 EST 2021</date>
+                          <filename>/home/banerjia/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Fri Feb 05 10:04:24 EST 2021</date>
+                          <date>Wed Feb 03 13:21:11 EST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Feb 05 10:07:03 EST 2021</date>
+                      <date>Wed Feb 03 13:47:10 EST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Feb 05 11:05:34 EST 2021</date>
+                  <date>Wed Feb 03 16:46:32 EST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Feb 05 11:45:51 EST 2021</date>
+              <date>Thu Feb 04 08:36:29 EST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Feb 05 11:57:36 EST 2021</date>
+          <date>Thu Feb 04 12:09:09 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Feb 05 12:18:20 EST 2021</date>
+      <date>Thu Feb 04 14:02:41 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Fri Feb 05 12:18:20 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Feb 04 14:02:41 EST 2021-->
 </layout-config>
