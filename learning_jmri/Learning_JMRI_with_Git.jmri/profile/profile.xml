@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.cmri.serial.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="ttyACM0" speed="9600" systemPrefix="C" userName="C/MRI">
+        <connection xmlns="" class="jmri.jmrix.cmri.serial.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="cu.usbserial-1440" speed="9600" systemPrefix="C" userName="C/MRI">
             <options/>
             <polllist pollseq="1"/>
             <node name="1">
@@ -13,7 +13,7 @@
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cmrinetoptions">1000000000000000</parameter>
-                <parameter name="cmrinodedesc">CMRI Arduino Mega SMINI Node</parameter>
+                <parameter name="cmrinodedesc">Test</parameter>
             </node>
         </connection>
         <connection xmlns="" class="jmri.jmrix.dccpp.simulator.configurexml.ConnectionConfigXml" disabled="no" systemPrefix="D" userName="DCC++">

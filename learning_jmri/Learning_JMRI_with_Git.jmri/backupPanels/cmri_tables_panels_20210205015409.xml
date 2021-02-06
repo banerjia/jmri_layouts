@@ -157,8 +157,8 @@
     <signalhead class="jmri.implementation.configurexml.SingleTurnoutSignalHeadXml">
       <systemName>IH1</systemName>
       <userName>MM SG 1R UPPER</userName>
-      <appearance defines="thrown">yellow</appearance>
-      <appearance defines="closed">dark</appearance>
+      <appearance defines="thrown">dark</appearance>
+      <appearance defines="closed">yellow</appearance>
       <turnoutname defines="aspect">MNL 1 MM W SG 1R - Y2</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
@@ -171,8 +171,8 @@
     <signalhead class="jmri.implementation.configurexml.SingleTurnoutSignalHeadXml">
       <systemName>IH3</systemName>
       <userName>MM SG 2R UPPER</userName>
-      <appearance defines="thrown">yellow</appearance>
-      <appearance defines="closed">dark</appearance>
+      <appearance defines="thrown">dark</appearance>
+      <appearance defines="closed">yellow</appearance>
       <turnoutname defines="aspect">MNL 1 MM W SG 2R - Diverging</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
@@ -469,7 +469,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Simple Layout with Siding" x="87" y="25" windowheight="804" windowwidth="1268" panelheight="495" panelwidth="1168" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Simple Layout with Siding" x="87" y="34" windowheight="818" windowwidth="1264" panelheight="495" panelwidth="1168" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Simple Layout with Siding" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -496,8 +496,8 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="920" y="40" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="EAST &gt;" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="80" y="40" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt; WEST" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="920" y="40" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="EAST &gt;" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="80" y="40" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt; WEST" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="220.0" ycen="240.0" xa="160.0" ya="240.0" xb="280.0" yb="240.0" xc="280.0" yc="180.0" xd="160.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MNL 1 MM SW 1" blockname="MNL 1 MM W BLK 2 OS" connectaname="T9" connectbname="T2" connectcname="T4" />
     <layoutturnout ident="TO3" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="540.0" ycen="240.0" xa="600.0" ya="240.0" xb="480.0" yb="240.0" xc="480.0" yc="180.0" xd="600.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MNL 1 MM SW 2" blockname="MNL 1 MM E BLK 4 OS" connectaname="T3" connectbname="T2" connectcname="T4" />
     <layoutturnout ident="TO2" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="763.0" ycen="297.0" xa="783.0" ya="297.0" xb="743.0" yb="297.0" xc="743.0" yc="277.0" xd="783.0" yd="297.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MNL 2 MM SW 4" blockname="MNL 1 MM E BLK 9 OS" connectaname="T7" connectbname="T6" connectcname="T5" />
@@ -518,104 +518,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Feb 05 13:49:36 EST 2021</date>
+      <date>Fri Feb 05 12:00:44 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Feb 05 13:49:48 EST 2021</date>
-      <filename>/Users/banerjia/Library/Preferences/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
+      <date>Fri Feb 05 12:00:57 EST 2021</date>
+      <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Feb 05 12:00:44 EST 2021</date>
+          <date>Fri Feb 05 11:48:37 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Feb 05 12:00:57 EST 2021</date>
+          <date>Fri Feb 05 11:48:49 EST 2021</date>
           <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Feb 05 11:48:37 EST 2021</date>
+              <date>Fri Feb 05 11:42:33 EST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Feb 05 11:48:49 EST 2021</date>
+              <date>Fri Feb 05 11:42:45 EST 2021</date>
               <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Feb 05 11:42:33 EST 2021</date>
+                  <date>Fri Feb 05 10:59:25 EST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Feb 05 11:42:45 EST 2021</date>
+                  <date>Fri Feb 05 10:59:38 EST 2021</date>
                   <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Feb 05 10:59:25 EST 2021</date>
+                      <date>Fri Feb 05 10:04:56 EST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Feb 05 10:59:38 EST 2021</date>
+                      <date>Fri Feb 05 10:05:09 EST 2021</date>
                       <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Fri Feb 05 10:04:56 EST 2021</date>
+                          <date>Fri Feb 05 09:51:09 EST 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Fri Feb 05 10:05:09 EST 2021</date>
+                          <date>Fri Feb 05 09:51:22 EST 2021</date>
                           <filename>/home/parallels/Documents/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/cmri_tables_panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Fri Feb 05 10:07:03 EST 2021</date>
+                          <date>Fri Feb 05 10:04:24 EST 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Feb 05 11:05:34 EST 2021</date>
+                      <date>Fri Feb 05 10:07:03 EST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Feb 05 11:45:51 EST 2021</date>
+                  <date>Fri Feb 05 11:05:34 EST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Feb 05 11:57:36 EST 2021</date>
+              <date>Fri Feb 05 11:45:51 EST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Feb 05 12:18:20 EST 2021</date>
+          <date>Fri Feb 05 11:57:36 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Feb 05 13:54:09 EST 2021</date>
+      <date>Fri Feb 05 12:18:20 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Fri Feb 05 13:54:09 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Fri Feb 05 12:18:20 EST 2021-->
 </layout-config>
