@@ -1,0 +1,15 @@
+Senors
+Block Name,Comments
+MM BLK 1,Track 1 station distant West block
+MM BLK 2 OS,Track 1 Switch 1 LH Over Switch
+MM BLK 3 OS,Track 1 Switch 2 LH Over Switch
+MM BLK 4 LP,Platform 1
+MM BLK 5,Platform 2
+MM BLK 6 OS,Track 1 Switch 3 RH Over Switch
+MM BLK 7 OS,Track 1 Switch 4 RH Over Switch
+MM BLK 8,Track 1 Station Exit
+MM BLK 9,Track 2 Distant East Block
+MM BLK 10 OS,Track 2 Switch 5 RH Over Switch
+MM BLK 11,Track 2 platform 3
+MM BLK 12 OS,Track 2 Switch 6 LH Over Switch
+MM BLK 13,Track 2 Distant West block
