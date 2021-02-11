@@ -22,28 +22,38 @@
   </revhistory>
 
   <aspecttable>Indian Railways 2021</aspecttable>
-  <name>Three Aspect Home</name>
-  <description>Three aspect signal when entering a station</description>
+  <name>4 Aspect Home with Diverging</name>
+  <description>Three aspect signal when entering a station with a diverging</description>
   
   <appearances>
 
     <appearance>
       <aspectname>Clear</aspectname>
+      <show>dark</show>
       <show>green</show>
     </appearance>
 
     <appearance>
       <aspectname>Approach</aspectname>
+      <show>dark</show>
       <show>yellow</show>
     </appearance>
 
     <appearance>
+      <aspectname>Approach Diverging</aspectname>
+      <show>yellow</show>
+      <show>dark</show>
+    </appearance>
+
+    <appearance>
       <aspectname>Stop</aspectname>
+      <show>dark</show>
       <show>red</show>
     </appearance>
     
     <appearance>
       <aspectname>Unlit</aspectname>
+      <show>dark</show>
       <show>dark</show>
       <imagelink>../../../resources/icons/smallschematics/searchlights/one-high-dark.gif</imagelink>
     </appearance>
@@ -69,26 +79,26 @@
     <aspectMapping>
      <advancedAspect>Stop</advancedAspect>
      <ourAspect>Approach</ourAspect>
+     <ourAspect>Approach Diverging</ourAspect>
     </aspectMapping>
     
     <aspectMapping>
      <advancedAspect>Approach</advancedAspect>
-     <ourAspect>Clear</ourAspect>
+     <ourAspect>Approach</ourAspect>
+     <ourAspect>Approach Diverging</ourAspect>
     </aspectMapping>
 
 
     <aspectMapping>
-     <advancedAspect>Diverging Approach</advancedAspect>
+     <advancedAspect>Approach Diverging</advancedAspect>
      <ourAspect>Approach</ourAspect>
+     <ourAspect>Approach Diverging</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
      <advancedAspect>Clear</advancedAspect>
      <ourAspect>Clear</ourAspect>
-    </aspectMapping>
-
-    <aspectMapping>
-     <advancedAspect>Diverging Clear</advancedAspect>
+     <ourAspect>Approach Diverging</ourAspect>
      <ourAspect>Approach</ourAspect>
     </aspectMapping>
 

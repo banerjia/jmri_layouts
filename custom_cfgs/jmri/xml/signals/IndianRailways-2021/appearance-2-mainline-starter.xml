@@ -21,7 +21,7 @@
     </revision>
   </revhistory>
   <aspecttable>Indian Railways 2021</aspecttable>
-  <name>Two Aspect Mainline Starter</name>
+  <name>2 Aspect Mainline Starter</name>
   <description>One head with two aspects</description>
   <appearances>
     <appearance>
@@ -54,15 +54,11 @@
       <ourAspect>Clear</ourAspect>
     </aspectMapping>
     <aspectMapping>
-      <advancedAspect>Diverging Approach</advancedAspect>
+      <advancedAspect>Approach Diverging</advancedAspect>
       <ourAspect>Clear</ourAspect>
     </aspectMapping>
     <aspectMapping>
       <advancedAspect>Clear</advancedAspect>
-      <ourAspect>Clear</ourAspect>
-    </aspectMapping>
-    <aspectMapping>
-      <advancedAspect>Diverging Clear</advancedAspect>
       <ourAspect>Clear</ourAspect>
     </aspectMapping>
   </aspectMappings>

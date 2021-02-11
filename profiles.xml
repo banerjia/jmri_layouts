@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profileConfig>
   <profiles>
-    <profile id="CMRI_Scripting.3f52eaf9" path="home:Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/" />
-    <profile id="Learning_JMRI_with_Git.3dfac2ff" path="home:Library/Preferences/jmri_layouts/learning_jmri/Learning_JMRI_with_Git.jmri/" />
+    <profile id="CMRI_Scripting.3f52eaf9" path="settings:CMRI_Scripting.jmri/" />
+    <profile id="Learning_JMRI_with_Git.3dfac2ff" path="settings:learning_jmri/Learning_JMRI_with_Git.jmri/" />
   </profiles>
   <searchPaths>
-    <path path="home:Library/Preferences/jmri_layouts/" default="true" />
+    <path path="settings:" default="true" />
   </searchPaths>
 </profileConfig>

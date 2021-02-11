@@ -50,7 +50,22 @@
       <speed2>Stop</speed2>
     </aspect>
     <aspect>
-      <name>Diverging Approach</name>
+      <name>Approach Diverging</name>
+      <indication>Proceed through diverging route preparing to stop at next signal</indication>
+      <speed>Limited</speed>
+      <speed2>Limited</speed2>
+      <route>Diverging</route>
+    </aspect>
+    <aspect>
+      <name>Approach Y Diverging Right</name>
+      <indication>Proceed through diverging route preparing to stop at next signal</indication>
+      <speed>Limited</speed>
+      <speed2>Limited</speed2>
+      <route>Diverging</route>
+    </aspect>
+
+    <aspect>
+      <name>Approach Y Diverging Left</name>
       <indication>Proceed through diverging route preparing to stop at next signal</indication>
       <speed>Limited</speed>
       <speed2>Limited</speed2>
@@ -59,15 +74,17 @@
     <aspect>
       <name>Unlit</name>
       <indication>Unlit</indication>
-      <speed>Stop</speed>
-      <speed2>Stop</speed2>
+      <speed>Normal</speed>
+      <speed2>normal</speed2>
     </aspect>    
   </aspects>
   <appearancefiles>
-    <appearancefile href="appearance-2-mainline-starter.xml" />
-    <appearancefile href="appearance-3-home.xml" />
-    <appearancefile href="appearance-3-home-diverging.xml" />
     <appearancefile href="appearance-2-general.xml" />
+    <appearancefile href="appearance-2-mainline-starter-diverging.xml" />
+    <appearancefile href="appearance-2-mainline-starter.xml" />
+    <appearancefile href="appearance-3-home-diverging.xml" />
+    <appearancefile href="appearance-3-home.xml" />
     <appearancefile href="appearance-4-distant-approach.xml" />
+    <appearancefile href="appearance-4-y-diverging.xml" />
   </appearancefiles>
 </aspecttable>

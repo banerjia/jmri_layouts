@@ -22,8 +22,8 @@
   </revhistory>
 
   <aspecttable>Indian Railways 2021</aspecttable>
-  <name>Three Aspect Home with Diverging</name>
-  <description>Three aspect signal when entering a station with a diverging</description>
+  <name>4 Aspect Distant Approach</name>
+  <description>Three aspect signal when entering a station</description>
   
   <appearances>
 
@@ -34,14 +34,14 @@
     </appearance>
 
     <appearance>
-      <aspectname>Approach</aspectname>
-      <show>dark</show>
+      <aspectname>Attention</aspectname>
+      <show>yellow</show>
       <show>yellow</show>
     </appearance>
 
     <appearance>
-      <aspectname>Diverging Approach</aspectname>
-      <show>yellow</show>
+      <aspectname>Approach</aspectname>
+      <show>dark</show>
       <show>yellow</show>
     </appearance>
 
@@ -83,7 +83,7 @@
     
     <aspectMapping>
      <advancedAspect>Approach</advancedAspect>
-     <ourAspect>Approach</ourAspect>
+     <ourAspect>Clear</ourAspect>
     </aspectMapping>
 
 
