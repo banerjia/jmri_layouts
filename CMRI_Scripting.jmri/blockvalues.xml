@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/blockValues.xsl" type="text/xsl"?>
+<!DOCTYPE block_values SYSTEM "/xml/DTD/block-values.dtd">
+<block_values>
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Fri Feb 12 14:35:47 EST 2021-->
+  <blockvalues>
+    <block systemname="IB:AUTO:0002" value="" />
+  </blockvalues>
+</block_values>
