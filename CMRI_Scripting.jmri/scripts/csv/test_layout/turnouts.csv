@@ -1,0 +1,7 @@
+User Name,Panel,Feedback,Comments,Properties
+TT 1 LT 1,1,1,Test Track 1 Switch 1,{OnTrack:MNL;TurnoutType:Switch}
+TT 1 LT 2,1,1,Test Track 1 Switch 2 left side of platform 1 and 2,{OnTrack:MNL;TurnoutType:Switch}
+TT 1 RT 3,1,1,Test Track 1 Switch 3 right side of platform 1 and 2,{OnTrack:MNL;TurnoutType:Switch}
+TT 1 RT 4,1,1,Test Track 1 Switch 4,{OnTrack:MNL;TurnoutType:Switch}
+TT 2 LT 5,0,1,Test Track 2 Switch 5,{OnTrack:MNL;TurnoutType:Switch}
+TT 2 RT 6,0,1,Test Track 2 Switch 6,{OnTrack:MNL;TurnoutType:Switch}
