@@ -28,7 +28,7 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
     """
      Script Configuration
     """
-    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/scripts/csv/test_layout"
+    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
             
     # Node Addresses
     NODE_ADDR = {
@@ -42,8 +42,8 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
         # init() is called exactly once at the beginning to do
         # any necessary configuration.
 
-        filePath = "{}/blocks.csv".format(self.BASEDIR)
-        with open(filePath, 'rt') as fileBlocks:
+        filePath = "{}/MML_blk_config.csv".format(self.BASEDIR)
+        with open(filePath, 'rt',encoding="utf8") as fileBlocks:
             
             fileBlocksReader = csv.reader(fileBlocks, delimiter = ',')
 
@@ -119,14 +119,6 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
 
                     lights.register(obj_light)
 
-            
-
-                
-
-
-
-
-        
         return
 
     def handle(self):
