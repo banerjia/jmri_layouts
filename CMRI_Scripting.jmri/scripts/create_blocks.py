@@ -65,7 +65,7 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
                 block_userName = block_entry[0]
                 block_panel_ind = (block_entry[1] == '1')
                 block_comments = block_entry[2]
-                _prop_string = re.sub('(\w+):([\w\d_]+)',r'"\1":"\2"',block_entry[3]).replace(';',',')
+                _prop_string = re.sub('(\w+):([^:]+)',r'"\1":"\2"',block_entry[3]).replace(';',',')
                 block_properties = json.loads(_prop_string)
 
                 # Create Sensor
@@ -118,7 +118,29 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
                     obj_light_lightControl.activateLightControl()
 
                     lights.register(obj_light)
+                    """
+                    if block_properties["SensedObject"] != "BlockOverSwitch":
+                        light_systemName = "CL{}{:03d}".format(self.NODE_ADDR["PANELS"],panel_lights_count)
+                        light_userName = "PNL IND {}".format(block_userName)
 
+                        panel_lights_count = panel_lights_count + 1
+
+                        obj_light = lights.provideLight(light_systemName)
+                        obj_light.setUserName(light_userName)
+                        obj_light.setComment("Block occupany indicator on panel for {}".format(block_userName))
+
+                        # Attach light to sensor
+                        obj_light.addLightControl(jmri.implementation.LightControl())
+                        obj_light_lightControl = obj_light.getLightControlList()[-1]
+                        obj_light_lightControl.setControlSensorName(sensor_userName)
+                        obj_light_lightControl.setControlType(jmri.Light.SENSOR_CONTROL)
+                        obj_light_lightControl.setControlSensorSense(jmri.Sensor.ACTIVE)
+                        obj_light_lightControl.setParentLight(obj_light)
+                        obj_light_lightControl.activateLightControl()
+
+                        lights.register(obj_light)
+                    else:
+                    """
         return
 
     def handle(self):
