@@ -1,7 +1,7 @@
 username,panel_switch,comments,properties
-MML SW 1 LH,1,MML Track 1 part of crossover between track 1 and 2 on left side of station,{STN_CD:MML;OnTrack:MNL;SwitchType:LH;RelatedSwitch:MML SW 5 LH;RelatedBlock:MML BLK 3 OS}
-MML SW 2 LH,1,MML Track 1 point for Platform 1 and 2 on left side,{STN_CD:MML;OnTrack:MNL;SwitchType:LH;RelatedBlock:MML BLK 5 OS}
-MML SW 3 RH,1,MML Track 1 point for Platform 1 and 2 on right side,{STN_CD:MML;OnTrack:MNL;SwitchType:RH;RelatedBlock:MML BLK 8 OS}
-MML SW 4 RH,1,MML Track 1 part of crossover between track 1 and 2 on ride side of station,{STN_CD:MML;OnTrack:MNL;SwitchType:RH;RelatedBlock:MML BLK 10 OS;RelatedSwitch:MML SW 6 RH}
-MML SW 5 LH,0,MML Track 2 part of crossover between track 1 and 2 on the left side of station,{STN_CD:MML;OnTrack:MNL;SwitchType:LH;RelatedSwitch:MML SW 1 LH;RelatedBlock:MML BLK 15 OS}
-MML SW 6 RH,0,MML Track 2 part of crossover between track 1 and 2 on ride side of station,{STN_CD:MML;OnTrack:MNL;SwitchType:RH;RelatedBlock:MML BLK 17 OS;RelatedSwitch:MML SW 4 RH}
+MML SW 1 LH,1,MML Track 1 part of crossover between track 1 and 2 on left side of station,{StationCode:MML;OnTrack:MNL;SwitchType:LH;RelatedSwitch:MML SW 5 LH;RelatedBlock:MML BLK 3 OS}
+MML SW 2 LH,1,MML Track 1 point for Platform 1 and 2 on left side,{StationCode:MML;OnTrack:MNL;SwitchType:LH;RelatedBlock:MML BLK 5 OS}
+MML SW 3 RH,1,MML Track 1 point for Platform 1 and 2 on right side,{StationCode:MML;OnTrack:MNL;SwitchType:RH;RelatedBlock:MML BLK 8 OS}
+MML SW 4 RH,1,MML Track 1 part of crossover between track 1 and 2 on ride side of station,{StationCode:MML;OnTrack:MNL;SwitchType:RH;RelatedBlock:MML BLK 10 OS;RelatedSwitch:MML SW 6 RH}
+MML SW 5 LH,0,MML Track 2 part of crossover between track 1 and 2 on the left side of station,{StationCode:MML;OnTrack:MNL;SwitchType:LH;RelatedSwitch:MML SW 1 LH;RelatedBlock:MML BLK 15 OS}
+MML SW 6 RH,0,MML Track 2 part of crossover between track 1 and 2 on ride side of station,{StationCode:MML;OnTrack:MNL;SwitchType:RH;RelatedBlock:MML BLK 17 OS;RelatedSwitch:MML SW 4 RH}

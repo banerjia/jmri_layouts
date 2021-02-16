@@ -7,11 +7,88 @@
     <test>0</test>
     <modifier />
   </jmriversion>
-  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" />
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
+    <layoutblock systemName="ILB1" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB1</systemName>
+      <userName>MML BLK 1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB2" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB2</systemName>
+      <userName>MML BLK 2</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB3" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB3</systemName>
+      <userName>MML BLK 3 OS</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB4" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB4</systemName>
+      <userName>MML BLK 15 OS</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB5" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB5</systemName>
+      <userName>MML BLK 4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB6" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB6</systemName>
+      <userName>MML BLK 5 OS</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB7" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB7</systemName>
+      <userName>MML BLK 6 PF</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB8" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB8</systemName>
+      <userName>MML BLK 7</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB9" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB9</systemName>
+      <userName>MML BLK 8 OS</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB10" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB10</systemName>
+      <userName>MML BLK 9</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB11" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB11</systemName>
+      <userName>MML BLK 10 OS</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB12" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB12</systemName>
+      <userName>MML BLK 17 OS</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB13" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB13</systemName>
+      <userName>MML BLK 11</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB14" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB14</systemName>
+      <userName>MML BLK 12</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB15" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB15</systemName>
+      <userName>MML BLK 13</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB16" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB16</systemName>
+      <userName>MML BLK 14</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB17" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB17</systemName>
+      <userName>MML BLK 16 PF</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB18" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB18</systemName>
+      <userName>MML BLK 18</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB19" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB19</systemName>
+      <userName>MML BLK 19</userName>
+    </layoutblock>
+  </layoutblocks>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Madan Mahal (MML)" x="232" y="30" windowheight="810" windowwidth="1448" panelheight="230" panelwidth="1050" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="60.0" xoverhwid="20.0" xovershort="20.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Madan Mahal (MML)" x="240" y="30" windowheight="804" windowwidth="1440" panelheight="230" panelwidth="1050" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="60.0" xoverhwid="20.0" xovershort="20.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Madan Mahal (MML)" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -38,9 +115,9 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="320" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MADAN MAHAL STN (MML)" fontname="DejaVu Sans Bold" size="32" style="1" red="64" green="64" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="30" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt; LEFT" fontname="DejaVu Sans Bold" size="20" style="1" red="0" green="0" blue="0" hasBackground="no" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="900" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="RIGHT &gt;" fontname="DejaVu Sans Bold" size="20" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="320" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MADAN MAHAL STN (MML)" size="32" style="1" red="64" green="64" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="30" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt; LEFT" size="20" style="1" red="0" green="0" blue="0" hasBackground="no" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="900" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="RIGHT &gt;" size="20" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="375.0" ycen="139.0" xa="325.0" ya="139.0" xb="425.0" yb="139.0" xc="425.0" yc="99.0" xd="325.0" yd="139.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T5" connectbname="T7" connectcname="T6" />
     <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="645.0" ycen="139.0" xa="705.0" ya="139.0" xb="585.0" yb="139.0" xc="585.0" yc="99.0" xd="705.0" yd="139.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T18" connectbname="T7" connectcname="T6" />
     <layoutturnout ident="TO13" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="825.0" ycen="159.0" xa="765.0" ya="139.0" xb="844.99998" yb="139.0" xc="885.0" yc="179.0" xd="805.00002" yd="179.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" connectaname="T18" connectbname="T26" connectcname="T1" connectdname="T19" />
@@ -70,99 +147,82 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Feb 16 14:09:21 EST 2021</date>
+      <date>Tue Feb 16 08:46:36 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Feb 16 14:09:37 EST 2021</date>
+      <date>Tue Feb 16 08:46:59 EST 2021</date>
       <filename>/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Tue Feb 16 08:46:36 EST 2021</date>
+          <date>Mon Feb 15 22:30:27 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Tue Feb 16 08:46:59 EST 2021</date>
-          <filename>/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
+          <date>Mon Feb 15 22:30:49 EST 2021</date>
+          <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Mon Feb 15 22:30:27 EST 2021</date>
+              <date>Mon Feb 15 22:17:16 EST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Mon Feb 15 22:30:49 EST 2021</date>
+              <date>Mon Feb 15 22:17:27 EST 2021</date>
               <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Mon Feb 15 22:17:16 EST 2021</date>
+                  <date>Mon Feb 15 21:40:51 EST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Mon Feb 15 22:17:27 EST 2021</date>
+                  <date>Mon Feb 15 22:06:37 EST 2021</date>
                   <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Feb 15 21:40:51 EST 2021</date>
+                      <date>Mon Feb 15 11:11:13 EST 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
-                      <type>Load OK</type>
-                      <date>Mon Feb 15 22:06:37 EST 2021</date>
-                      <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
-                      <filehistory>
-                        <operation>
-                          <type>app</type>
-                          <date>Mon Feb 15 11:11:13 EST 2021</date>
-                          <filename>JMRI program</filename>
-                        </operation>
-                        <operation>
-                          <type>Store</type>
-                          <date>Mon Feb 15 14:32:46 EST 2021</date>
-                          <filename />
-                        </operation>
-                      </filehistory>
-                    </operation>
-                    <operation>
                       <type>Store</type>
-                      <date>Mon Feb 15 22:13:22 EST 2021</date>
+                      <date>Mon Feb 15 14:32:46 EST 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Mon Feb 15 22:30:10 EST 2021</date>
+                  <date>Mon Feb 15 22:13:22 EST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Mon Feb 15 22:33:29 EST 2021</date>
+              <date>Mon Feb 15 22:30:10 EST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Tue Feb 16 08:54:01 EST 2021</date>
+          <date>Mon Feb 15 22:33:29 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Feb 16 14:10:06 EST 2021</date>
+      <date>Tue Feb 16 08:54:01 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Feb 16 14:10:06 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Feb 16 08:54:01 EST 2021-->
 </layout-config>
