@@ -63,7 +63,9 @@ class CreateSensors(jmri.jmrit.automat.AbstractAutomaton):
                 obj_sensor.setProperty("Purpose", "SwitchFeedback")
                 obj_sensor.setProperty("StationCode", self.STATION_CD)
                 panel_sensors_count = panel_sensors_count + 1
-                sensors.register(obj_sensor)               
+                sensors.register(obj_sensor)   
+
+                switch.setProperty("PanelSwitchSystemName", sensor_systemName)            
 
 
 
