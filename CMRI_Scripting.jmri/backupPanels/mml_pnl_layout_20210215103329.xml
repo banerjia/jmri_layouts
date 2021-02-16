@@ -666,6 +666,15 @@
       <userName>MML BLK 19</userName>
     </layoutblock>
   </layoutblocks>
+  <sections class="jmri.configurexml.SectionManagerXml">
+    <section systemName="IY:AUTO:0001" userName="MML TRK Entry L" creationtype="userdefined">
+      <systemName>IY:AUTO:0001</systemName>
+      <userName>MML TRK Entry L</userName>
+      <blockentry sName="IB1:AUTO:001" order="0" />
+      <blockentry sName="IB1:AUTO:002" order="1" />
+      <entrypoint fromblock="IB1:AUTO:003" toblock="IB1:AUTO:002" direction="8" fixed="no" fromblockdirection="West" />
+    </section>
+  </sections>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
@@ -728,65 +737,48 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Feb 15 22:30:27 EST 2021</date>
+      <date>Mon Feb 15 22:17:16 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Feb 15 22:30:49 EST 2021</date>
+      <date>Mon Feb 15 22:17:27 EST 2021</date>
       <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Feb 15 22:17:16 EST 2021</date>
+          <date>Mon Feb 15 21:40:51 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Mon Feb 15 22:17:27 EST 2021</date>
+          <date>Mon Feb 15 22:06:37 EST 2021</date>
           <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Mon Feb 15 21:40:51 EST 2021</date>
+              <date>Mon Feb 15 11:11:13 EST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
-              <type>Load OK</type>
-              <date>Mon Feb 15 22:06:37 EST 2021</date>
-              <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
-              <filehistory>
-                <operation>
-                  <type>app</type>
-                  <date>Mon Feb 15 11:11:13 EST 2021</date>
-                  <filename>JMRI program</filename>
-                </operation>
-                <operation>
-                  <type>Store</type>
-                  <date>Mon Feb 15 14:32:46 EST 2021</date>
-                  <filename />
-                </operation>
-              </filehistory>
-            </operation>
-            <operation>
               <type>Store</type>
-              <date>Mon Feb 15 22:13:22 EST 2021</date>
+              <date>Mon Feb 15 14:32:46 EST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Mon Feb 15 22:30:10 EST 2021</date>
+          <date>Mon Feb 15 22:13:22 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Feb 15 22:33:29 EST 2021</date>
+      <date>Mon Feb 15 22:30:10 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Feb 15 22:33:29 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Feb 15 22:30:10 EST 2021-->
 </layout-config>

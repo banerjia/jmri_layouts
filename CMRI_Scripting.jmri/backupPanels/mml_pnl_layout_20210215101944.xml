@@ -224,11 +224,13 @@
       <userName>PNL IND MML BLK 1</userName>
       <comment>Block occupany indicator on panel for MML BLK 1</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 1" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 1" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3002</systemName>
       <userName>PNL IND MML BLK 2</userName>
       <comment>Block occupany indicator on panel for MML BLK 2</comment>
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 2" sensorSense="2" />
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 2" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
@@ -236,11 +238,13 @@
       <userName>PNL IND MML BLK 3 OS</userName>
       <comment>Block occupany indicator on panel for MML BLK 3 OS</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 3 OS" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 3 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3004</systemName>
       <userName>PNL IND MML BLK 4</userName>
       <comment>Block occupany indicator on panel for MML BLK 4</comment>
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 4" sensorSense="2" />
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 4" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
@@ -248,11 +252,13 @@
       <userName>PNL IND MML BLK 5 OS</userName>
       <comment>Block occupany indicator on panel for MML BLK 5 OS</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 5 OS" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 5 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3006</systemName>
       <userName>PNL IND MML BLK 6 PF</userName>
       <comment>Block occupany indicator on panel for MML BLK 6 PF</comment>
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 6 PF" sensorSense="2" />
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 6 PF" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
@@ -260,11 +266,13 @@
       <userName>PNL IND MML BLK 7</userName>
       <comment>Block occupany indicator on panel for MML BLK 7</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 7" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 7" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3008</systemName>
       <userName>PNL IND MML BLK 8 OS</userName>
       <comment>Block occupany indicator on panel for MML BLK 8 OS</comment>
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 8 OS" sensorSense="2" />
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 8 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
@@ -272,11 +280,13 @@
       <userName>PNL IND MML BLK 9</userName>
       <comment>Block occupany indicator on panel for MML BLK 9</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 9" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 9" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3010</systemName>
       <userName>PNL IND MML BLK 10 OS</userName>
       <comment>Block occupany indicator on panel for MML BLK 10 OS</comment>
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 10 OS" sensorSense="2" />
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 10 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
@@ -284,11 +294,13 @@
       <userName>PNL IND MML BLK 11</userName>
       <comment>Block occupany indicator on panel for MML BLK 11</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 11" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 11" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3012</systemName>
       <userName>PNL IND MML BLK 12</userName>
       <comment>Block occupany indicator on panel for MML BLK 12</comment>
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 12" sensorSense="2" />
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 12" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
@@ -296,11 +308,13 @@
       <userName>PNL IND MML BLK 13</userName>
       <comment>Block occupany indicator on panel for MML BLK 13</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 13" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 13" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3014</systemName>
       <userName>PNL IND MML BLK 14</userName>
       <comment>Block occupany indicator on panel for MML BLK 14</comment>
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 14" sensorSense="2" />
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 14" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
@@ -308,11 +322,13 @@
       <userName>PNL IND MML BLK 15 OS</userName>
       <comment>Block occupany indicator on panel for MML BLK 15 OS</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 15 OS" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 15 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3016</systemName>
       <userName>PNL IND MML BLK 16 PF</userName>
       <comment>Block occupany indicator on panel for MML BLK 16 PF</comment>
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 16 PF" sensorSense="2" />
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 16 PF" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
@@ -320,17 +336,20 @@
       <userName>PNL IND MML BLK 17 OS</userName>
       <comment>Block occupany indicator on panel for MML BLK 17 OS</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 17 OS" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 17 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3018</systemName>
       <userName>PNL IND MML BLK 18</userName>
       <comment>Block occupany indicator on panel for MML BLK 18</comment>
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 18" sensorSense="2" />
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 18" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3019</systemName>
       <userName>PNL IND MML BLK 19</userName>
       <comment>Block occupany indicator on panel for MML BLK 19</comment>
+      <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 19" sensorSense="2" />
       <lightcontrol controlType="1" controlSensor="SNSR IND MML BLK 19" sensorSense="2" />
     </light>
   </lights>
@@ -577,7 +596,6 @@
       <permissive>no</permissive>
       <occupancysensor>CS1018</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:010" />
-      <path todir="64" fromdir="128" block="IB1:AUTO:019" />
     </block>
     <block systemName="IB1:AUTO:019" length="0.0" curve="0">
       <systemName>IB1:AUTO:019</systemName>
@@ -585,7 +603,6 @@
       <comment>MML Track 2 first block on the right side</comment>
       <permissive>no</permissive>
       <occupancysensor>CS1019</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:018" />
     </block>
   </blocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
@@ -661,15 +678,11 @@
       <systemName>ILB18</systemName>
       <userName>MML BLK 18</userName>
     </layoutblock>
-    <layoutblock systemName="ILB19" occupancysensor="CS1019" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB19</systemName>
-      <userName>MML BLK 19</userName>
-    </layoutblock>
   </layoutblocks>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Madan Mahal (MML)" x="0" y="25" windowheight="804" windowwidth="1440" panelheight="230" panelwidth="1050" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="60.0" xoverhwid="20.0" xovershort="20.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Madan Mahal (MML)" x="0" y="25" windowheight="804" windowwidth="1440" panelheight="230" panelwidth="1030" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="60.0" xoverhwid="20.0" xovershort="20.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Madan Mahal (MML)" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -701,7 +714,7 @@
     <positionablelabel x="900" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="RIGHT &gt;" fontname="Dialog" size="20" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="375.0" ycen="139.0" xa="325.0" ya="139.0" xb="425.0" yb="139.0" xc="425.0" yc="99.0" xd="325.0" yd="139.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" blockname="MML BLK 5 OS" connectaname="T5" connectbname="T7" connectcname="T6" />
     <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="645.0" ycen="139.0" xa="705.0" ya="139.0" xb="585.0" yb="139.0" xc="585.0" yc="99.0" xd="705.0" yd="139.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" blockname="MML BLK 8 OS" connectaname="T18" connectbname="T7" connectcname="T6" />
-    <layoutturnout ident="TO13" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="825.0" ycen="159.0" xa="765.0" ya="139.0" xb="844.99998" yb="139.0" xc="885.0" yc="179.0" xd="805.00002" yd="179.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" blockname="MML BLK 10 OS" blockbname="MML BLK 17 OS" connectaname="T18" connectbname="T26" connectcname="T1" connectdname="T19" />
+    <layoutturnout ident="TO13" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="825.0" ycen="159.0" xa="765.0" ya="139.0" xb="844.99998" yb="139.0" xc="885.0" yc="179.0" xd="805.00002" yd="179.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" blockname="MML BLK 10 OS" blockbname="MML BLK 17 OS" connectaname="T18" connectbname="T26" connectcname="T24" connectdname="T19" />
     <layoutturnout ident="TO16" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="175.0" ycen="159.0" xa="155.0" ya="139.0" xb="235.0" yb="139.0" xc="195.0" yc="179.0" xd="115.0" yd="179.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" blockname="MML BLK 3 OS" blockbname="MML BLK 15 OS" connectaname="T21" connectbname="T5" connectcname="T19" connectdname="T23" />
     <tracksegment ident="T5" blockname="MML BLK 4" connect1name="TO16" type1="TURNOUT_B" connect2name="TO3" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T6" blockname="MML BLK 6 PF" connect1name="TO3" type1="TURNOUT_C" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -712,81 +725,45 @@
     <tracksegment ident="T21" blockname="MML BLK 2" connect1name="A22" type1="POS_POINT" connect2name="TO16" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T22" blockname="MML BLK 13" connect1name="EC6" type1="POS_POINT" connect2name="A23" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T23" blockname="MML BLK 14" connect1name="A23" type1="POS_POINT" connect2name="TO16" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T24" blockname="MML BLK 18" connect1name="TO13" type1="TURNOUT_C" connect2name="EC8" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T25" blockname="MML BLK 12" connect1name="A21" type1="POS_POINT" connect2name="EC7" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T26" blockname="MML BLK 11" connect1name="TO13" type1="TURNOUT_B" connect2name="A21" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T1" blockname="MML BLK 18" connect1name="TO13" type1="TURNOUT_C" connect2name="A1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T2" blockname="MML BLK 19" connect1name="A1" type1="POS_POINT" connect2name="EC1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="A21" type="ANCHOR" x="920.0" y="140.0" connect1name="T25" connect2name="T26" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A22" type="ANCHOR" x="80.0" y="140.0" connect1name="T20" connect2name="T21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A23" type="ANCHOR" x="40.0" y="180.0" connect1name="T22" connect2name="T23" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC5" type="EDGE_CONNECTOR" x="10.0" y="140.0" connect1name="T20" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC6" type="EDGE_CONNECTOR" x="10.0" y="180.0" connect1name="T22" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC7" type="EDGE_CONNECTOR" x="970.0" y="140.0" connect1name="T25" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EC1" type="EDGE_CONNECTOR" x="1000.0" y="180.0" connect1name="T2" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A1" type="ANCHOR" x="942.5" y="179.5" connect1name="T1" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC8" type="EDGE_CONNECTOR" x="970.0" y="180.0" connect1name="T24" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Feb 15 22:30:27 EST 2021</date>
+      <date>Mon Feb 15 21:40:51 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Feb 15 22:30:49 EST 2021</date>
+      <date>Mon Feb 15 22:06:37 EST 2021</date>
       <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Feb 15 22:17:16 EST 2021</date>
+          <date>Mon Feb 15 11:11:13 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
-          <type>Load OK</type>
-          <date>Mon Feb 15 22:17:27 EST 2021</date>
-          <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
-          <filehistory>
-            <operation>
-              <type>app</type>
-              <date>Mon Feb 15 21:40:51 EST 2021</date>
-              <filename>JMRI program</filename>
-            </operation>
-            <operation>
-              <type>Load OK</type>
-              <date>Mon Feb 15 22:06:37 EST 2021</date>
-              <filename>/Users/banerjia/Library/Preferences/jmri_layouts/CMRI_Scripting.jmri/mml_pnl_layout.xml</filename>
-              <filehistory>
-                <operation>
-                  <type>app</type>
-                  <date>Mon Feb 15 11:11:13 EST 2021</date>
-                  <filename>JMRI program</filename>
-                </operation>
-                <operation>
-                  <type>Store</type>
-                  <date>Mon Feb 15 14:32:46 EST 2021</date>
-                  <filename />
-                </operation>
-              </filehistory>
-            </operation>
-            <operation>
-              <type>Store</type>
-              <date>Mon Feb 15 22:13:22 EST 2021</date>
-              <filename />
-            </operation>
-          </filehistory>
-        </operation>
-        <operation>
           <type>Store</type>
-          <date>Mon Feb 15 22:30:10 EST 2021</date>
+          <date>Mon Feb 15 14:32:46 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Feb 15 22:33:29 EST 2021</date>
+      <date>Mon Feb 15 22:13:22 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Feb 15 22:33:29 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Feb 15 22:13:22 EST 2021-->
 </layout-config>

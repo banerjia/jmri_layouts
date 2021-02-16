@@ -28,7 +28,7 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
     """
      Script Configuration
     """
-    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
+    BASEDIR = "/Users/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
             
     # Node Addresses
     NODE_ADDR = {
@@ -43,7 +43,7 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
         # any necessary configuration.
 
         filePath = "{}/MML_blk_config.csv".format(self.BASEDIR)
-        with open(filePath, 'rt',encoding="utf8") as fileBlocks:
+        with open(filePath, 'rt') as fileBlocks:
             
             fileBlocksReader = csv.reader(fileBlocks, delimiter = ',')
 
@@ -65,8 +65,9 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
                 block_userName = block_entry[0]
                 block_panel_ind = (block_entry[1] == '1')
                 block_comments = block_entry[2]
+                print(block_entry[3])
                 _prop_string = re.sub('(\w+):([^:]+)',r'"\1":"\2"',block_entry[3]).replace(';',',')
-                block_properties = json.loads(_prop_string)
+                block_properties = '' #json.loads(_prop_string)
 
                 # Create Sensor
                 sensor_systemName = "CS{:d}{:03d}".format(self.NODE_ADDR["SENSORS"], sensors_count)

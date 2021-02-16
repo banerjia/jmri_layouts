@@ -1,12 +1,12 @@
 username,panel_ind,comments,properties
 MML BLK 1,1,MML Track 1 first block on left side,{STN_CD:MML;OnTrack:MNL;SensedObject:Block}
 MML BLK 2,1,MML Track 1,{STN_CD:MML;OnTrack:MNL;SensedObject:Block}
-MML BLK 3 OS,1,MML Track 1 Switch 1 ,{STN_CD:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 1 LH}
+MML BLK 3 OS,1,MML Track 1 Switch 1,{STN_CD:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 1 LH}
 MML BLK 4,1,MML Track 1,{STN_CD:MML;OnTrack:MNL;SensedObject:Block}
 MML BLK 5 OS,1,MML Track 1 Switch 2,{STN_CD:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 2 LH}
 MML BLK 6 PF,1,MML Track Loop Line Platform 1,{STN_CD:MML;OnTrack:LPL;SensedObject:Block;XTRA:Platform 1}
 MML BLK 7,1,MML Track 1 Platform 2,{STN_CD:MML;OnTrack:MNL;SensedObject:Block;XTRA:Platform 2}
-MML BLK 8 OS,1,MML Track 1 Switch 3 ,{STN_CD:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 3 RH}
+MML BLK 8 OS,1,MML Track 1 Switch 3,{STN_CD:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 3 RH}
 MML BLK 9,1,MML Track 1,{STN_CD:MML;OnTrack:MNL;SensedObject:Block}
 MML BLK 10 OS,1,MML Track 1 Switch 4,{STN_CD:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 4 RH}
 MML BLK 11,1,MML Track 1,{STN_CD:MML;OnTrack:MNL;SensedObject:Block}
