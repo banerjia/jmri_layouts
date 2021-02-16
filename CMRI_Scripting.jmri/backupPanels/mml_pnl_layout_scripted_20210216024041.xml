@@ -749,7 +749,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1007</occupancysensor>
-      <path todir="64" fromdir="128" block="IB1:AUTO:002" />
     </block>
     <block systemName="IB1:AUTO:002" length="0.0" curve="0">
       <systemName>IB1:AUTO:002</systemName>
@@ -775,12 +774,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1008</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:001" />
-      <path todir="64" fromdir="128" block="IB1:AUTO:003">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 1 LH" />
-        </beansetting>
-      </path>
     </block>
     <block systemName="IB1:AUTO:003" length="0.0" curve="0">
       <systemName>IB1:AUTO:003</systemName>
@@ -810,17 +803,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1009</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:002">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 1 LH" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB1:AUTO:004" />
-      <path todir="128" fromdir="64" block="IB1:AUTO:015">
-        <beansetting setting="4">
-          <turnout systemName="MML SW 1 LH" />
-        </beansetting>
-      </path>
     </block>
     <block systemName="IB1:AUTO:004" length="0.0" curve="0">
       <systemName>IB1:AUTO:004</systemName>
@@ -846,8 +828,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1010</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:003" />
-      <path todir="64" fromdir="128" block="IB1:AUTO:005" />
     </block>
     <block systemName="IB1:AUTO:005" length="0.0" curve="0">
       <systemName>IB1:AUTO:005</systemName>
@@ -877,17 +857,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1011</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:004" />
-      <path todir="64" fromdir="128" block="IB1:AUTO:006">
-        <beansetting setting="4">
-          <turnout systemName="MML SW 2 LH" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB1:AUTO:007">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 2 LH" />
-        </beansetting>
-      </path>
     </block>
     <block systemName="IB1:AUTO:006" length="0.0" curve="0">
       <systemName>IB1:AUTO:006</systemName>
@@ -917,16 +886,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1012</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:005">
-        <beansetting setting="4">
-          <turnout systemName="MML SW 2 LH" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB1:AUTO:008">
-        <beansetting setting="4">
-          <turnout systemName="MML SW 3 RH" />
-        </beansetting>
-      </path>
     </block>
     <block systemName="IB1:AUTO:007" length="0.0" curve="0">
       <systemName>IB1:AUTO:007</systemName>
@@ -956,16 +915,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1013</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:005">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 2 LH" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB1:AUTO:008">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 3 RH" />
-        </beansetting>
-      </path>
     </block>
     <block systemName="IB1:AUTO:008" length="0.0" curve="0">
       <systemName>IB1:AUTO:008</systemName>
@@ -995,17 +944,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1014</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:006">
-        <beansetting setting="4">
-          <turnout systemName="MML SW 3 RH" />
-        </beansetting>
-      </path>
-      <path todir="128" fromdir="64" block="IB1:AUTO:007">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 3 RH" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB1:AUTO:009" />
     </block>
     <block systemName="IB1:AUTO:009" length="0.0" curve="0">
       <systemName>IB1:AUTO:009</systemName>
@@ -1031,8 +969,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1015</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:008" />
-      <path todir="64" fromdir="128" block="IB1:AUTO:010" />
     </block>
     <block systemName="IB1:AUTO:010" length="0.0" curve="0">
       <systemName>IB1:AUTO:010</systemName>
@@ -1062,17 +998,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1016</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:009" />
-      <path todir="64" fromdir="128" block="IB1:AUTO:011">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 4 RH" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB1:AUTO:017">
-        <beansetting setting="4">
-          <turnout systemName="MML SW 4 RH" />
-        </beansetting>
-      </path>
     </block>
     <block systemName="IB1:AUTO:011" length="0.0" curve="0">
       <systemName>IB1:AUTO:011</systemName>
@@ -1098,12 +1023,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1017</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:010">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 4 RH" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB1:AUTO:012" />
     </block>
     <block systemName="IB1:AUTO:012" length="0.0" curve="0">
       <systemName>IB1:AUTO:012</systemName>
@@ -1129,7 +1048,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1018</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:011" />
     </block>
     <block systemName="IB1:AUTO:013" length="0.0" curve="0">
       <systemName>IB1:AUTO:013</systemName>
@@ -1155,7 +1073,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1019</occupancysensor>
-      <path todir="64" fromdir="128" block="IB1:AUTO:014" />
     </block>
     <block systemName="IB1:AUTO:014" length="0.0" curve="0">
       <systemName>IB1:AUTO:014</systemName>
@@ -1181,8 +1098,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1020</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:013" />
-      <path todir="64" fromdir="128" block="IB1:AUTO:015" />
     </block>
     <block systemName="IB1:AUTO:015" length="0.0" curve="0">
       <systemName>IB1:AUTO:015</systemName>
@@ -1212,17 +1127,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1021</occupancysensor>
-      <path todir="64" fromdir="128" block="IB1:AUTO:003">
-        <beansetting setting="4">
-          <turnout systemName="MML SW 1 LH" />
-        </beansetting>
-      </path>
-      <path todir="128" fromdir="64" block="IB1:AUTO:014" />
-      <path todir="64" fromdir="128" block="IB1:AUTO:016">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 1 LH" />
-        </beansetting>
-      </path>
     </block>
     <block systemName="IB1:AUTO:016" length="0.0" curve="0">
       <systemName>IB1:AUTO:016</systemName>
@@ -1252,16 +1156,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1022</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:015">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 1 LH" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB1:AUTO:017">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 4 RH" />
-        </beansetting>
-      </path>
     </block>
     <block systemName="IB1:AUTO:017" length="0.0" curve="0">
       <systemName>IB1:AUTO:017</systemName>
@@ -1291,17 +1185,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1023</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:010">
-        <beansetting setting="4">
-          <turnout systemName="MML SW 4 RH" />
-        </beansetting>
-      </path>
-      <path todir="128" fromdir="64" block="IB1:AUTO:016">
-        <beansetting setting="2">
-          <turnout systemName="MML SW 4 RH" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB1:AUTO:018" />
     </block>
     <block systemName="IB1:AUTO:018" length="0.0" curve="0">
       <systemName>IB1:AUTO:018</systemName>
@@ -1327,8 +1210,6 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1024</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:017" />
-      <path todir="64" fromdir="128" block="IB1:AUTO:019" />
     </block>
     <block systemName="IB1:AUTO:019" length="0.0" curve="0">
       <systemName>IB1:AUTO:019</systemName>
@@ -1354,92 +1235,13 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1025</occupancysensor>
-      <path todir="128" fromdir="64" block="IB1:AUTO:018" />
     </block>
   </blocks>
-  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
-    <layoutblock systemName="ILB1" occupancysensor="CS1007" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB1</systemName>
-      <userName>MML BLK 1</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB2" occupancysensor="CS1008" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB2</systemName>
-      <userName>MML BLK 2</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB3" occupancysensor="CS1009" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB3</systemName>
-      <userName>MML BLK 3 OS</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB4" occupancysensor="CS1021" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB4</systemName>
-      <userName>MML BLK 15 OS</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB5" occupancysensor="CS1010" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB5</systemName>
-      <userName>MML BLK 4</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB6" occupancysensor="CS1011" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB6</systemName>
-      <userName>MML BLK 5 OS</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB7" occupancysensor="CS1012" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB7</systemName>
-      <userName>MML BLK 6 PF1</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB8" occupancysensor="CS1013" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB8</systemName>
-      <userName>MML BLK 7 PF2</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB9" occupancysensor="CS1014" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB9</systemName>
-      <userName>MML BLK 8 OS</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB10" occupancysensor="CS1015" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB10</systemName>
-      <userName>MML BLK 9</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB11" occupancysensor="CS1016" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB11</systemName>
-      <userName>MML BLK 10 OS</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB12" occupancysensor="CS1023" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB12</systemName>
-      <userName>MML BLK 17 OS</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB13" occupancysensor="CS1017" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB13</systemName>
-      <userName>MML BLK 11</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB14" occupancysensor="CS1018" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB14</systemName>
-      <userName>MML BLK 12</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB15" occupancysensor="CS1019" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB15</systemName>
-      <userName>MML BLK 13</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB16" occupancysensor="CS1020" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB16</systemName>
-      <userName>MML BLK 14</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB17" occupancysensor="CS1022" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB17</systemName>
-      <userName>MML BLK 16 PF3</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB18" occupancysensor="CS1024" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB18</systemName>
-      <userName>MML BLK 18</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB19" occupancysensor="CS1025" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
-      <systemName>ILB19</systemName>
-      <userName>MML BLK 19</userName>
-    </layoutblock>
-  </layoutblocks>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Layout Panel: Madan Mahal (MML)" x="95" y="146" windowheight="841" windowwidth="1502" panelheight="230" panelwidth="1050" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="60.0" xoverhwid="20.0" xovershort="20.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
-    <layoutTrackDrawingOptions name="Layout Panel: Madan Mahal (MML)" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Madan Mahal (MML)" x="224" y="30" windowheight="816" windowwidth="1456" panelheight="230" panelwidth="1050" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="60.0" xoverhwid="20.0" xovershort="20.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Madan Mahal (MML)" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
       <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
@@ -1468,23 +1270,23 @@
     <positionablelabel x="320" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MADAN MAHAL STN (MML)" fontname="DejaVu Sans Bold" size="32" style="1" red="64" green="64" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="30" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt; LEFT" fontname="DejaVu Sans Bold" size="20" style="1" red="0" green="0" blue="0" hasBackground="no" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="900" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="RIGHT &gt;" fontname="DejaVu Sans Bold" size="20" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="375.0" ycen="139.0" xa="325.0" ya="139.0" xb="425.0" yb="139.0" xc="425.0" yc="99.0" xd="325.0" yd="139.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MML SW 2 LH" blockname="MML BLK 5 OS" connectaname="T5" connectbname="T7" connectcname="T6" />
-    <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="645.0" ycen="139.0" xa="705.0" ya="139.0" xb="585.0" yb="139.0" xc="585.0" yc="99.0" xd="705.0" yd="139.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MML SW 3 RH" blockname="MML BLK 8 OS" connectaname="T18" connectbname="T7" connectcname="T6" />
-    <layoutturnout ident="TO13" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="825.0" ycen="159.0" xa="765.0" ya="139.0" xb="844.99998" yb="139.0" xc="885.0" yc="179.0" xd="805.00002" yd="179.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="MML SW 4 RH" secondturnoutname="MML SW 6 RH" blockname="MML BLK 10 OS" blockcname="MML BLK 17 OS" blockdname="MML BLK 17 OS" connectaname="T18" connectbname="T26" connectcname="T1" connectdname="T19" />
-    <layoutturnout ident="TO16" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="175.0" ycen="159.0" xa="155.0" ya="139.0" xb="235.0" yb="139.0" xc="195.0" yc="179.0" xd="115.0" yd="179.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="MML SW 1 LH" secondturnoutname="MML SW 5 LH" blockname="MML BLK 3 OS" blockcname="MML BLK 15 OS" blockdname="MML BLK 15 OS" connectaname="T21" connectbname="T5" connectcname="T19" connectdname="T23" />
-    <tracksegment ident="T5" blockname="MML BLK 4" connect1name="TO16" type1="TURNOUT_B" connect2name="TO3" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T6" blockname="MML BLK 6 PF1" connect1name="TO3" type1="TURNOUT_C" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T7" blockname="MML BLK 7 PF2" connect1name="TO3" type1="TURNOUT_B" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T18" blockname="MML BLK 9" connect1name="TO4" type1="TURNOUT_A" connect2name="TO13" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T19" blockname="MML BLK 16 PF3" connect1name="TO16" type1="TURNOUT_C" connect2name="TO13" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T20" blockname="MML BLK 1" connect1name="EC5" type1="POS_POINT" connect2name="A22" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T21" blockname="MML BLK 2" connect1name="A22" type1="POS_POINT" connect2name="TO16" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T23" blockname="MML BLK 14" connect1name="A23" type1="POS_POINT" connect2name="TO16" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T25" blockname="MML BLK 12" connect1name="A21" type1="POS_POINT" connect2name="EC7" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T26" blockname="MML BLK 11" connect1name="TO13" type1="TURNOUT_B" connect2name="A21" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T1" blockname="MML BLK 18" connect1name="TO13" type1="TURNOUT_C" connect2name="A1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T2" blockname="MML BLK 19" connect1name="A1" type1="POS_POINT" connect2name="EC1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T3" blockname="MML BLK 13" connect1name="EC6" type1="POS_POINT" connect2name="A23" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="375.0" ycen="139.0" xa="325.0" ya="139.0" xb="425.0" yb="139.0" xc="425.0" yc="99.0" xd="325.0" yd="139.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T5" connectbname="T7" connectcname="T6" />
+    <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="645.0" ycen="139.0" xa="705.0" ya="139.0" xb="585.0" yb="139.0" xc="585.0" yc="99.0" xd="705.0" yd="139.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T18" connectbname="T7" connectcname="T6" />
+    <layoutturnout ident="TO13" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="825.0" ycen="159.0" xa="765.0" ya="139.0" xb="844.99998" yb="139.0" xc="885.0" yc="179.0" xd="805.00002" yd="179.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" connectaname="T18" connectbname="T26" connectcname="T1" connectdname="T19" />
+    <layoutturnout ident="TO16" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="175.0" ycen="159.0" xa="155.0" ya="139.0" xb="235.0" yb="139.0" xc="195.0" yc="179.0" xd="115.0" yd="179.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" connectaname="T21" connectbname="T5" connectcname="T19" connectdname="T23" />
+    <tracksegment ident="T5" connect1name="TO16" type1="TURNOUT_B" connect2name="TO3" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" connect1name="TO3" type1="TURNOUT_C" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T7" connect1name="TO3" type1="TURNOUT_B" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T18" connect1name="TO4" type1="TURNOUT_A" connect2name="TO13" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T19" connect1name="TO16" type1="TURNOUT_C" connect2name="TO13" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T20" connect1name="EC5" type1="POS_POINT" connect2name="A22" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T21" connect1name="A22" type1="POS_POINT" connect2name="TO16" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T23" connect1name="A23" type1="POS_POINT" connect2name="TO16" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T25" connect1name="A21" type1="POS_POINT" connect2name="EC7" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T26" connect1name="TO13" type1="TURNOUT_B" connect2name="A21" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T1" connect1name="TO13" type1="TURNOUT_C" connect2name="A1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" connect1name="A1" type1="POS_POINT" connect2name="EC1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" connect1name="EC6" type1="POS_POINT" connect2name="A23" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="A21" type="ANCHOR" x="920.0" y="140.0" connect1name="T25" connect2name="T26" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A22" type="ANCHOR" x="80.0" y="140.0" connect1name="T20" connect2name="T21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A23" type="ANCHOR" x="40.0" y="180.0" connect1name="T23" connect2name="T3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -1592,9 +1394,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Feb 16 14:48:08 EST 2021</date>
+      <date>Tue Feb 16 14:36:58 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Feb 16 14:48:08 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Feb 16 14:36:58 EST 2021-->
 </layout-config>
