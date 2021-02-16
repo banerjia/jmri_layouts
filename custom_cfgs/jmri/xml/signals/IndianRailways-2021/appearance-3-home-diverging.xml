@@ -28,13 +28,13 @@
   <appearances>
 
     <appearance>
-      <aspectname>Clear</aspectname>
+      <aspectname>Proceed</aspectname>
       <show>dark</show>
       <show>green</show>
     </appearance>
 
     <appearance>
-      <aspectname>Approach</aspectname>
+      <aspectname>Caution</aspectname>
       <show>dark</show>
       <show>yellow</show>
     </appearance>

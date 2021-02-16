@@ -28,13 +28,15 @@
   <appearances>
 
     <appearance>
-      <aspectname>Clear</aspectname>
+      <aspectname>Proceed</aspectname>
       <show>green</show>
+      <imagelink>../../../resources/icons/smallschematics/aspects/InfraBel-2013/Home-G.gif</imagelink>
     </appearance>
 
     <appearance>
-      <aspectname>Approach</aspectname>
+      <aspectname>Caution</aspectname>
       <show>yellow</show>
+      <imagelink>../../../resources/icons/smallschematics/aspects/ProRail-1954/prorail-ny4f.gif</imagelink>
     </appearance>
 
     <appearance>
@@ -68,26 +70,26 @@
 
     <aspectMapping>
      <advancedAspect>Stop</advancedAspect>
-     <ourAspect>Approach</ourAspect>
+     <ourAspect>Caution</ourAspect>
     </aspectMapping>
     
     <aspectMapping>
-     <advancedAspect>Approach</advancedAspect>
-     <ourAspect>Approach</ourAspect>
-     <ourAspect>Clear</ourAspect>
+     <advancedAspect>Caution</advancedAspect>
+     <ourAspect>Caution</ourAspect>
+     <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
 
     <aspectMapping>
      <advancedAspect>Approach Diverging</advancedAspect>
-     <ourAspect>Approach</ourAspect>
-     <ourAspect>Clear</ourAspect>
+     <ourAspect>Caution</ourAspect>
+     <ourAspect>Proceed</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
-     <advancedAspect>Clear</advancedAspect>
-     <ourAspect>Approach</ourAspect>
-     <ourAspect>Clear</ourAspect>
+     <advancedAspect>Proceed</advancedAspect>
+     <ourAspect>Caution</ourAspect>
+     <ourAspect>Proceed</ourAspect>
     </aspectMapping>
   </aspectMappings><!-- End of Aspect Mapping -->
 </appearancetable>  

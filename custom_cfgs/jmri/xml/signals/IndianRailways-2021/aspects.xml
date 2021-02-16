@@ -25,13 +25,72 @@
   </revhistory>
   <aspects>
     <aspect>
-      <name>Clear</name>
+      <name>Stop</name>
+      <indication>Stop</indication>
+      <speed>Stop</speed>
+      <speed2>Stop</speed>
+    </aspect>
+    <aspect>
+      <name>Caution</name>
+      <indication>Caution</indication>
+      <speed>Limited</speed>
+      <speed2>Limited</speed>
+    </aspect>
+    <aspect>
+      <name>Attention</name>
+      <indication>Attention</indication>
+      <speed>Limited</speed>
+      <speed2>Normal</speed>
+    </aspect>
+    <aspect>
+      <name>Proceed</name>
       <indication>Proceed</indication>
       <speed>Normal</speed>
       <speed2>Normal</speed2>
       <route>Normal</route>
     </aspect>
     <aspect>
+      <name>Proceed Slow</name>
+      <indication>Proceed Slow</indication>
+      <speed>Limited</speed>
+      <speed2>Limited</speed>
+    </aspect>
+    <aspect>
+      <name>Proceed Slow for Shunting</name>
+      <indication>Proceed Slow for Shunting</indication>
+      <speed>Limited</speed>
+      <speed2>Limited</speed>
+    </aspect>
+    <aspect>
+      <name>Proceeed for Shunting</name>
+      <indication>Proceeed for Shunting</indication>
+      <speed>Limited</speed>
+      <speed2>Limited</speed>
+    </aspect>
+    <aspect>
+      <name>Approach Diverging</name>
+      <indication>Proceed through diverging route either to the right or the left preparing to stop at next signal</indication>
+      <speed>Limited</speed>
+      <speed2>Limited</speed2>
+      <route>Diverging</route>
+    </aspect>
+    <aspect>
+      <name>Approach Y Diverging Right</name>
+      <indication>Proceed through a Y diverging route to the right preparing to stop at next signal</indication>
+      <speed>Limited</speed>
+      <speed2>Limited</speed2>
+      <route>Diverging</route>
+    </aspect>
+
+    <aspect>
+      <name>Approach Y Diverging Left</name>
+      <indication>Proceed through Y diverging route to the left preparing to stop at next signal</indication>
+      <speed>Limited</speed>
+      <speed2>Limited</speed2>
+      <route>Diverging</route>
+    </aspect>
+    <!--
+<aspect>
       <name>Attention</name>
       <indication>Watch for next signal when entering home</indication>
       <speed>Normal</speed>
@@ -76,7 +135,9 @@
       <indication>Unlit</indication>
       <speed>Normal</speed>
       <speed2>normal</speed2>
-    </aspect>    
+    </aspect>   
+    -->
+     
   </aspects>
   <appearancefiles>
     <appearancefile href="appearance-2-general.xml" />

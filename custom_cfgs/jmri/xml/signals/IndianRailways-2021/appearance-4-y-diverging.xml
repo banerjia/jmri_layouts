@@ -28,7 +28,7 @@
   <appearances>
 
     <appearance>
-      <aspectname>Clear</aspectname>
+      <aspectname>Proceed</aspectname>
       <show>dark</show>
       <show>dark</show>
       <show>dark</show>
@@ -88,28 +88,28 @@
 
     <aspectMapping>
      <advancedAspect>Stop</advancedAspect>
-     <ourAspect>Approach</ourAspect>
+     <ourAspect>Caution</ourAspect>
      <ourAspect>Approach Diverging</ourAspect>
     </aspectMapping>
     
     <aspectMapping>
-     <advancedAspect>Approach</advancedAspect>
-     <ourAspect>Approach</ourAspect>
+     <advancedAspect>Caution</advancedAspect>
+     <ourAspect>Caution</ourAspect>
      <ourAspect>Approach Diverging</ourAspect>
     </aspectMapping>
 
 
     <aspectMapping>
      <advancedAspect>Approach Diverging</advancedAspect>
-     <ourAspect>Approach</ourAspect>
+     <ourAspect>Caution</ourAspect>
      <ourAspect>Approach Diverging</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
-     <advancedAspect>Clear</advancedAspect>
-     <ourAspect>Clear</ourAspect>
+     <advancedAspect>Proceed</advancedAspect>
+     <ourAspect>Proceed</ourAspect>
      <ourAspect>Approach Diverging</ourAspect>
-     <ourAspect>Approach</ourAspect>
+     <ourAspect>Caution</ourAspect>
     </aspectMapping>
 
   </aspectMappings><!-- End of Aspect Mapping -->

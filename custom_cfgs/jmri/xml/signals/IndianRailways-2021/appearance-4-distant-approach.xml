@@ -28,7 +28,7 @@
   <appearances>
 
     <appearance>
-      <aspectname>Clear</aspectname>
+      <aspectname>Proceed</aspectname>
       <show>dark</show>
       <show>green</show>
     </appearance>
@@ -40,9 +40,10 @@
     </appearance>
 
     <appearance>
-      <aspectname>Approach</aspectname>
+      <aspectname>Caution</aspectname>
       <show>dark</show>
       <show>yellow</show>
+      <imagelink>../../../resources/icons/smallschematics/aspects/InfraBel-2013/Simple-Y.gif</imagelink>
     </appearance>
 
     <appearance>
@@ -78,28 +79,26 @@
 
     <aspectMapping>
      <advancedAspect>Stop</advancedAspect>
-     <ourAspect>Approach</ourAspect>
+     <ourAspect>Caution</ourAspect>
+     <ourAspect>Stop</ourAspect>
     </aspectMapping>
     
     <aspectMapping>
-     <advancedAspect>Approach</advancedAspect>
-     <ourAspect>Clear</ourAspect>
+     <advancedAspect>Caution</advancedAspect>
+     <ourAspect>Attention</ourAspect>
     </aspectMapping>
 
 
     <aspectMapping>
      <advancedAspect>Diverging Approach</advancedAspect>
-     <ourAspect>Approach</ourAspect>
+     <ourAspect>Caution</ourAspect>
+     <ourAspect>Attention</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
-     <advancedAspect>Clear</advancedAspect>
-     <ourAspect>Clear</ourAspect>
-    </aspectMapping>
-
-    <aspectMapping>
-     <advancedAspect>Diverging Clear</advancedAspect>
-     <ourAspect>Approach</ourAspect>
+     <advancedAspect>Proceed</advancedAspect>
+     <ourAspect>Proceed</ourAspect>
+     <ourAspect>Caution</ourAspect>
     </aspectMapping>
 
   </aspectMappings><!-- End of Aspect Mapping -->

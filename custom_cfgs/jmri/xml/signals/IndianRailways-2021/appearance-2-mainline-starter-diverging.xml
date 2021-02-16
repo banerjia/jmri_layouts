@@ -25,7 +25,7 @@
   <description>One head with two aspects</description>
   <appearances>
     <appearance>
-      <aspectname>Clear</aspectname>
+      <aspectname>Proceed</aspectname>
       <show>dark</show>
       <show>green</show>
     </appearance>
@@ -55,26 +55,22 @@
     <aspectMapping>
       <advancedAspect>Stop</advancedAspect>
       <ourAspect>Stop</ourAspect>
-      <ourAspect>Approach</ourAspect>
+      <ourAspect>Caution</ourAspect>
     </aspectMapping>
     <aspectMapping>
-      <advancedAspect>Approach</advancedAspect>
-      <ourAspect>Clear</ourAspect>
-      <ourAspect>Approach</ourAspect>
+      <advancedAspect>Caution</advancedAspect>
+      <ourAspect>Proceed</ourAspect>
+      <ourAspect>Caution</ourAspect>
     </aspectMapping>
     <aspectMapping>
       <advancedAspect>Approach Diverging</advancedAspect>
-      <ourAspect>Clear</ourAspect>
-      <ourAspect>Approach</ourAspect>
+      <ourAspect>Proceed</ourAspect>
+      <ourAspect>Caution</ourAspect>
       <ourAspect>Approach Diverging</ourAspect>
     </aspectMapping>
     <aspectMapping>
-      <advancedAspect>Clear</advancedAspect>
-      <ourAspect>Clear</ourAspect>
-    </aspectMapping>
-    <aspectMapping>
-      <advancedAspect>Diverging Clear</advancedAspect>
-      <ourAspect>Clear</ourAspect>
+      <advancedAspect>Proceed</advancedAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
   </aspectMappings>
   <!-- End of Aspect Mapping -->
