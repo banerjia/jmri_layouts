@@ -11,7 +11,8 @@ class CreateSensors(jmri.jmrit.automat.AbstractAutomaton):
     NODE_ADDR = {
         "SENSORS": 1,
         "TURNOUTS": 2,
-        "PANELS" : 3
+        "PANELS" : 3,
+        "SIGNALS" : 0
     }
 
     # Station Config
