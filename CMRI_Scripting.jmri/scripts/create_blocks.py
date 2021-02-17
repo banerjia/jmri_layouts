@@ -64,8 +64,8 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
                     continue
                 
                 # Gather basic information
-                block_userName = block_entry[0]
-                block_userName_for_related_objects = block_userName.replace(self.STATION_CD, '').lstrip()
+                block_userName = "{} {}".format(self.STATION_CD, block_entry[0])
+                block_userName_for_related_objects = block_entry[0]
                 block_panel_ind = (block_entry[1] == '1')
                 block_comments = block_entry[2]
                 _prop_string = re.sub('(\w+):([^;}]+)',r'"\1":"\2"',block_entry[3]).replace(';',',')
