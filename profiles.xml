@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profileConfig>
+  <profiles>
+    <profile id="N_Scale_Indian_Railways.3f686f2f" path="settings:N_Scale_Indian_Railways.jmri/" />
+  </profiles>
+  <searchPaths>
+    <path path="settings:" default="true" />
+  </searchPaths>
+</profileConfig>
