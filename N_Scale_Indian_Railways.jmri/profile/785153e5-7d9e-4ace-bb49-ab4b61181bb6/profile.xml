@@ -5,15 +5,15 @@
             <options/>
             <polllist pollseq="0,1,2,3"/>
             <node name="0">
-                <parameter name="nodetype">2</parameter>
+                <parameter name="nodetype">1</parameter>
                 <parameter name="bitspercard">24</parameter>
                 <parameter name="transmissiondelay">0</parameter>
                 <parameter name="num2lsearchlights">0</parameter>
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
-                <parameter name="cardtypelocation">1100000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cmrinetoptions">1000000000000000</parameter>
-                <parameter name="cmrinodedesc">MML Sensor Node</parameter>
+                <parameter name="cmrinodedesc">MML Signals Node</parameter>
             </node>
             <node name="1">
                 <parameter name="nodetype">1</parameter>
@@ -24,7 +24,7 @@
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cmrinetoptions">1000000000000000</parameter>
-                <parameter name="cmrinodedesc">MML Turnouts Node</parameter>
+                <parameter name="cmrinodedesc">MML Sensors Node</parameter>
             </node>
             <node name="2">
                 <parameter name="nodetype">1</parameter>
@@ -35,7 +35,7 @@
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cmrinetoptions">1000000000000000</parameter>
-                <parameter name="cmrinodedesc">MML Panel Node</parameter>
+                <parameter name="cmrinodedesc">MML Turnouts Node</parameter>
             </node>
             <node name="3">
                 <parameter name="nodetype">1</parameter>
@@ -46,7 +46,7 @@
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cmrinetoptions">1000000000000000</parameter>
-                <parameter name="cmrinodedesc">MML Signals Node</parameter>
+                <parameter name="cmrinodedesc">MML Panel Node</parameter>
             </node>
         </connection>
     </connections>

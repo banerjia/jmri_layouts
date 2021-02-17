@@ -28,7 +28,7 @@ class CreateTurnouts(jmri.jmrit.automat.AbstractAutomaton) :
     """
      Script Configuration
     """
-    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
+    BASEDIR = "jmri_layouts/N_Scale_Indian_Railways.jmri/resources"
             
     # Node Addresses
     NODE_ADDR = {
@@ -46,7 +46,7 @@ class CreateTurnouts(jmri.jmrit.automat.AbstractAutomaton) :
         # init() is called exactly once at the beginning to do
         # any necessary configuration.
 
-        filePath = "{}/MML_sw_config.csv".format(self.BASEDIR)
+        filePath = "{}{}/MML_sw_config.csv".format(os.path.abspath(os.getcwd()).replace('JMRI',''),self.BASEDIR)
         with open(filePath, 'rt') as fileTurnouts:
             
             fileTurnoutsReader = csv.reader(fileTurnouts, delimiter = ',')
