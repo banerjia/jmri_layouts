@@ -11,7 +11,7 @@
                 <parameter name="num2lsearchlights">0</parameter>
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
-                <parameter name="cardtypelocation">1110000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cardtypelocation">1100000000000000000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cmrinetoptions">1000000000000000</parameter>
                 <parameter name="cmrinodedesc">MML Sensors Node</parameter>
             </node>
