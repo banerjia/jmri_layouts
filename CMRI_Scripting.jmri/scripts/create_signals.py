@@ -1,34 +1,106 @@
 import jarray
 import jmri
+import re
+import csv
+import json
 
 class CreateSignals(jmri.jmrit.automat.AbstractAutomaton):
+    
+    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
+
+    # Node Addresses
+    NODE_ADDR = {
+        "SENSORS": 1,
+        "TURNOUTS": 2,
+        "PANELS" : 3,
+        "SIGNALS" : 4
+    }
+
+    # Station Config
+    STATION_CD = "MML"
+    SIGNAL_PREFIX = "M"
 
     def init(self):
-        SIGNALS_NODE_ADDR = 3
-        turnout_count = 1
 
-        signalHead_Green_SysName = "CT{}{:03d}".format(SIGNALS_NODE_ADDR, turnout_count)
-        signalHead_Green_UserName = "SignalHead:{}:Green".format("CH1")
-        turnout_count = turnout_count + 1
-        t_Green = turnouts.newTurnout(signalHead_Green_SysName, signalHead_Green_UserName)
-        t_Green.setComment(signalHead_Green_UserName)
+        filePath = "{}/MML_sig_config.csv".format(self.BASEDIR)
+        with open(filePath, 'rt') as fileSignals:
+            fileSignalReader = csv.reader(fileSignals, delimiter = ',')
 
-        signalHead_Red_SysName = "CT{}{:03d}".format(SIGNALS_NODE_ADDR, turnout_count)
-        signalHead_Red_UserName = "SignalHead:{}:Red".format("CH1")
-        turnout_count = turnout_count + 1
-        t_Red = turnouts.newTurnout(signalHead_Red_SysName, signalHead_Red_UserName)
-        t_Red.setComment(signalHead_Red_UserName)
+            # Counters
+            header_skipped = False
+            signal_turnout_counter = 1
+            signalHead_counter = 1
 
-        nmh1 = jmri.NamedBeanHandle(signalHead_Green_SysName, t_Green)
-        nmh2 = jmri.NamedBeanHandle(signalHead_Red_SysName, t_Red)
-        sig = jmri.implementation.DoubleTurnoutSignalHead("CH1","SGH 1R", nmh1, nmh2)
-        signals.register(sig)
+            for signal_entry in fileSignalReader:
+                if not header_skipped:
+                    header_skipped = True
+                    continue
 
-        signalMastName = "IF$shsm:IndianRailways-2021:2-general({})".format(sig.getSystemName())
-        sm = masts.provideSignalMast(signalMastName)
-        sm.setUserName('SignalTest')
+                signal_userName = "{} {}".format(self.STATION_CD, signal_entry[0])
+                #signal_systemName = "{}H{}".format(self.SIGNAL_PREFIX, signal_count)
+                signal_aspect = signal_entry[1].lower()
+                signal_panel_switch = signal_entry[2]
+                _prop_string = re.sub('(\w+):([^;}]+)',r'"\1":"\2"',signal_entry[3]).replace(';',',')
+                signal_properties = json.loads(_prop_string)
 
-        
+                
+                if signal_aspect == "4-distant-approach":
+                    # Create 4 Turnouts Red, Yellow, Green, Yellow2
+                    # Attach 3 turnouts to one head
+                    # Attach 1 turnout to second head
+                    # Create mast with two heads
+                    color_array = ['red', 'yellow', 'green', 'yellow2']
+                    nmh_turnouts = []
+                    for signalHeadTurnoutIndex in range(3):
+                        signalHeadTurnout_SystemName = "CT{}{:03d}".format(self.NODE_ADDR["SIGNALS"], signal_turnout_counter + signalHeadTurnoutIndex)
+                        signalHeadTurnout_UserName = "{} SignalHead:{}H{}:{}".format(self.STATION_CD,self.SIGNAL_PREFIX,signalHead_counter, color_array[signalHeadTurnoutIndex])
+
+                        signalHeadTurnout = turnouts.newTurnout(signalHeadTurnout_SystemName, None)
+                        signalHeadTurnout.setComment(signalHeadTurnout_UserName)
+                        for signal_property in signal_properties:
+                            signalHeadTurnout.setProperty(signal_property, signal_properties[signal_property])
+                        signalHeadTurnout.setProperty("SignalColor", color_array[signalHeadTurnoutIndex].upper())
+                        turnouts.register(signalHeadTurnout)
+                        nmh_turnouts.append(jmri.NamedBeanHandle(signalHeadTurnout_SystemName, signalHeadTurnout))
+                    
+                    signal_turnout_counter = signal_turnout_counter + 3
+
+                    signalHead1_userName = "{} Lower".format(signal_userName)
+                    signalHead1_systemName = "{}H{}".format(self.SIGNAL_PREFIX, signalHead_counter)
+                    signalHead1 = jmri.implementation.TripleTurnoutSignalHead(signalHead1_systemName,signalHead1_userName, nmh_turnouts[2], nmh_turnouts[1],nmh_turnouts[0])
+                    signalHead1.setComment("Red/Yellow/Green")
+                    signals.register(signalHead1)
+
+                    signalHead_counter = signalHead_counter + 1
+
+                    signalHeadTurnout_SystemName = "CT{}{:03d}".format(self.NODE_ADDR["SIGNALS"], signal_turnout_counter)
+                    signalHeadTurnout_UserName = "{} SignalHead:{}H{}:{}".format(self.STATION_CD,self.SIGNAL_PREFIX,signalHead_counter, color_array[3])
+
+                    signalHeadTurnout = turnouts.newTurnout(signalHeadTurnout_SystemName, None)
+                    signalHeadTurnout.setComment(signalHeadTurnout_UserName)
+                    for signal_property in signal_properties:
+                        signalHeadTurnout.setProperty(signal_property, signal_properties[signal_property])
+                    signalHeadTurnout.setProperty("SignalColor", color_array[3].upper())
+                    turnouts.register(signalHeadTurnout)
+                    nmh_turnout_yellow2 = jmri.NamedBeanHandle(signalHeadTurnout_SystemName, signalHeadTurnout)
+
+                    signalHead2_userName = "{} Upper".format(signal_userName)
+                    signalHead2_systemName = "{}H{}".format(self.SIGNAL_PREFIX, signalHead_counter)
+                    signalHead2 = jmri.implementation.SingleTurnoutSignalHead(signalHead2_systemName,signalHead2_userName, nmh_turnout_yellow2, jmri.SignalHead.YELLOW, jmri.SignalHead.DARK)
+                    signalHead2.setComment("Yellow/Dark")
+                    signals.register(signalHead2)
+
+                    signalMast_systemName = "IF$shsm:IndianRailways-2021:{}({})({})".format(signal_aspect, signalHead2_systemName,signalHead1_systemName)            
+                    signalMast_userName = "{} {}".format(self.STATION_CD, signal_userName)
+                    sm = masts.provideSignalMast(signalMast_systemName)
+                    sm.setUserName(signalMast_userName)
+                    masts.register(sm)
+
+                    signalHead_counter = signalHead_counter + 1
+                    signal_turnout_counter = signal_turnout_counter + 1
+                    
+                    
+
 
         return
     
