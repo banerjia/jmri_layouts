@@ -62,7 +62,7 @@ class CreateTurnouts(jmri.jmrit.automat.AbstractAutomaton) :
                     continue
                 
                 # Gather basic information
-                turnout_userName = turnout_entry[0]
+                turnout_userName = "{} {}".format(self.STATION_CD, turnout_entry[0])
                 turnout_userName_for_related_objects = turnout_userName.replace(self.STATION_CD, '').lstrip()
                 turnout_panel_ind = (turnout_entry[1] == '1')
                 turnout_comments = turnout_entry[2]
