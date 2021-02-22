@@ -23,7 +23,7 @@
 
   <aspecttable>Indian Railways 2021</aspecttable>
   <name>4 Aspect with Y Diverging</name>
-  <description>Three aspect signal when entering a station with a diverging</description>
+  <description>4 aspect signals: Red, Green, Yellow+Yellow Right, Yellow+Yellow Left</description>
   
   <appearances>
 
@@ -31,8 +31,14 @@
       <aspectname>Proceed</aspectname>
       <show>dark</show>
       <show>dark</show>
-      <show>dark</show>
       <show>green</show>
+    </appearance>
+
+    <appearance>
+      <aspectname>Approach</aspectname>
+      <show>dark</show>
+      <show>dark</show>
+      <show>yellow</show>
     </appearance>
 
     <appearance>
@@ -40,7 +46,6 @@
       <show>dark</show>
       <show>yellow</show>
       <show>yellow</show>
-      <show>dark</show>
     </appearance>
 
     <appearance>
@@ -48,12 +53,10 @@
       <show>yellow</show>
       <show>dark</show>
       <show>yellow</show>
-      <show>dark</show>
     </appearance>
 
     <appearance>
       <aspectname>Stop</aspectname>
-      <show>dark</show>
       <show>dark</show>
       <show>dark</show>
       <show>red</show>
@@ -61,7 +64,6 @@
     
     <appearance>
       <aspectname>Unlit</aspectname>
-      <show>dark</show>
       <show>dark</show>
       <show>dark</show>
       <show>dark</show>
