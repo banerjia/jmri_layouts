@@ -132,7 +132,7 @@
                 <column hidden="false" name="State" order="2" width="88"/>
                 <column hidden="false" name="Inverted" order="4" width="82"/>
                 <column hidden="false" name="Sensor2" order="11" width="75"/>
-                <column hidden="false" name="System Name" order="0" width="70"/>
+                <column hidden="false" name="System Name" order="0" width="125"/>
             </columns>
             <sortOrder>
                 <sortKey column="5" sortOrder="DESCENDING"/>
@@ -285,8 +285,8 @@
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Lights" height="763.0" locX="112.0" locY="27.0" width="1105.0"/>
         <window xmlns="" class="Add New Section" height="816.0" locX="987.0" locY="44.0" width="621.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="570.0" locY="27.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.signalmast.AddSignalMastJFrame:Add/Edit Signal Mast" locX="0.0" locY="27.0"/>
-        <window xmlns="" class="JMRI System Console" height="833.0" locX="85.0" locY="27.0" width="1314.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.signalmast.AddSignalMastJFrame:Add/Edit Signal Mast" locX="28.0" locY="26.0"/>
+        <window xmlns="" class="JMRI System Console" height="777.0" locX="85.0" locY="25.0" width="1314.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Groups" height="552.0" width="1674.0"/>
         <window xmlns="" class="Add Signal Group" locX="100.0" locY="30.0"/>
         <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="826.0" locX="0.0" locY="27.0" width="1684.0">
@@ -311,7 +311,7 @@
             <properties>
                 <property>
                     <key>dividerLocation</key>
-                    <value class="java.lang.Integer">200</value>
+                    <value class="java.lang.Integer">208</value>
                 </property>
             </properties>
         </window>
@@ -320,7 +320,7 @@
         <window xmlns="" class="Panel " height="514.0" locX="629.0" locY="282.0" width="863.0"/>
         <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Panel " locX="20.0" locY="27.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Masts" height="853.0" locX="0.0" locY="27.0" width="1421.0"/>
-        <window xmlns="" class="PanelPro" height="415.0" locX="1202.0" locY="36.0" width="394.0"/>
+        <window xmlns="" class="PanelPro" height="240.0" locX="1046.0" locY="36.0" width="394.0"/>
         <window xmlns="" class="jmri.jmrit.automat.monitor.AutomatTableFrame" height="448.0" locX="875.0" locY="95.0" width="454.0"/>
         <window xmlns="" class="Activate New Train" locX="781.0" locY="173.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sections" height="673.0" locX="330.0" locY="187.0" width="1159.0"/>
@@ -347,7 +347,7 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="853.0" locX="0.0" locY="27.0" width="844.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="804.0" locX="0.0" locY="25.0" width="1323.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Blocks" height="653.0" locX="137.0" locY="91.0" width="1171.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.serialmon.SerialMonFrame" height="408.0" locX="0.0" locY="25.0" width="1440.0"/>
         <window xmlns="" class="Add New Reporter" locX="0.0" locY="27.0"/>
@@ -358,13 +358,13 @@
         <window xmlns="" class="jmri.jmrit.beantable.signalmast.AddSignalMastJFrame:Add/Edit Signal Mast:3" locX="0.0" locY="25.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.signalmast.AddSignalMastJFrame:Add/Edit Signal Mast:4" locX="28.0" locY="26.0"/>
         <window xmlns="" class="jmri.jmrit.display.controlPanelEditor.ControlPanelEditor:Control Panel" height="721.0" locX="231.0" locY="93.0" width="1237.0"/>
-        <window xmlns="" class="Edit Signal Head" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="Edit Signal Head" locX="28.0" locY="26.0"/>
         <window xmlns="" class="Switchboard" height="333.0" width="554.0"/>
         <window xmlns="" class="Script Entry:1" height="275.0" locX="0.0" locY="25.0" width="641.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="604.0" locX="200.0" locY="200.0" width="486.0"/>
         <window xmlns="" class="jmri.jmrit.dispatcher.DispatcherFrame" height="735.0" locX="330.0" locY="91.0" width="956.0"/>
         <window xmlns="" class="jmri.jmrit.log.LogFrame" height="93.0" locX="0.0" locY="25.0" width="563.0"/>
         <window xmlns="" class="Set Grid Sizes" height="231.0" locX="70.0" locY="30.0" width="184.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="853.0" locX="23.0" locY="403.0" width="1421.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="804.0" locX="23.0" locY="403.0" width="1323.0"/>
     </windowDetails>
 </auxiliary-configuration>
