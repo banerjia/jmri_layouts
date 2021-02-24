@@ -91,12 +91,11 @@
     </aspect>     
   </aspects>
   <appearancefiles>
-    <appearancefile href="appearance-2-general.xml" />
-    <appearancefile href="appearance-2-mainline-starter-diverging.xml" />
-    <appearancefile href="appearance-2-mainline-starter.xml" />
-    <appearancefile href="appearance-3-home-diverging.xml" />
-    <appearancefile href="appearance-3-home.xml" />
-    <appearancefile href="appearance-4-distant-approach.xml" />
-    <appearancefile href="appearance-4-y-diverging.xml" />
+    <appearancefile href="appearance-2-aspect-rg.xml" />
+    <appearancefile href="appearance-2-aspect-ry.xml" />
+    <appearancefile href="appearance-3-aspect.xml" />
+    <appearancefile href="appearance-3-aspect-with-route.xml" />
+    <appearancefile href="appearance-3-aspect-with-y-route.xml" />
+    <appearancefile href="appearance-4-aspect.xml" />
   </appearancefiles>
 </aspecttable>

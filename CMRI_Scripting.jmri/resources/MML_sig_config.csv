@@ -1,23 +1,23 @@
 username,aspect,panel_switch,properties
-SG 1R,4-distant-approach,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:DistantApproach}
-SG 2R,3-home-diverging,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Home;Diverging:Right}
-SG 3R,2-mainline-starter,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML}
-SG 4R,2-mainline-starter,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:LSS}
-SG 5L,2-mainline-starter,,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:LSS}
-SG 6L,2-mainline-starter,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML}
-SG 7L,3-home-diverging,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Home;Diverging:Left}
-SG 8L,4-distant-approach,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:DistantApproach}
-SG 9R,3-home,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Home}
-SG 22R,4-distant-approach,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:DistantApproach}
-SG 10R,3-home-diverging,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Home;Diverging:Right}
-SG 11R,2-mainline-starter,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Starter}
-SG 12R,3-home-diverging,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;Diverging:Left}
-SG 13R,2-mainline-starter,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:LSS}
-SG 14L,2-mainline-starter,,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:LSS}
-SG 15L,3-home-diverging,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;Diverging:Right}
-SG 16L,2-mainline-starter,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Starter}
-SG 17L,3-home-diverging,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;Diverging:Left}
-SG 18L,3-home,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Home}
-SG 19L,4-distant-approach,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:DistantApproach}
-SG 20R,2-general,TRUE,{OnTrack:LPL;Direction:Right;StationCode:MML}
-SG 21L,2-general,TRUE,{OnTrack:LPL;Direction:Left;StationCode:MML}
+SG 1R DST,4-aspect,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:DistantApproach}
+SG 2R HM DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Home;Diverging:Right}
+SG 3R MNL CTN,2-aspect-rg,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML}
+SG 4R MNL CTN,2-aspect-rg,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:LSS}
+SG 5L LSS,2-aspect-rg,,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:LSS}
+SG 6L MNL CTN,2-aspect-rg,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML}
+SG 7L MNL DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Home;Diverging:Left}
+SG 8L DST,4-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:DistantApproach}
+SG 9R HM,3-aspect,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Home}
+SG 22R DST,4-aspect,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:DistantApproach}
+SG 10R HM DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Home;Diverging:Right}
+SG 11R MNL STR,3-aspect,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Starter}
+SG 12R MNL DV,3-home-diverging,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;Diverging:Left}
+SG 13R LSS,2-aspect-rg,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:LSS}
+SG 14L MNL LSS,2-aspect-rg,,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:LSS}
+SG 15L MNL DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;Diverging:Right}
+SG 16L MNL STR,3-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Starter}
+SG 17L MNL DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;Diverging:Left}
+SG 18L HM,3-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Home}
+SG 19L DST,4-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:DistantApproach}
+SG 20R LPL STR,2-aspect-ry,TRUE,{OnTrack:LPL;Direction:Right;StationCode:MML}
+SG 21L LPL STR,2-aspect-ry,TRUE,{OnTrack:LPL;Direction:Left;StationCode:MML}

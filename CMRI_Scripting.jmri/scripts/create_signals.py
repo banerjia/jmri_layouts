@@ -6,7 +6,7 @@ import json
 
 class CreateSignals(jmri.jmrit.automat.AbstractAutomaton):
     
-    BASEDIR = "/Users/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
+    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
 
     # Node Addresses
     NODE_ADDR = {
@@ -57,7 +57,7 @@ class CreateSignals(jmri.jmrit.automat.AbstractAutomaton):
                 nmh_signal_heads = []
                 nmh_turnouts = []
                 
-                if signal_aspect == "4-distant-approach":
+                if signal_aspect == "4-aspect":
                     # Create 4 Turnouts Red, Yellow, Green, Yellow2
                     # Attach 3 turnouts to one head
                     # Attach 1 turnout to second head
@@ -79,14 +79,14 @@ class CreateSignals(jmri.jmrit.automat.AbstractAutomaton):
                     signalHeadCreated = self.__createSignalHead(self.SINGLEOUTPUT, signal_userName, "UP", "Yellow/Dark", nmh_turnouts)
                     nmh_signal_heads.append(signalHeadCreated)
 
-                elif signal_aspect == "2-general" or signal_aspect == "2-mainline-starter":
+                elif signal_aspect == "2-aspect-rg" or signal_aspect == "2-aspect-ry":
                     # Create Green/Yellow Light
-                    signal_userName_suffix = "GNL"
-                    if signal_aspect == "2-general":
+                    signal_userName_suffix = signal_aspect.replace("2-aspect-","").upper()
+
+                    if signal_aspect == "2-aspect-ry":
                         signal_color = "yellow"
                     else:
                         signal_color = "green"
-                        signal_userName_suffix = "STRTR"
 
                     nmh_created_turnout = self.__createSignalLight('red', signal_properties)
                     nmh_turnouts.append(nmh_created_turnout)
@@ -99,58 +99,10 @@ class CreateSignals(jmri.jmrit.automat.AbstractAutomaton):
                     nmh_signal_head = self.__createSignalHead(self.DOUBLEOUTPUT, signal_userName, signal_userName_suffix, signal_head_comment, nmh_turnouts)
 
                     nmh_signal_heads.append(nmh_signal_head)
-                elif signal_aspect == "3-home-diverging":
-                    color_array = ['red', 'yellow', 'green', 'yellow-div']
-
-                    # 1. Create head with Red/Yellow/Green
-                    for signalHeadTurnoutIndex in range(3):
-
-                        nmh_created_turnout = self.__createSignalLight(color_array[signalHeadTurnoutIndex], signal_properties)
-                        nmh_turnouts.append(nmh_created_turnout)                    
-
-                    signalHeadCreated = self.__createSignalHead(self.TRIPLEOUTPUT, signal_userName, "LW DV", "Red/Yellow/Green", nmh_turnouts)
-                    nmh_signal_heads.append(signalHeadCreated)
-
-                    # 2. Create head with just Yellow Diverging
-                    nmh_turnouts = []
-                    nmh_turnouts.append(self.__createSignalLight(color_array[3], signal_properties))
-                    signalHeadCreated = self.__createSignalHead(self.SINGLEOUTPUT, signal_userName, "UP DV", "Yellow/Dark", nmh_turnouts)
-                    nmh_signal_heads.append(signalHeadCreated)
-                elif signal_aspect == "2-mainline-starter-diverging":
-                    # Create Green Light
-                    signal_color = "green"
-
-                    nmh_created_turnout = self.__createSignalLight('red', signal_properties)
-                    nmh_turnouts.append(nmh_created_turnout)
-
-                    nmh_created_turnout = self.__createSignalLight(signal_color, signal_properties)
-                    nmh_turnouts.append(nmh_created_turnout)
-
-                    signal_head_comment = "Red/{}".format(signal_color.capitalize())
-                    nmh_signal_head = self.__createSignalHead(self.DOUBLEOUTPUT, signal_userName, 'LW DV', signal_head_comment, nmh_turnouts)
-
-                    nmh_signal_heads.append(nmh_signal_head)
-
-                    # 2. Create head with just Yellow Diverging
-                    nmh_turnouts = []
-                    nmh_turnouts.append(self.__createSignalLight(color_array[3], signal_properties))
-                    signalHeadCreated = self.__createSignalHead(self.SINGLEOUTPUT, signal_userName, "UP DV", "Yellow/Dark", nmh_turnouts)
-                    nmh_signal_heads.append(signalHeadCreated)
-                elif signal_aspect == "3-home":
-                    color_array = ['red', 'yellow', 'green']
-
-                    # 1. Create head with Red/Yellow/Green
-                    for signalHeadTurnoutIndex in range(3):
-
-                        nmh_created_turnout = self.__createSignalLight(color_array[signalHeadTurnoutIndex], signal_properties)
-                        nmh_turnouts.append(nmh_created_turnout)                    
-
-                    signalHeadCreated = self.__createSignalHead(self.TRIPLEOUTPUT, signal_userName, "HM", "Red/Yellow/Green", nmh_turnouts)
-                    nmh_signal_heads.append(signalHeadCreated)
-                elif signal_aspect == "4-y-diverging":
+                elif signal_aspect == "3-aspect-with-y-route":
                     # The yellow light sitting between the branch lights is created in the first head
                     # but in board construction will be loaded on the top
-                    color_array = ['red', 'yellow', 'green']
+                    color_array = ['red', 'green', 'yellow-div-r', 'yellow-div-r']
 
                     # 1. Create head with Red/Yellow/Green
                     for signalHeadTurnoutIndex in range(3):
@@ -158,7 +110,7 @@ class CreateSignals(jmri.jmrit.automat.AbstractAutomaton):
                         nmh_created_turnout = self.__createSignalLight(color_array[signalHeadTurnoutIndex], signal_properties)
                         nmh_turnouts.append(nmh_created_turnout)                    
 
-                    signalHeadCreated = self.__createSignalHead(self.TRIPLEOUTPUT, signal_userName, "LW DV", "Red/Yellow/Green", nmh_turnouts)
+                    signalHeadCreated = self.__createSignalHead(self.TRIPLEOUTPUT, signal_userName, "LW DV", "Red/Green/Yellow", nmh_turnouts)
                     nmh_signal_heads.append(signalHeadCreated)
 
                     # 2. Create head with just Yellow Diverging Left
@@ -172,12 +124,40 @@ class CreateSignals(jmri.jmrit.automat.AbstractAutomaton):
                     nmh_turnouts.append(self.__createSignalLight(color_array[3], signal_properties))
                     signalHeadCreated = self.__createSignalHead(self.SINGLEOUTPUT, signal_userName, "UP DVR", "Yellow/Dark", nmh_turnouts)
                     nmh_signal_heads.append(signalHeadCreated)
+                elif signal_aspect == "3-aspect-with-route":
+                    color_array = ['red', 'green', 'yellow', 'yellow-div']
+
+                    # 1. Create head with Red/Yellow/Green
+                    for signalHeadTurnoutIndex in range(3):
+
+                        nmh_created_turnout = self.__createSignalLight(color_array[signalHeadTurnoutIndex], signal_properties)
+                        nmh_turnouts.append(nmh_created_turnout)                    
+
+                    signalHeadCreated = self.__createSignalHead(self.TRIPLEOUTPUT, signal_userName, "LW DV", "Red/Green/Yellow", nmh_turnouts)
+                    nmh_signal_heads.append(signalHeadCreated)
+
+                    # 2. Create head with just Yellow Diverging
+                    nmh_turnouts = []
+                    nmh_turnouts.append(self.__createSignalLight(color_array[3], signal_properties))
+                    signalHeadCreated = self.__createSignalHead(self.SINGLEOUTPUT, signal_userName, "UP DV", "Yellow/Dark", nmh_turnouts)
+                    nmh_signal_heads.append(signalHeadCreated)
+                elif signal_aspect == "3-aspect":
+                    color_array = ['red', 'yellow', 'green']
+
+                    # 1. Create head with Red/Yellow/Green
+                    for signalHeadTurnoutIndex in range(3):
+
+                        nmh_created_turnout = self.__createSignalLight(color_array[signalHeadTurnoutIndex], signal_properties)
+                        nmh_turnouts.append(nmh_created_turnout)                    
+
+                    signalHeadCreated = self.__createSignalHead(self.TRIPLEOUTPUT, signal_userName, "DV", "Red/Yellow/Green", nmh_turnouts)
+                    nmh_signal_heads.append(signalHeadCreated)
                 else:
                     continue
                 
                 signal_heads_in_mast_string = ""
                 for nmh_signal_head in nmh_signal_heads:
-                    signal_heads_in_mast_string = "{}({})".format(signal_heads_in_mast_string,nmh_signal_head.getBean().getSystemName())
+                    signal_heads_in_mast_string = "({}){}".format(nmh_signal_head.getBean().getSystemName(),signal_heads_in_mast_string)
 
                 signal_mast_systemName = "IF$shsm:IndianRailways-2021:{}{}".format(signal_aspect, signal_heads_in_mast_string)            
                 signal_mast_userName = signal_userName

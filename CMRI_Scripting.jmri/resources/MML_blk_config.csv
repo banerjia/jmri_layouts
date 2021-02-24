@@ -1,20 +1,20 @@
 username,panel_ind,comments,properties
 BLK 1,1,MML Track 1 first block on left side,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
 BLK 2,1,MML Track 1,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
-BLK 3 OS,1,MML Track 1 Switch 1,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 1 RH}
+BLK 3 OS,1,MML Track 1 Switch 1,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 1A RH}
 BLK 4,1,MML Track 1,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
-BLK 5 OS,1,MML Track 1 Switch 2,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 2 LH}
+BLK 5 OS,1,MML Track 1 Switch 2,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 2A LH}
 BLK 6,1,MML Track 1,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
 BLK 7,1,MML Track 1 first block on ride side,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
 BLK 8,1,MML Track 2 first block on left side,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
 BLK 9,1,MML Track 2,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
-BLK 10 OS,1,MML Track 2 Switch 3,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 3 RH}
+BLK 10 OS,1,MML Track 2 Switch 3,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 1B RH}
 BLK 11,1,MML Track 2,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
 BLK 12 OS,1,MML Track 2 Switch 4 ,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 4 RH}
 BLK 13 PF,1,MML Track 2 Platform 1,{StationCode:MML;OnTrack:MNL;SensedObject:Block;XTRA:Platform 1}
 BLK 14 OS,1,MML Track 2 Switch 5,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 5 LH}
 BLK 15,1,MML Track 2 ,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
-BLK 16 OS,1,MML Track 2 Switch 6,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 6 LH}
+BLK 16 OS,1,MML Track 2 Switch 6,{StationCode:MML;OnTrack:MNL;SensedObject:BlockOverSwitch;RelatedObject:MML SW 2B LH}
 BLK 17,1,MML Track 2 ,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
 BLK 18,1,MML Track 2 first block on ride side,{StationCode:MML;OnTrack:MNL;SensedObject:Block}
 BLK 19 PF,1,MML Platform 2,{StationCode:MML;OnTrack:LPL;SensedObject:Block;XTRA:Platform 2}
