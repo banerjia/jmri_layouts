@@ -38,13 +38,13 @@
                 <parameter name="cmrinodedesc">MML Panel Node</parameter>
             </node>
             <node name="4">
-                <parameter name="nodetype">1</parameter>
+                <parameter name="nodetype">2</parameter>
                 <parameter name="bitspercard">24</parameter>
                 <parameter name="transmissiondelay">0</parameter>
                 <parameter name="num2lsearchlights">0</parameter>
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
-                <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cardtypelocation">2220000000000000000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cmrinetoptions">1000000000000000</parameter>
                 <parameter name="cmrinodedesc">MML Signals Node</parameter>
             </node>

@@ -28,19 +28,19 @@
       <name>Stop</name>
       <indication>Stop</indication>
       <speed>Stop</speed>
-      <speed2>Stop</speed>
+      <speed2>Stop</speed2>
     </aspect>
     <aspect>
       <name>Caution</name>
       <indication>Caution</indication>
       <speed>Limited</speed>
-      <speed2>Limited</speed>
+      <speed2>Limited</speed2>
     </aspect>
     <aspect>
       <name>Attention</name>
       <indication>Attention</indication>
       <speed>Limited</speed>
-      <speed2>Normal</speed>
+      <speed2>Normal</speed2>
     </aspect>
     <aspect>
       <name>Proceed</name>
@@ -53,19 +53,19 @@
       <name>Proceed Slow</name>
       <indication>Proceed Slow</indication>
       <speed>Limited</speed>
-      <speed2>Limited</speed>
+      <speed2>Limited</speed2>
     </aspect>
     <aspect>
       <name>Proceed Slow for Shunting</name>
       <indication>Proceed Slow for Shunting</indication>
       <speed>Limited</speed>
-      <speed2>Limited</speed>
+      <speed2>Limited</speed2>
     </aspect>
     <aspect>
       <name>Proceeed for Shunting</name>
       <indication>Proceeed for Shunting</indication>
       <speed>Limited</speed>
-      <speed2>Limited</speed>
+      <speed2>Limited</speed2>
     </aspect>
     <aspect>
       <name>Approach Diverging</name>

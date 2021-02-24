@@ -43,15 +43,15 @@
 
     <appearance>
       <aspectname>Approach Y Diverging Left</aspectname>
-      <show>dark</show>
       <show>yellow</show>
+      <show>dark</show>
       <show>yellow</show>
     </appearance>
 
     <appearance>
       <aspectname>Approach Y Diverging Right</aspectname>
-      <show>yellow</show>
       <show>dark</show>
+      <show>yellow</show>
       <show>yellow</show>
     </appearance>
 
