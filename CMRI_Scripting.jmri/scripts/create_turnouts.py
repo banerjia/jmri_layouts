@@ -28,7 +28,7 @@ class CreateTurnouts(jmri.jmrit.automat.AbstractAutomaton) :
     """
      Script Configuration
     """
-    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
+    BASEDIR = "/Users/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
             
     # Node Addresses
     NODE_ADDR = {
