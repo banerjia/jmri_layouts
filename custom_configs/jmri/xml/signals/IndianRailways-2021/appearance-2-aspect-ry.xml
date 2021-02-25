@@ -21,13 +21,9 @@
     </revision>
   </revhistory>
   <aspecttable>Indian Railways 2021</aspecttable>
-  <name>2 Aspect General</name>
-  <description>Two aspect signal for loop lines and yard work</description>
+  <name>2 Aspect - Red/Yellow</name>
+  <description>Two aspect Red/Yellow signal that is used for miscellaneous purposes.</description>
   <appearances>
-    <appearance>
-      <aspectname>Proceed</aspectname>
-      <show>yellow</show>
-    </appearance>
     <appearance>
       <aspectname>Caution</aspectname>
       <show>yellow</show>
@@ -35,6 +31,12 @@
     <appearance>
       <aspectname>Stop</aspectname>
       <show>red</show>
+    </appearance>
+    
+    <appearance>
+      <aspectname>Unlit</aspectname>
+      <show>dark</show>
+      <imagelink>../../../resources/icons/smallschematics/searchlights/one-high-dark.gif</imagelink>
     </appearance>
   </appearances>
   <specificappearances>
@@ -45,30 +47,21 @@
     <held>
       <aspect>Stop</aspect>
     </held>
+    <dark>
+      <aspect>Unlit</aspect>
+    </dark>
   </specificappearances>
   <!-- End of Specific Appearances list -->
   <aspectMappings>
     <!-- Start of Aspect Mapping -->
     <aspectMapping>
       <advancedAspect>Stop</advancedAspect>
-      <ourAspect>Stop</ourAspect>
-    </aspectMapping>
-    <aspectMapping>
       <advancedAspect>Caution</advancedAspect>
       <ourAspect>Caution</ourAspect>
     </aspectMapping>
     <aspectMapping>
-      <advancedAspect>Approach Diverging</advancedAspect>
-      <ourAspect>Caution</ourAspect>
-    </aspectMapping>
-    <aspectMapping>
-      <advancedAspect>Proceed</advancedAspect>
-      <ourAspect>Caution</ourAspect>
-    </aspectMapping>
-    <aspectMapping>
-      <advancedAspect>Diverging Proceed</advancedAspect>
-      <ourAspect>Caution</ourAspect>
+      <advancedAspect>Stop</advancedAspect>
+      <ourAspect>Stop</ourAspect>
     </aspectMapping>
   </aspectMappings>
-  <!-- End of Aspect Mapping -->
 </appearancetable>

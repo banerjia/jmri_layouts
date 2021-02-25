@@ -22,47 +22,38 @@
   </revhistory>
 
   <aspecttable>Indian Railways 2021</aspecttable>
-  <name>4 Aspect with Y Diverging</name>
-  <description>Three aspect signal when entering a station with a diverging</description>
+  <name>4 Aspect Signal Red/Yellow/Green/Yellow</name>
+  <description>4 Aspect signal typically used for outer distant and intermediate distant</description>
   
   <appearances>
 
     <appearance>
       <aspectname>Proceed</aspectname>
       <show>dark</show>
-      <show>dark</show>
-      <show>dark</show>
       <show>green</show>
     </appearance>
 
     <appearance>
-      <aspectname>Approach Y Diverging Left</aspectname>
-      <show>dark</show>
+      <aspectname>Attention</aspectname>
       <show>yellow</show>
       <show>yellow</show>
-      <show>dark</show>
     </appearance>
 
     <appearance>
-      <aspectname>Approach Y Diverging Right</aspectname>
-      <show>yellow</show>
+      <aspectname>Caution</aspectname>
       <show>dark</show>
       <show>yellow</show>
-      <show>dark</show>
+      <imagelink>../../../resources/icons/smallschematics/aspects/InfraBel-2013/Simple-Y.gif</imagelink>
     </appearance>
 
     <appearance>
       <aspectname>Stop</aspectname>
-      <show>dark</show>
-      <show>dark</show>
       <show>dark</show>
       <show>red</show>
     </appearance>
     
     <appearance>
       <aspectname>Unlit</aspectname>
-      <show>dark</show>
-      <show>dark</show>
       <show>dark</show>
       <show>dark</show>
       <imagelink>../../../resources/icons/smallschematics/searchlights/one-high-dark.gif</imagelink>
@@ -89,26 +80,17 @@
     <aspectMapping>
      <advancedAspect>Stop</advancedAspect>
      <ourAspect>Caution</ourAspect>
-     <ourAspect>Approach Diverging</ourAspect>
+     <ourAspect>Stop</ourAspect>
     </aspectMapping>
     
     <aspectMapping>
      <advancedAspect>Caution</advancedAspect>
-     <ourAspect>Caution</ourAspect>
-     <ourAspect>Approach Diverging</ourAspect>
-    </aspectMapping>
-
-
-    <aspectMapping>
-     <advancedAspect>Approach Diverging</advancedAspect>
-     <ourAspect>Caution</ourAspect>
-     <ourAspect>Approach Diverging</ourAspect>
+     <ourAspect>Attention</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
      <advancedAspect>Proceed</advancedAspect>
      <ourAspect>Proceed</ourAspect>
-     <ourAspect>Approach Diverging</ourAspect>
      <ourAspect>Caution</ourAspect>
     </aspectMapping>
 

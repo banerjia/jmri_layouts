@@ -28,14 +28,13 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
     """
      Script Configuration
     """
-    BASEDIR = "jmri_layouts/N_Scale_Indian_Railways.jmri/resources"
+    BASEDIR = "/Users/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
             
     # Node Addresses
     NODE_ADDR = {
         "SENSORS": 1,
         "TURNOUTS": 2,
-        "PANELS" : 3,
-        "SIGNALS" : 0
+        "PANELS" : 3
     }
 
     # Station Config
@@ -46,7 +45,7 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
         # init() is called exactly once at the beginning to do
         # any necessary configuration.
 
-        filePath = "{}{}/MML_blk_config.csv".format(os.path.abspath(os.getcwd()).replace('JMRI',''),self.BASEDIR)
+        filePath = "{}/MML_blk_config.csv".format(self.BASEDIR)
         with open(filePath, 'rt') as fileBlocks:
             
             fileBlocksReader = csv.reader(fileBlocks, delimiter = ',')

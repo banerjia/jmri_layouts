@@ -28,14 +28,13 @@ class CreateTurnouts(jmri.jmrit.automat.AbstractAutomaton) :
     """
      Script Configuration
     """
-    BASEDIR = "jmri_layouts/N_Scale_Indian_Railways.jmri/resources"
+    BASEDIR = "/Users/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
             
     # Node Addresses
     NODE_ADDR = {
         "SENSORS": 1,
         "TURNOUTS": 2,
-        "PANELS" : 3,
-        "SIGNALS" : 0
+        "PANELS" : 3
     }
 
     # Station Config
@@ -46,7 +45,7 @@ class CreateTurnouts(jmri.jmrit.automat.AbstractAutomaton) :
         # init() is called exactly once at the beginning to do
         # any necessary configuration.
 
-        filePath = "{}{}/MML_sw_config.csv".format(os.path.abspath(os.getcwd()).replace('JMRI',''),self.BASEDIR)
+        filePath = "{}/MML_sw_config.csv".format(self.BASEDIR)
         with open(filePath, 'rt') as fileTurnouts:
             
             fileTurnoutsReader = csv.reader(fileTurnouts, delimiter = ',')
@@ -63,7 +62,7 @@ class CreateTurnouts(jmri.jmrit.automat.AbstractAutomaton) :
                     continue
                 
                 # Gather basic information
-                turnout_userName = turnout_entry[0]
+                turnout_userName = "{} {}".format(self.STATION_CD, turnout_entry[0])
                 turnout_userName_for_related_objects = turnout_userName.replace(self.STATION_CD, '').lstrip()
                 turnout_panel_ind = (turnout_entry[1] == '1')
                 turnout_comments = turnout_entry[2]

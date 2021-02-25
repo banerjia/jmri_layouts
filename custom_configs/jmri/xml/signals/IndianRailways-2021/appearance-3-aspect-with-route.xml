@@ -22,8 +22,8 @@
   </revhistory>
 
   <aspecttable>Indian Railways 2021</aspecttable>
-  <name>4 Aspect Home with Diverging</name>
-  <description>Three aspect signal when entering a station with a diverging</description>
+  <name>3 Aspect Signal with Routing - Red/Green/Yellow</name>
+  <description>3 aspect signal two signal heads, one indicating the speed and the other route</description>
   
   <appearances>
 
@@ -42,7 +42,7 @@
     <appearance>
       <aspectname>Approach Diverging</aspectname>
       <show>yellow</show>
-      <show>dark</show>
+      <show>yellow</show>
     </appearance>
 
     <appearance>
@@ -78,14 +78,9 @@
 
     <aspectMapping>
      <advancedAspect>Stop</advancedAspect>
-     <ourAspect>Approach</ourAspect>
+     <ourAspect>Caution</ourAspect>
      <ourAspect>Approach Diverging</ourAspect>
-    </aspectMapping>
-    
-    <aspectMapping>
-     <advancedAspect>Approach</advancedAspect>
-     <ourAspect>Approach</ourAspect>
-     <ourAspect>Approach Diverging</ourAspect>
+     <ourAspect>Stop</ourAspect>
     </aspectMapping>
 
 
@@ -93,13 +88,31 @@
      <advancedAspect>Approach Diverging</advancedAspect>
      <ourAspect>Approach</ourAspect>
      <ourAspect>Approach Diverging</ourAspect>
+     <ourAspect>Stop</ourAspect>
     </aspectMapping>
 
     <aspectMapping>
-     <advancedAspect>Clear</advancedAspect>
-     <ourAspect>Clear</ourAspect>
+     <advancedAspect>Proceed</advancedAspect>
+     <ourAspect>Proceed</ourAspect>
      <ourAspect>Approach Diverging</ourAspect>
      <ourAspect>Approach</ourAspect>
+     <ourAspect>Stop</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+     <advancedAspect>Approach Y Diverging Right</advancedAspect>
+     <ourAspect>Proceed</ourAspect>
+     <ourAspect>Approach Diverging</ourAspect>
+     <ourAspect>Approach</ourAspect>
+     <ourAspect>Stop</ourAspect>
+    </aspectMapping>
+
+    <aspectMapping>
+     <advancedAspect>Approach Y Diverging Left</advancedAspect>
+     <ourAspect>Proceed</ourAspect>
+     <ourAspect>Approach Diverging</ourAspect>
+     <ourAspect>Approach</ourAspect>
+     <ourAspect>Stop</ourAspect>
     </aspectMapping>
 
   </aspectMappings><!-- End of Aspect Mapping -->

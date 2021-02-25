@@ -12,7 +12,7 @@ class CreateSensors(jmri.jmrit.automat.AbstractAutomaton):
         "SENSORS": 1,
         "TURNOUTS": 2,
         "PANELS" : 3,
-        "SIGNALS" : 0
+        "SIGNALS" : 4
     }
 
     # Station Config

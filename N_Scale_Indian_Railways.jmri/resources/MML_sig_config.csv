@@ -1,0 +1,23 @@
+username,aspect,panel_switch,properties
+SG 1R DST,4-aspect,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:DistantApproach}
+SG 2R HM DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Home;Diverging:Right}
+SG 3R MNL CTN,2-aspect-rg,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML}
+SG 4R MNL CTN,2-aspect-rg,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:LSS}
+SG 5L LSS,2-aspect-rg,,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:LSS}
+SG 6L MNL CTN,2-aspect-rg,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML}
+SG 7L MNL DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Home;Diverging:Left}
+SG 8L DST,4-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:DistantApproach}
+SG 9R HM,3-aspect,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Home}
+SG 22R DST,4-aspect,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:DistantApproach}
+SG 10R HM DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Home;Diverging:Right}
+SG 11R MNL STR,3-aspect,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Starter}
+SG 12R MNL DV,3-home-diverging,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;Diverging:Left}
+SG 13R LSS,2-aspect-rg,,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:LSS}
+SG 14L MNL LSS,2-aspect-rg,,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:LSS}
+SG 15L MNL DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;Diverging:Right}
+SG 16L MNL STR,3-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Starter}
+SG 17L MNL DV,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;Diverging:Left}
+SG 18L HM,3-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Home}
+SG 19L DST,4-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:DistantApproach}
+SG 20R LPL STR,2-aspect-ry,TRUE,{OnTrack:LPL;Direction:Right;StationCode:MML}
+SG 21L LPL STR,2-aspect-ry,TRUE,{OnTrack:LPL;Direction:Left;StationCode:MML}

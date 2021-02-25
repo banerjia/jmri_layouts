@@ -28,19 +28,19 @@
       <name>Stop</name>
       <indication>Stop</indication>
       <speed>Stop</speed>
-      <speed2>Stop</speed>
+      <speed2>Stop</speed2>
     </aspect>
     <aspect>
       <name>Caution</name>
       <indication>Caution</indication>
       <speed>Limited</speed>
-      <speed2>Limited</speed>
+      <speed2>Limited</speed2>
     </aspect>
     <aspect>
       <name>Attention</name>
       <indication>Attention</indication>
       <speed>Limited</speed>
-      <speed2>Normal</speed>
+      <speed2>Normal</speed2>
     </aspect>
     <aspect>
       <name>Proceed</name>
@@ -53,19 +53,19 @@
       <name>Proceed Slow</name>
       <indication>Proceed Slow</indication>
       <speed>Limited</speed>
-      <speed2>Limited</speed>
+      <speed2>Limited</speed2>
     </aspect>
     <aspect>
       <name>Proceed Slow for Shunting</name>
       <indication>Proceed Slow for Shunting</indication>
       <speed>Limited</speed>
-      <speed2>Limited</speed>
+      <speed2>Limited</speed2>
     </aspect>
     <aspect>
       <name>Proceeed for Shunting</name>
       <indication>Proceeed for Shunting</indication>
       <speed>Limited</speed>
-      <speed2>Limited</speed>
+      <speed2>Limited</speed2>
     </aspect>
     <aspect>
       <name>Approach Diverging</name>
@@ -88,64 +88,14 @@
       <speed>Limited</speed>
       <speed2>Limited</speed2>
       <route>Diverging</route>
-    </aspect>
-    <!--
-<aspect>
-      <name>Attention</name>
-      <indication>Watch for next signal when entering home</indication>
-      <speed>Normal</speed>
-      <speed2>Medium</speed2>
-    </aspect>
-    <aspect>
-      <name>Approach</name>
-      <indication>Proceed preparing to stop at next signal</indication>
-      <speed>Medium</speed>
-      <speed2>Medium</speed2>
-    </aspect>
-    <aspect>
-      <name>Stop</name>
-      <indication>Stop</indication>
-      <speed>Stop</speed>
-      <speed2>Stop</speed2>
-    </aspect>
-    <aspect>
-      <name>Approach Diverging</name>
-      <indication>Proceed through diverging route preparing to stop at next signal</indication>
-      <speed>Limited</speed>
-      <speed2>Limited</speed2>
-      <route>Diverging</route>
-    </aspect>
-    <aspect>
-      <name>Approach Y Diverging Right</name>
-      <indication>Proceed through diverging route preparing to stop at next signal</indication>
-      <speed>Limited</speed>
-      <speed2>Limited</speed2>
-      <route>Diverging</route>
-    </aspect>
-
-    <aspect>
-      <name>Approach Y Diverging Left</name>
-      <indication>Proceed through diverging route preparing to stop at next signal</indication>
-      <speed>Limited</speed>
-      <speed2>Limited</speed2>
-      <route>Diverging</route>
-    </aspect>
-    <aspect>
-      <name>Unlit</name>
-      <indication>Unlit</indication>
-      <speed>Normal</speed>
-      <speed2>normal</speed2>
-    </aspect>   
-    -->
-     
+    </aspect>     
   </aspects>
   <appearancefiles>
-    <appearancefile href="appearance-2-general.xml" />
-    <appearancefile href="appearance-2-mainline-starter-diverging.xml" />
-    <appearancefile href="appearance-2-mainline-starter.xml" />
-    <appearancefile href="appearance-3-home-diverging.xml" />
-    <appearancefile href="appearance-3-home.xml" />
-    <appearancefile href="appearance-4-distant-approach.xml" />
-    <appearancefile href="appearance-4-y-diverging.xml" />
+    <appearancefile href="appearance-2-aspect-rg.xml" />
+    <appearancefile href="appearance-2-aspect-ry.xml" />
+    <appearancefile href="appearance-3-aspect.xml" />
+    <appearancefile href="appearance-3-aspect-with-route.xml" />
+    <appearancefile href="appearance-3-aspect-with-y-route.xml" />
+    <appearancefile href="appearance-4-aspect.xml" />
   </appearancefiles>
 </aspecttable>

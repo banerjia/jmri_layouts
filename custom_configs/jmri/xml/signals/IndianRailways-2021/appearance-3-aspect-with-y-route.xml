@@ -22,30 +22,50 @@
   </revhistory>
 
   <aspecttable>Indian Railways 2021</aspecttable>
-  <name>3 Aspect Home</name>
-  <description>Three aspect signal when entering a station</description>
+  <name>4 Aspect with Y Diverging</name>
+  <description>4 aspect signals: Red, Green, Yellow+Yellow Right, Yellow+Yellow Left</description>
   
   <appearances>
 
     <appearance>
       <aspectname>Proceed</aspectname>
+      <show>dark</show>
+      <show>dark</show>
       <show>green</show>
-      <imagelink>../../../resources/icons/smallschematics/aspects/InfraBel-2013/Home-G.gif</imagelink>
     </appearance>
 
     <appearance>
-      <aspectname>Caution</aspectname>
+      <aspectname>Approach</aspectname>
+      <show>dark</show>
+      <show>dark</show>
       <show>yellow</show>
-      <imagelink>../../../resources/icons/smallschematics/aspects/ProRail-1954/prorail-ny4f.gif</imagelink>
+    </appearance>
+
+    <appearance>
+      <aspectname>Approach Y Diverging Left</aspectname>
+      <show>yellow</show>
+      <show>dark</show>
+      <show>yellow</show>
+    </appearance>
+
+    <appearance>
+      <aspectname>Approach Y Diverging Right</aspectname>
+      <show>dark</show>
+      <show>yellow</show>
+      <show>yellow</show>
     </appearance>
 
     <appearance>
       <aspectname>Stop</aspectname>
+      <show>dark</show>
+      <show>dark</show>
       <show>red</show>
     </appearance>
     
     <appearance>
       <aspectname>Unlit</aspectname>
+      <show>dark</show>
+      <show>dark</show>
       <show>dark</show>
       <imagelink>../../../resources/icons/smallschematics/searchlights/one-high-dark.gif</imagelink>
     </appearance>
@@ -65,31 +85,4 @@
       <aspect>Unlit</aspect>
     </dark>
   </specificappearances><!-- End of Specific Appearances list -->
-  
-    <aspectMappings><!-- Start of Aspect Mapping -->
-
-    <aspectMapping>
-     <advancedAspect>Stop</advancedAspect>
-     <ourAspect>Caution</ourAspect>
-    </aspectMapping>
-    
-    <aspectMapping>
-     <advancedAspect>Caution</advancedAspect>
-     <ourAspect>Caution</ourAspect>
-     <ourAspect>Proceed</ourAspect>
-    </aspectMapping>
-
-
-    <aspectMapping>
-     <advancedAspect>Approach Diverging</advancedAspect>
-     <ourAspect>Caution</ourAspect>
-     <ourAspect>Proceed</ourAspect>
-    </aspectMapping>
-
-    <aspectMapping>
-     <advancedAspect>Proceed</advancedAspect>
-     <ourAspect>Caution</ourAspect>
-     <ourAspect>Proceed</ourAspect>
-    </aspectMapping>
-  </aspectMappings><!-- End of Aspect Mapping -->
 </appearancetable>  

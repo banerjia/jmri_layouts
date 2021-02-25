@@ -21,23 +21,22 @@
     </revision>
   </revhistory>
   <aspecttable>Indian Railways 2021</aspecttable>
-  <name>3 Aspect Starter with Diverging</name>
-  <description>One head with two aspects</description>
+  <name>2 Aspect - Red/Green</name>
+  <description>Typically used for intermediate block and advanced starter signals</description>
   <appearances>
     <appearance>
       <aspectname>Proceed</aspectname>
-      <show>dark</show>
       <show>green</show>
     </appearance>
     <appearance>
       <aspectname>Stop</aspectname>
-      <show>dark</show>
       <show>red</show>
     </appearance>
+    
     <appearance>
-      <aspectname>Approach Diverging</aspectname>
-      <show>yellow</show>
+      <aspectname>Unlit</aspectname>
       <show>dark</show>
+      <imagelink>../../../resources/icons/smallschematics/searchlights/one-high-dark.gif</imagelink>
     </appearance>
   </appearances>
   <specificappearances>
@@ -48,6 +47,9 @@
     <held>
       <aspect>Stop</aspect>
     </held>
+    <dark>
+      <aspect>Unlit</aspect>
+    </dark>
   </specificappearances>
   <!-- End of Specific Appearances list -->
   <aspectMappings>
@@ -55,21 +57,33 @@
     <aspectMapping>
       <advancedAspect>Stop</advancedAspect>
       <ourAspect>Stop</ourAspect>
-      <ourAspect>Caution</ourAspect>
     </aspectMapping>
     <aspectMapping>
       <advancedAspect>Caution</advancedAspect>
       <ourAspect>Proceed</ourAspect>
-      <ourAspect>Caution</ourAspect>
+    </aspectMapping>
+    <aspectMapping>
+      <advancedAspect>Attention</advancedAspect>
+      <ourAspect>Proceed</ourAspect>
+    </aspectMapping>
+    <aspectMapping>
+      <advancedAspect>Proceed</advancedAspect>
+      <ourAspect>Proceed</ourAspect>
+    </aspectMapping>
+    <aspectMapping>
+      <advancedAspect>Proceed Slow</advancedAspect>
+      <ourAspect>Proceed</ourAspect>
     </aspectMapping>
     <aspectMapping>
       <advancedAspect>Approach Diverging</advancedAspect>
       <ourAspect>Proceed</ourAspect>
-      <ourAspect>Caution</ourAspect>
-      <ourAspect>Approach Diverging</ourAspect>
     </aspectMapping>
     <aspectMapping>
-      <advancedAspect>Proceed</advancedAspect>
+      <advancedAspect>Approach Y Diverging Right</advancedAspect>
+      <ourAspect>Proceed</ourAspect>
+    </aspectMapping>
+    <aspectMapping>
+      <advancedAspect>Approach Y Diverging Left</advancedAspect>
       <ourAspect>Proceed</ourAspect>
     </aspectMapping>
   </aspectMappings>
