@@ -11,6 +11,9 @@
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Layout Editor - Madan Mahal Station (MML).antialiasingOn</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Layout Editor - Madan Mahal Station (MML).toolBarThin</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:MML Station.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:MML Station.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.beantable.SectionTableAction.AutoSystemName</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Internal">
@@ -137,7 +140,20 @@
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SectionTableAction:Sections">
-            <columns/>
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="191"/>
+                <column hidden="false" name="Column7" order="7" width="70"/>
+                <column hidden="false" name="State" order="2" width="70"/>
+                <column hidden="false" name="First Block" order="5" width="169"/>
+                <column hidden="false" name="Last Block" order="6" width="169"/>
+                <column hidden="false" name="Column4" order="4" width="85"/>
+                <column hidden="false" name="System Name" order="0" width="103"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="4" sortOrder="ASCENDING"/>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
             <columns/>
@@ -147,32 +163,50 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="506.0" locX="0.0" locY="27.0" width="967.0"/>
+        <window xmlns="" class="Edit Track Segment" locX="50.0" locY="30.0"/>
+        <window xmlns="" class="Set Signal Masts at Turnout" locX="70.0" locY="30.0"/>
+        <window xmlns="" class="Add New Transit" height="800.0" locX="290.0" locY="27.0" width="929.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Icon" height="688.0" locX="1091.0" locY="55.0" width="589.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="516.0" locX="0.0" locY="27.0" width="961.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Lights" height="853.0" locX="0.0" locY="27.0" width="1644.0"/>
+        <window xmlns="" class="Add New Section" height="793.0" locX="415.0" locY="53.0" width="782.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="853.0" locX="0.0" locY="27.0" width="1662.0"/>
+        <window xmlns="" class="JMRI System Console" height="632.0" locX="38.0" locY="63.0" width="966.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Layout Editor - Madan Mahal Station (MML)" height="853.0" locX="0.0" locY="27.0" width="1684.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="826.0" locX="0.0" locY="27.0" width="1684.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Blocks" height="647.0" locX="108.0" locY="163.0" width="1140.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="752.0" locX="0.0" locY="27.0" width="1674.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="Local JMRI throttles" height="230.0" locX="37.0" locY="64.0" width="330.0"/>
+        <window xmlns="" class="Script Entry" height="255.0" locX="939.0" locY="91.0" width="636.0"/>
+        <window xmlns="" class="Edit Track Segment:1" locX="50.0" locY="30.0"/>
+        <window xmlns="" class="View Actions" height="385.0" locX="50.0" locY="60.0" width="757.0"/>
         <window xmlns="" class="Add New Light" locX="100.0" locY="30.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame" height="560.0" locX="20.0" locY="40.0" width="944.0"/>
-        <window xmlns="" class="JMRI System Console" height="632.0" locX="38.0" locY="63.0" width="966.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame">
             <properties>
                 <property>
                     <key>dividerLocation</key>
-                    <value class="java.lang.Integer">118</value>
+                    <value class="java.lang.Integer">216</value>
                 </property>
             </properties>
         </window>
         <window xmlns="" class="Script Output" height="255.0" locX="195.0" locY="546.0" width="434.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Layout Editor - Madan Mahal Station (MML)" height="853.0" locX="0.0" locY="27.0" width="1684.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="826.0" locX="0.0" locY="27.0" width="1684.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Blocks" height="444.0" locX="563.0" locY="417.0" width="1072.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="752.0" locX="0.0" locY="27.0" width="1674.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:MML Station" height="853.0" locX="0.0" locY="27.0" width="1684.0">
+            <properties>
+                <property>
+                    <key>zoom</key>
+                    <value class="java.lang.Double">1.0</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="Edit Turnout" locX="50.0" locY="30.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Masts" height="454.0" locX="173.0" locY="179.0" width="1066.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="610.0" locX="100.0" locY="100.0" width="470.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="PanelPro" height="363.0" locX="861.0" locY="59.0" width="479.0"/>
-        <window xmlns="" class="Local JMRI throttles" height="230.0" locX="37.0" locY="64.0" width="330.0"/>
+        <window xmlns="" class="PanelPro" height="393.0" locX="861.0" locY="59.0" width="461.0"/>
         <window xmlns="" class="Set Grid Sizes" height="151.0" locX="70.0" locY="30.0" width="232.0"/>
-        <window xmlns="" class="Script Entry" height="255.0" locX="939.0" locY="91.0" width="636.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="637.0" locX="108.0" locY="163.0" width="1146.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sections" height="735.0" locX="48.0" locY="108.0" width="1438.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="725.0" locX="100.0" locY="39.0" width="1444.0"/>
+        <window xmlns="" class="jmri.jmrix.cmri.serial.assignment.ListFrame" height="696.0" locX="0.0" locY="27.0" width="1429.0"/>
     </windowDetails>
 </auxiliary-configuration>
