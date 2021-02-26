@@ -6,7 +6,7 @@ import json
 
 class CreateSignals(jmri.jmrit.automat.AbstractAutomaton):
     
-    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
+    BASEDIR = "/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/resources"
 
     # Node Addresses
     NODE_ADDR = {
@@ -51,7 +51,7 @@ class CreateSignals(jmri.jmrit.automat.AbstractAutomaton):
 
                 signal_userName = "{} {}".format(self.STATION_CD, signal_entry[0])
                 signal_aspect = signal_entry[1].lower()
-                signal_panel_switch = signal_entry[2]
+                signal_panel_switch = (signal_entry[2].upper() == "TRUE")
                 _prop_string = re.sub('(\w+):([^;}]+)',r'"\1":"\2"',signal_entry[3]).replace(';',',')
                 signal_properties = json.loads(_prop_string)
                 nmh_signal_heads = []

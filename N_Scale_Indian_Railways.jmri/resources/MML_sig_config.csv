@@ -1,5 +1,5 @@
 username,aspect,panel_switch,properties
-SIG 1R,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:HomeWithRoute}
+SIG 1R,3-aspect-with-route,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:HomeWithRoute;Divergin:Right}
 SIG 2R,2-aspect-rg,TRUE,{OnTrack:MNL;Direction:Right;StationCode:MML;SigType:Starter}
 SIG 1L,3-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Home}
 SIG 2L,3-aspect,TRUE,{OnTrack:MNL;Direction:Left;StationCode:MML;SigType:Starter}

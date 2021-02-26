@@ -28,7 +28,7 @@ class CreateTurnouts(jmri.jmrit.automat.AbstractAutomaton) :
     """
      Script Configuration
     """
-    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
+    BASEDIR = "/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/resources"
             
     # Node Addresses
     NODE_ADDR = {
@@ -64,7 +64,7 @@ class CreateTurnouts(jmri.jmrit.automat.AbstractAutomaton) :
                 # Gather basic information
                 turnout_userName = "{} {}".format(self.STATION_CD, turnout_entry[0])
                 turnout_userName_for_related_objects = turnout_userName.replace(self.STATION_CD, '').lstrip()
-                turnout_panel_ind = (turnout_entry[1] == '1')
+                turnout_panel_ind = (turnout_entry[1].upper() == "TRUE")
                 turnout_comments = turnout_entry[2]
                 _prop_string = re.sub('(\w+):([^;}]+)',r'"\1":"\2"',turnout_entry[3]).replace(';',',')
                 turnout_properties = json.loads(_prop_string)

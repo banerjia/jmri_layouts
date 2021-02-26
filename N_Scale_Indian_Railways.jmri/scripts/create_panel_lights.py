@@ -24,16 +24,18 @@ class CreatePanelLights(jmri.jmrit.automat.AbstractAutomaton):
 
             try:
                 station_code = station_block.getProperty('StationCode')
-
             except Exception:
+                print("Station Code Exception")
                 continue
 
             # If STATION CODE does not match with the ones for this iteration then move on.
             if(station_code != self.STATION_CODE):
                 continue
+               
+            panel_indicator = (station_block.getProperty("PanelIndicator").upper() == "TRUE")
 
             # Create Lights only if block is configured to show a panel light
-            if(station_block.getProperty("PanelIndicator") == True):
+            if panel_indicator:
                 try:
                     block_sensor = station_block.getNamedSensor().getBean()
                 except Exception:

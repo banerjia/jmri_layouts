@@ -1,14 +1,14 @@
 username,panel_ind,comments,properties
-BLK 1,TRUE,MML Track 1 first block on left side based on direction of travel,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject;Block}
-BLK 2 OS,TRUE,MML Track 1 Switch 1a,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject;BlockOverSwitch;RelatedStationObject:SW 1a RH}
-BLK 3 PF1,TRUE,MML Track 1 Platform 1,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject;Block;XTRA1:Platform 1}
-BLK 4 OS,TRUE,MML Track 1 Switch 2a ,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject;BlockOverSwitch;RelatedStationObject:SW 2a LH}
-BLK 5,TRUE,MML Track 1 last block on track 1 based on direction of travel ,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject;Block}
-BLK 6,TRUE,MML Track 2 last block on track 2 based on direction of travel,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject;Block}
-BLK 7 OS,TRUE,MML Track 2 Switch 1b,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject;BlockOverSwitch;RelatedStationObject:SW 1b RH}
-BLK 8 OS,TRUE,MML Track 2 Switch 3 ,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject;BlockOverSwitch;RelatedStationObject:SW 3 RH}
-BLK 9 PF2,TRUE,MML Track 2 Platform 2,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject;Block;XTRA1:Platform 2}
-BLK 10 OS,TRUE,MML Track 2 Switch 4 ,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject;BlockOverSwitch;RelatedStationObject:SW 4 LH}
-BLK 11 OS,TRUE,MML Track 2 Switch 2b,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject;BlockOverSwitch;RelatedStationObject:SW 2b LH}
-BLK 12,TRUE,MML Track 2 first block on left side based on direction of travel,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject;Block}
-BLK 13 PF3,TRUE,MML Loop Line 1 Platform 3,{StationCode:MML; OnTrack:LPL;Direction:L=R;SensedObject;Block;XTRA1:Platform 3}
+BLK 1,TRUE,MML Track 1 first block on left side based on direction of travel,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject:Block}
+BLK 2 OS,TRUE,MML Track 1 Switch 1a,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject:BlockOverSwitch;RelatedStationObject:SW 1a RH}
+BLK 3 PF1,TRUE,MML Track 1 Platform 1,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject:Block;XTRA1:Platform 1}
+BLK 4 OS,TRUE,MML Track 1 Switch 2a ,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject:BlockOverSwitch;RelatedStationObject:SW 2a LH}
+BLK 5,TRUE,MML Track 1 last block on track 1 based on direction of travel ,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject:Block}
+BLK 6,TRUE,MML Track 2 last block on track 2 based on direction of travel,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject:Block}
+BLK 7 OS,TRUE,MML Track 2 Switch 1b,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject:BlockOverSwitch;RelatedStationObject:SW 1b RH}
+BLK 8 OS,TRUE,MML Track 2 Switch 3 ,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject:BlockOverSwitch;RelatedStationObject:SW 3 RH}
+BLK 9 PF2,TRUE,MML Track 2 Platform 2,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject:Block;XTRA1:Platform 2}
+BLK 10 OS,TRUE,MML Track 2 Switch 4 ,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject:BlockOverSwitch;RelatedStationObject:SW 4 LH}
+BLK 11 OS,TRUE,MML Track 2 Switch 2b,{StationCode:MML; OnTrack:MNL;Direction:L>R;SensedObject:BlockOverSwitch;RelatedStationObject:SW 2b LH}
+BLK 12,TRUE,MML Track 2 first block on left side based on direction of travel,{StationCode:MML; OnTrack:MNL;Direction:L<R;SensedObject:Block}
+BLK 13 PF3,TRUE,MML Loop Line 1 Platform 3,{StationCode:MML; OnTrack:LPL;Direction:L=R;SensedObject:Block;XTRA1:Platform 3}
