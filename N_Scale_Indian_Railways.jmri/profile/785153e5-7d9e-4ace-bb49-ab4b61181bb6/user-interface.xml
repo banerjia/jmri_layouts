@@ -10,6 +10,7 @@
     <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Layout Editor - Madan Mahal Station (MML).antialiasingOn</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Layout Editor - Madan Mahal Station (MML).toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.toolBarThin</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Internal">
@@ -162,13 +163,15 @@
         </window>
         <window xmlns="" class="Script Output" height="255.0" locX="195.0" locY="546.0" width="434.0"/>
         <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Layout Editor - Madan Mahal Station (MML)" height="853.0" locX="0.0" locY="27.0" width="1684.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="826.0" locX="0.0" locY="27.0" width="1684.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Blocks" height="444.0" locX="563.0" locY="417.0" width="1072.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="752.0" locX="0.0" locY="27.0" width="1674.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Masts" height="454.0" locX="173.0" locY="179.0" width="1066.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="610.0" locX="100.0" locY="100.0" width="470.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="PanelPro" height="353.0" locX="926.0" locY="166.0" width="485.0"/>
+        <window xmlns="" class="PanelPro" height="363.0" locX="861.0" locY="59.0" width="479.0"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="37.0" locY="64.0" width="330.0"/>
+        <window xmlns="" class="Set Grid Sizes" height="151.0" locX="70.0" locY="30.0" width="232.0"/>
         <window xmlns="" class="Script Entry" height="255.0" locX="939.0" locY="91.0" width="636.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="637.0" locX="108.0" locY="163.0" width="1146.0"/>
     </windowDetails>
