@@ -28,7 +28,7 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
     """
      Script Configuration
     """
-    BASEDIR = "/Users/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
+    BASEDIR = "/home/banerjia/jmri_layouts/CMRI_Scripting.jmri/resources"
             
     # Node Addresses
     NODE_ADDR = {
@@ -66,7 +66,7 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
                 # Gather basic information
                 block_userName = "{} {}".format(self.STATION_CD, block_entry[0])
                 block_userName_for_related_objects = block_entry[0]
-                block_panel_ind = (block_entry[1] == '1')
+                block_panel_ind = block_entry[1]
                 block_comments = block_entry[2]
                 _prop_string = re.sub('(\w+):([^;}]+)',r'"\1":"\2"',block_entry[3]).replace(';',',')
                 block_properties = json.loads(_prop_string)

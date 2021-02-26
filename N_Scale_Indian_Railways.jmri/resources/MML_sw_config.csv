@@ -1,7 +1,7 @@
 username,panel_switch,comments,properties
-SW 1A RH,1,MML Track 1 part of crossover between track 1 and 2 on left side of station,{StationCode:MML;OnTrack:MNL;SwitchType:RH-MASTER;RelatedSwitch:MML SW 1B RH;RelatedBlock:MML BLK 3 OS}
-SW 2A LH,1,MML Track 1 part of crossover between track 1 and 2 on ride side of station,{StationCode:MML;OnTrack:MNL;SwitchType:LH-MASTER;RelatedBlock:MML BLK 5 OS;RelatedSwitch:MML SW 2B LH}
-SW 1B RH,0,MML Track 2 part of crossover between track 1 and 2 on the left side of station,{StationCode:MML;OnTrack:MNL;SwitchType:RH-SLAVE;RelatedBlock:MML BLK 10 OS;RelatedSwitch:MML SW 1A RH}
-SW 4 RH,1,MML Track 2 platform 1 and 2 switch on left side of the station,{StationCode:MML;OnTrack:MNL;SwitchType:RH;RelatedBlock:MML BLK 12 OS;RelatedSwitch:MML SW 6 RH}
-SW 5 LH,1,MML Track 2 platform 1 and 2 switch on right side of the station,{StationCode:MML;OnTrack:MNL;SwitchType:LH;RelatedSwitch:MML SW 1 LH;RelatedBlock:MML BLK 14 OS}
-SW 2B LH,0,MML Track 2 part of crossover between track 1 and 2 on ride side of station,{StationCode:MML;OnTrack:MNL;SwitchType:LH-SLAVE;RelatedBlock:MML BLK 16 OS;RelatedSwitch:MML SW 2A RH;RelatedSwitch:MML SW 2 LH}
+SW 1a RH,TRUE,MML Track 1 part of crossover between track 1 and 2 on left side of station,{StationCode:MML;OnTrack:MNL;SwitchType:RH-MASTER;RelatedStationSwitch:SW 1b RH;RelatedStationBlock:BLK 2 OS}
+SW 2a LH,TRUE,MML Track 1 part of crossover between track 1 and 2 on right side of station,{StationCode:MML;OnTrack:MNL;SwitchType:LH-MASTER;RelatedStationBlock:BLK 4 OS;RelatedStationSwitch:SW 2b LH}
+SW 1b RH,FALSE,MML Track 2 part of crossover between track 1 and 2 on the left side of station,{StationCode:MML;OnTrack:MNL;SwitchType:RH-SLAVE;RelatedStationBlock:BLK 10 OS;RelatedStationSwitch:SW 1b RH}
+SW 3 RH,TRUE,MML Track 2 platform 1 and 2 switch on left side of the station,{StationCode:MML;OnTrack:MNL;SwitchType:RH;RelatedStationBlock:BLK 8 OS}
+SW 4 LH,FALSE,MML Track 2 platform 1 and 2 switch on right side of the station,{StationCode:MML;OnTrack:MNL;SwitchType:LH;RelatedStationBlock:BLK 10 OS}
+SW 2b LH,FALSE,MML Track 2 part of crossover between track 1 and 2 on ride side of station,{StationCode:MML;OnTrack:MNL;SwitchType:LH-SLAVE;RelatedStationBlock:BLK 11 OS;RelatedStationSwitch:SW 2a LH}

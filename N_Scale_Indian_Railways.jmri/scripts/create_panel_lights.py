@@ -66,7 +66,8 @@ class CreatePanelLights(jmri.jmrit.automat.AbstractAutomaton):
                 if(station_block.getProperty("SensedObject").upper() == "BLOCKOVERSWITCH"):
                     # Construct the names for the light object
                     
-                    sw_userName = station_block.getProperty("RelatedObject")
+                    sw_userName = station_block.getProperty("RelatedStationObject")
+                    sw_userName = "{} {}".format(self.STATION_CODE, sw_userName)
                     
                     blockos_switch = jmri.InstanceManager.getDefault(jmri.TurnoutManager).getByUserName(sw_userName)
 
