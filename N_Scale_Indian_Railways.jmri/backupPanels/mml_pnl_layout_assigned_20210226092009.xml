@@ -9,6 +9,96 @@
   </jmriversion>
   <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
     <sensor inverted="false">
+      <systemName>CS1001</systemName>
+      <userName>MML SNR IND MML SW 1a RH</userName>
+      <comment>Feedback sensor for  MML SW 1a RH</comment>
+      <properties>
+        <property>
+          <key>Purpose</key>
+          <value class="java.lang.String">SwitchFeedback</value>
+        </property>
+        <property>
+          <key>StationCode</key>
+          <value class="java.lang.String">MML</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1002</systemName>
+      <userName>MML SNR IND MML SW 2a LH</userName>
+      <comment>Feedback sensor for  MML SW 2a LH</comment>
+      <properties>
+        <property>
+          <key>Purpose</key>
+          <value class="java.lang.String">SwitchFeedback</value>
+        </property>
+        <property>
+          <key>StationCode</key>
+          <value class="java.lang.String">MML</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1003</systemName>
+      <userName>MML SNR IND MML SW 1b RH</userName>
+      <comment>Feedback sensor for  MML SW 1b RH</comment>
+      <properties>
+        <property>
+          <key>Purpose</key>
+          <value class="java.lang.String">SwitchFeedback</value>
+        </property>
+        <property>
+          <key>StationCode</key>
+          <value class="java.lang.String">MML</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1004</systemName>
+      <userName>MML SNR IND MML SW 3 RH</userName>
+      <comment>Feedback sensor for  MML SW 3 RH</comment>
+      <properties>
+        <property>
+          <key>Purpose</key>
+          <value class="java.lang.String">SwitchFeedback</value>
+        </property>
+        <property>
+          <key>StationCode</key>
+          <value class="java.lang.String">MML</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1005</systemName>
+      <userName>MML SNR IND MML SW 4 LH</userName>
+      <comment>Feedback sensor for  MML SW 4 LH</comment>
+      <properties>
+        <property>
+          <key>Purpose</key>
+          <value class="java.lang.String">SwitchFeedback</value>
+        </property>
+        <property>
+          <key>StationCode</key>
+          <value class="java.lang.String">MML</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1006</systemName>
+      <userName>MML SNR IND MML SW 2b LH</userName>
+      <comment>Feedback sensor for  MML SW 2b LH</comment>
+      <properties>
+        <property>
+          <key>Purpose</key>
+          <value class="java.lang.String">SwitchFeedback</value>
+        </property>
+        <property>
+          <key>StationCode</key>
+          <value class="java.lang.String">MML</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
       <systemName>CS1007</systemName>
       <userName>MML BCD MML BLK 1</userName>
       <comment>Block occupancy detector for  MML BLK 1</comment>
@@ -204,96 +294,6 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS2001</systemName>
-      <userName>MML SNR IND MML SW 1a RH</userName>
-      <comment>Feedback sensor for  MML SW 1a RH</comment>
-      <properties>
-        <property>
-          <key>Purpose</key>
-          <value class="java.lang.String">SwitchFeedback</value>
-        </property>
-        <property>
-          <key>StationCode</key>
-          <value class="java.lang.String">MML</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS2002</systemName>
-      <userName>MML SNR IND MML SW 2a LH</userName>
-      <comment>Feedback sensor for  MML SW 2a LH</comment>
-      <properties>
-        <property>
-          <key>Purpose</key>
-          <value class="java.lang.String">SwitchFeedback</value>
-        </property>
-        <property>
-          <key>StationCode</key>
-          <value class="java.lang.String">MML</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS2003</systemName>
-      <userName>MML SNR IND MML SW 1b RH</userName>
-      <comment>Feedback sensor for  MML SW 1b RH</comment>
-      <properties>
-        <property>
-          <key>Purpose</key>
-          <value class="java.lang.String">SwitchFeedback</value>
-        </property>
-        <property>
-          <key>StationCode</key>
-          <value class="java.lang.String">MML</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS2004</systemName>
-      <userName>MML SNR IND MML SW 3 RH</userName>
-      <comment>Feedback sensor for  MML SW 3 RH</comment>
-      <properties>
-        <property>
-          <key>Purpose</key>
-          <value class="java.lang.String">SwitchFeedback</value>
-        </property>
-        <property>
-          <key>StationCode</key>
-          <value class="java.lang.String">MML</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS2005</systemName>
-      <userName>MML SNR IND MML SW 4 LH</userName>
-      <comment>Feedback sensor for  MML SW 4 LH</comment>
-      <properties>
-        <property>
-          <key>Purpose</key>
-          <value class="java.lang.String">SwitchFeedback</value>
-        </property>
-        <property>
-          <key>StationCode</key>
-          <value class="java.lang.String">MML</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS2006</systemName>
-      <userName>MML SNR IND MML SW 2b LH</userName>
-      <comment>Feedback sensor for  MML SW 2b LH</comment>
-      <properties>
-        <property>
-          <key>Purpose</key>
-          <value class="java.lang.String">SwitchFeedback</value>
-        </property>
-        <property>
-          <key>StationCode</key>
-          <value class="java.lang.String">MML</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
       <systemName>CS3001</systemName>
       <userName>MML PNL SNR MML SW 1a RH</userName>
       <comment>Panel toggle sensor for  MML SW 1a RH</comment>
@@ -339,12 +339,6 @@
       </properties>
     </sensor>
   </sensors>
-  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
-    <defaultInitialState>unknown</defaultInitialState>
-    <sensor inverted="false">
-      <systemName>ISCLOCKRUNNING</systemName>
-    </sensor>
-  </sensors>
   <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
     <operations automate="false">
       <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
@@ -352,7 +346,7 @@
     </operations>
     <defaultclosedspeed>Normal</defaultclosedspeed>
     <defaultthrownspeed>Restricted</defaultthrownspeed>
-    <turnout feedback="ONESENSOR" sensor1="CS2001" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="CS1001" inverted="false" automate="Off">
       <systemName>CT2001</systemName>
       <userName>MML SW 1a RH</userName>
       <comment>MML Track 1 part of crossover between track 1 and 2 on left side of station</comment>
@@ -387,7 +381,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="CS2002" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="CS1002" inverted="false" automate="Off">
       <systemName>CT2002</systemName>
       <userName>MML SW 2a LH</userName>
       <comment>MML Track 1 part of crossover between track 1 and 2 on right side of station</comment>
@@ -422,7 +416,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="CS2003" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="CS1003" inverted="false" automate="Off">
       <systemName>CT2003</systemName>
       <userName>MML SW 1b RH</userName>
       <comment>MML Track 2 part of crossover between track 1 and 2 on the left side of station</comment>
@@ -453,7 +447,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="CS2004" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="CS1004" inverted="false" automate="Off">
       <systemName>CT2004</systemName>
       <userName>MML SW 3 RH</userName>
       <comment>MML Track 2 platform 1 and 2 switch on left side of the station</comment>
@@ -484,7 +478,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="CS2005" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="CS1005" inverted="false" automate="Off">
       <systemName>CT2005</systemName>
       <userName>MML SW 4 LH</userName>
       <comment>MML Track 2 platform 1 and 2 switch on right side of the station</comment>
@@ -511,7 +505,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="CS2006" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="CS1006" inverted="false" automate="Off">
       <systemName>CT2006</systemName>
       <userName>MML SW 2b LH</userName>
       <comment>MML Track 2 part of crossover between track 1 and 2 on ride side of station</comment>
@@ -1030,116 +1024,100 @@
   <lights class="jmri.jmrix.cmri.serial.configurexml.SerialLightManagerXml">
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3001</systemName>
-      <userName>MML PNL IND BLK MML BLK 1</userName>
+      <userName>MML PNL LGT IND MML BLK 1</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 1" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3002</systemName>
-      <userName>MML PNL IND BLK MML BLK 2 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 2 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 2 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3003</systemName>
-      <userName>MML PNL IND BLKOS MML SW 1a RH</userName>
+      <userName>MML PNL BLK SW IND MML SW 1a RH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1a RH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3004</systemName>
-      <userName>MML PNL IND BLK MML BLK 3 PF1</userName>
+      <userName>MML PNL LGT IND MML BLK 3 PF1</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 3 PF1" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3005</systemName>
-      <userName>MML PNL IND BLK MML BLK 4 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 4 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 4 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3006</systemName>
-      <userName>MML PNL IND BLKOS MML SW 2a LH</userName>
+      <userName>MML PNL BLK SW IND MML SW 2a LH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 2a LH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3007</systemName>
-      <userName>MML PNL IND BLK MML BLK 5</userName>
+      <userName>MML PNL LGT IND MML BLK 5</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 5" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3008</systemName>
-      <userName>MML PNL IND BLK MML BLK 6</userName>
+      <userName>MML PNL LGT IND MML BLK 6</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 6" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3009</systemName>
-      <userName>MML PNL IND BLK MML BLK 7 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 7 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 7 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3010</systemName>
-      <userName>MML PNL IND BLKOS MML SW 1b RH</userName>
+      <userName>MML PNL BLK SW IND MML SW 1b RH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1b RH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3011</systemName>
-      <userName>MML PNL IND BLK MML BLK 8 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 8 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 8 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3012</systemName>
-      <userName>MML PNL IND BLKOS MML SW 3 RH</userName>
+      <userName>MML PNL BLK SW IND MML SW 3 RH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 3 RH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3013</systemName>
-      <userName>MML PNL IND BLK MML BLK 9 PF2</userName>
+      <userName>MML PNL LGT IND MML BLK 9 PF2</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 9 PF2" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3014</systemName>
-      <userName>MML PNL IND BLK MML BLK 10 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 10 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 10 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3015</systemName>
-      <userName>MML PNL IND BLKOS MML SW 4 LH</userName>
+      <userName>MML PNL BLK SW IND MML SW 4 LH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 4 LH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3016</systemName>
-      <userName>MML PNL IND BLK MML BLK 11 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 11 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 11 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3017</systemName>
-      <userName>MML PNL IND BLKOS MML SW 2b LH</userName>
+      <userName>MML PNL BLK SW IND MML SW 2b LH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 2b LH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3018</systemName>
-      <userName>MML PNL IND BLK MML BLK 12</userName>
+      <userName>MML PNL LGT IND MML BLK 12</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 12" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3019</systemName>
-      <userName>MML PNL IND BLK MML BLK 13 PF3</userName>
+      <userName>MML PNL LGT IND MML BLK 13 PF3</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 13 PF3" sensorSense="2" />
     </light>
-    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
-      <systemName>CL3040</systemName>
-      <userName>MML PNL RTE IND T1 PF3</userName>
-      <comment>Panel Indicator for Route: Track 1 to PF3</comment>
-      <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1a RH" sensorSense="2" />
-      <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1b RH" sensorSense="2" />
-      <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 3 RH" sensorSense="2" />
-    </light>
   </lights>
-  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="1:30 AM">
-      <systemName>IMCURRENTTIME</systemName>
-    </memory>
-    <memory value="1.0">
-      <systemName>IMRATEFACTOR</systemName>
-    </memory>
-  </memories>
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
     <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
       <systemName>MH1</systemName>
@@ -1363,6 +1341,9 @@
       </path>
       <path todir="96" fromdir="144" block="IB1:AUTO:007">
         <beansetting setting="4">
+          <turnout systemName="MML SW 1b RH" />
+        </beansetting>
+        <beansetting setting="4">
           <turnout systemName="MML SW 1a RH" />
         </beansetting>
       </path>
@@ -1448,7 +1429,7 @@
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB1:AUTO:005" />
-      <path todir="160" fromdir="80" block="IB1:AUTO:011">
+      <path todir="16" fromdir="32" block="IB1:AUTO:011">
         <beansetting setting="4">
           <turnout systemName="MML SW 2a LH" />
         </beansetting>
@@ -1514,7 +1495,7 @@
       <occupancysensor>CS1012</occupancysensor>
       <path todir="64" fromdir="128" block="IB1:AUTO:007">
         <beansetting setting="2">
-          <turnout systemName="MML SW 1a RH" />
+          <turnout systemName="MML SW 1b RH" />
         </beansetting>
       </path>
     </block>
@@ -1552,12 +1533,12 @@
       <occupancysensor>CS1013</occupancysensor>
       <path todir="144" fromdir="96" block="IB1:AUTO:002">
         <beansetting setting="4">
-          <turnout systemName="MML SW 1a RH" />
+          <turnout systemName="MML SW 1b RH" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB1:AUTO:006">
         <beansetting setting="2">
-          <turnout systemName="MML SW 1a RH" />
+          <turnout systemName="MML SW 1b RH" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB1:AUTO:008" />
@@ -1725,15 +1706,18 @@
       </properties>
       <permissive>no</permissive>
       <occupancysensor>CS1017</occupancysensor>
-      <path todir="80" fromdir="160" block="IB1:AUTO:004">
+      <path todir="32" fromdir="16" block="IB1:AUTO:004">
         <beansetting setting="4">
           <turnout systemName="MML SW 2a LH" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="MML SW 2b LH" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB1:AUTO:010" />
       <path todir="64" fromdir="128" block="IB1:AUTO:012">
         <beansetting setting="2">
-          <turnout systemName="MML SW 2a LH" />
+          <turnout systemName="MML SW 2b LH" />
         </beansetting>
       </path>
     </block>
@@ -1767,7 +1751,7 @@
       <occupancysensor>CS1018</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:011">
         <beansetting setting="2">
-          <turnout systemName="MML SW 2a LH" />
+          <turnout systemName="MML SW 2b LH" />
         </beansetting>
       </path>
     </block>
@@ -1816,226 +1800,128 @@
     </block>
   </blocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
-    <layoutblock systemName="ILB1" occupancysensor="CS1007" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB1" occupancysensor="CS1007" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB1</systemName>
       <userName>MML BLK 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB2" occupancysensor="CS1008" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB2" occupancysensor="CS1008" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB2</systemName>
       <userName>MML BLK 2 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB3" occupancysensor="CS1009" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB3" occupancysensor="CS1009" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB3</systemName>
       <userName>MML BLK 3 PF1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB4" occupancysensor="CS1010" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB4" occupancysensor="CS1010" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB4</systemName>
       <userName>MML BLK 4 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB5" occupancysensor="CS1011" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB5" occupancysensor="CS1011" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB5</systemName>
       <userName>MML BLK 5</userName>
     </layoutblock>
-    <layoutblock systemName="ILB6" occupancysensor="CS1012" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB6" occupancysensor="CS1012" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB6</systemName>
       <userName>MML BLK 6</userName>
     </layoutblock>
-    <layoutblock systemName="ILB7" occupancysensor="CS1013" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB7" occupancysensor="CS1013" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB7</systemName>
       <userName>MML BLK 7 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB8" occupancysensor="CS1014" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB8" occupancysensor="CS1014" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB8</systemName>
       <userName>MML BLK 8 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB9" occupancysensor="CS1015" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB9" occupancysensor="CS1015" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB9</systemName>
       <userName>MML BLK 9 PF2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB10" occupancysensor="CS1016" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB10" occupancysensor="CS1016" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB10</systemName>
       <userName>MML BLK 10 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB11" occupancysensor="CS1017" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB11" occupancysensor="CS1017" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB11</systemName>
       <userName>MML BLK 11 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB12" occupancysensor="CS1018" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB12" occupancysensor="CS1019" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB12</systemName>
-      <userName>MML BLK 12</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB13" occupancysensor="CS1019" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
-      <systemName>ILB13</systemName>
       <userName>MML BLK 13 PF3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB13" occupancysensor="CS1018" occupiedsense="2" trackcolor="#990033" occupiedcolor="orange" extracolor="pink">
+      <systemName>ILB13</systemName>
+      <userName>MML BLK 12</userName>
     </layoutblock>
   </layoutblocks>
   <sections class="jmri.configurexml.SectionManagerXml">
-    <section systemName="IY:AUTO:0011" userName="MML Track 1 Entrance" creationtype="userdefined">
-      <systemName>IY:AUTO:0011</systemName>
-      <userName>MML Track 1 Entrance</userName>
+    <section systemName="IY:AUTO:0018" userName="MML Track 1 Section 1" creationtype="userdefined">
+      <systemName>IY:AUTO:0018</systemName>
+      <userName>MML Track 1 Section 1</userName>
       <blockentry sName="IB1:AUTO:001" order="0" />
       <blockentry sName="IB1:AUTO:002" order="1" />
       <entrypoint fromblock="IB1:AUTO:003" toblock="IB1:AUTO:002" direction="8" fixed="no" fromblockdirection="West" />
       <entrypoint fromblock="IB1:AUTO:007" toblock="IB1:AUTO:002" direction="8" fixed="no" fromblockdirection="Northwest" />
     </section>
-    <section systemName="IY:AUTO:0012" userName="MML Track 1 PF 1" creationtype="userdefined">
-      <systemName>IY:AUTO:0012</systemName>
-      <userName>MML Track 1 PF 1</userName>
+    <section systemName="IY:AUTO:0019" userName="MML Track 1 Section 3" creationtype="userdefined">
+      <systemName>IY:AUTO:0019</systemName>
+      <userName>MML Track 1 Section 3</userName>
+      <blockentry sName="IB1:AUTO:004" order="0" />
+      <blockentry sName="IB1:AUTO:005" order="1" />
+      <entrypoint fromblock="IB1:AUTO:003" toblock="IB1:AUTO:004" direction="4" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB1:AUTO:011" toblock="IB1:AUTO:004" direction="4" fixed="no" fromblockdirection="South" />
+    </section>
+    <section systemName="IY:AUTO:0020" userName="MML Track 2 Section 1" creationtype="userdefined">
+      <systemName>IY:AUTO:0020</systemName>
+      <userName>MML Track 2 Section 1</userName>
+      <blockentry sName="IB1:AUTO:012" order="0" />
+      <blockentry sName="IB1:AUTO:011" order="1" />
+      <entrypoint fromblock="IB1:AUTO:004" toblock="IB1:AUTO:011" direction="8" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB1:AUTO:010" toblock="IB1:AUTO:011" direction="8" fixed="no" fromblockdirection="East" />
+    </section>
+    <section systemName="IY:AUTO:0021" userName="MML Track 2 Section 2" creationtype="userdefined">
+      <systemName>IY:AUTO:0021</systemName>
+      <userName>MML Track 2 Section 2</userName>
+      <blockentry sName="IB1:AUTO:010" order="0" />
+      <blockentry sName="IB1:AUTO:009" order="1" />
+      <entrypoint fromblock="IB1:AUTO:011" toblock="IB1:AUTO:010" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB1:AUTO:013" toblock="IB1:AUTO:010" direction="8" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB1:AUTO:008" toblock="IB1:AUTO:009" direction="8" fixed="no" fromblockdirection="East" />
+    </section>
+    <section systemName="IY:AUTO:0022" userName="MML Track 2 Section 3" creationtype="userdefined">
+      <systemName>IY:AUTO:0022</systemName>
+      <userName>MML Track 2 Section 3</userName>
+      <blockentry sName="IB1:AUTO:013" order="0" />
+      <blockentry sName="IB1:AUTO:008" order="1" />
+      <entrypoint fromblock="IB1:AUTO:010" toblock="IB1:AUTO:013" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB1:AUTO:009" toblock="IB1:AUTO:008" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB1:AUTO:007" toblock="IB1:AUTO:008" direction="8" fixed="no" fromblockdirection="East" />
+    </section>
+    <section systemName="IY:AUTO:0023" userName="MML Track 2 Section 4" creationtype="userdefined">
+      <systemName>IY:AUTO:0023</systemName>
+      <userName>MML Track 2 Section 4</userName>
+      <blockentry sName="IB1:AUTO:007" order="0" />
+      <blockentry sName="IB1:AUTO:006" order="1" />
+      <entrypoint fromblock="IB1:AUTO:002" toblock="IB1:AUTO:007" direction="4" fixed="no" fromblockdirection="Southeast" />
+      <entrypoint fromblock="IB1:AUTO:008" toblock="IB1:AUTO:007" direction="4" fixed="no" fromblockdirection="West" />
+    </section>
+    <section systemName="IY:AUTO:0024" userName="MML Track 1 Section 2" creationtype="userdefined">
+      <systemName>IY:AUTO:0024</systemName>
+      <userName>MML Track 1 Section 2</userName>
       <blockentry sName="IB1:AUTO:003" order="0" />
       <entrypoint fromblock="IB1:AUTO:002" toblock="IB1:AUTO:003" direction="4" fixed="no" fromblockdirection="East" />
       <entrypoint fromblock="IB1:AUTO:004" toblock="IB1:AUTO:003" direction="8" fixed="no" fromblockdirection="West" />
     </section>
-    <section systemName="IY:AUTO:0013" userName="MML Track 1 to PF 3" creationtype="userdefined">
-      <systemName>IY:AUTO:0013</systemName>
-      <userName>MML Track 1 to PF 3</userName>
-      <blockentry sName="IB1:AUTO:007" order="0" />
-      <blockentry sName="IB1:AUTO:008" order="1" />
-      <blockentry sName="IB1:AUTO:013" order="2" />
-      <entrypoint fromblock="IB1:AUTO:006" toblock="IB1:AUTO:007" direction="4" fixed="no" fromblockdirection="East" />
-      <entrypoint fromblock="IB1:AUTO:002" toblock="IB1:AUTO:007" direction="4" fixed="no" fromblockdirection="Southeast" />
-      <entrypoint fromblock="IB1:AUTO:009" toblock="IB1:AUTO:008" direction="8" fixed="no" fromblockdirection="West" />
-      <entrypoint fromblock="IB1:AUTO:010" toblock="IB1:AUTO:013" direction="8" fixed="no" fromblockdirection="West" />
-    </section>
-    <section systemName="IY:AUTO:0014" userName="MML Track 1 Exit" creationtype="userdefined">
-      <systemName>IY:AUTO:0014</systemName>
-      <userName>MML Track 1 Exit</userName>
-      <blockentry sName="IB1:AUTO:004" order="0" />
-      <blockentry sName="IB1:AUTO:005" order="1" />
-      <entrypoint fromblock="IB1:AUTO:003" toblock="IB1:AUTO:004" direction="4" fixed="no" fromblockdirection="East" />
-      <entrypoint fromblock="IB1:AUTO:011" toblock="IB1:AUTO:004" direction="4" fixed="no" fromblockdirection="Northeast" />
-    </section>
-    <section systemName="IY:AUTO:0015" userName="MML Track 2 Exit" creationtype="userdefined">
-      <systemName>IY:AUTO:0015</systemName>
-      <userName>MML Track 2 Exit</userName>
-      <blockentry sName="IB1:AUTO:008" order="0" />
-      <blockentry sName="IB1:AUTO:007" order="1" />
-      <blockentry sName="IB1:AUTO:006" order="2" />
-      <entrypoint fromblock="IB1:AUTO:009" toblock="IB1:AUTO:008" direction="4" fixed="no" fromblockdirection="West" />
-      <entrypoint fromblock="IB1:AUTO:013" toblock="IB1:AUTO:008" direction="4" fixed="no" fromblockdirection="West" />
-      <entrypoint fromblock="IB1:AUTO:002" toblock="IB1:AUTO:007" direction="8" fixed="no" fromblockdirection="Southeast" />
-    </section>
-    <section systemName="IY:AUTO:0016" userName="MML Track 2 Entrance" creationtype="userdefined">
-      <systemName>IY:AUTO:0016</systemName>
-      <userName>MML Track 2 Entrance</userName>
-      <blockentry sName="IB1:AUTO:012" order="0" />
-      <blockentry sName="IB1:AUTO:011" order="1" />
-      <blockentry sName="IB1:AUTO:010" order="2" />
-      <entrypoint fromblock="IB1:AUTO:004" toblock="IB1:AUTO:011" direction="4" fixed="no" fromblockdirection="Southwest" />
-      <entrypoint fromblock="IB1:AUTO:009" toblock="IB1:AUTO:010" direction="8" fixed="no" fromblockdirection="East" />
-      <entrypoint fromblock="IB1:AUTO:013" toblock="IB1:AUTO:010" direction="8" fixed="no" fromblockdirection="East" />
-    </section>
-    <section systemName="IY:AUTO:0017" userName="MML Track 2 to Track 1 Exit" creationtype="userdefined">
-      <systemName>IY:AUTO:0017</systemName>
-      <userName>MML Track 2 to Track 1 Exit</userName>
-      <blockentry sName="IB1:AUTO:010" order="0" />
-      <blockentry sName="IB1:AUTO:011" order="1" />
-      <blockentry sName="IB1:AUTO:004" order="2" />
-      <blockentry sName="IB1:AUTO:005" order="3" />
-      <entrypoint fromblock="IB1:AUTO:009" toblock="IB1:AUTO:010" direction="4" fixed="no" fromblockdirection="East" />
-      <entrypoint fromblock="IB1:AUTO:013" toblock="IB1:AUTO:010" direction="4" fixed="no" fromblockdirection="East" />
-      <entrypoint fromblock="IB1:AUTO:003" toblock="IB1:AUTO:004" direction="4" fixed="no" fromblockdirection="East" />
-      <entrypoint fromblock="IB1:AUTO:012" toblock="IB1:AUTO:011" direction="8" fixed="no" fromblockdirection="West" />
-    </section>
-    <section systemName="IY:AUTO:0018" userName="MML Track 2 PF2" creationtype="userdefined">
-      <systemName>IY:AUTO:0018</systemName>
-      <userName>MML Track 2 PF2</userName>
-      <blockentry sName="IB1:AUTO:009" order="0" />
-      <entrypoint fromblock="IB1:AUTO:010" toblock="IB1:AUTO:009" direction="4" fixed="no" fromblockdirection="West" />
-      <entrypoint fromblock="IB1:AUTO:008" toblock="IB1:AUTO:009" direction="8" fixed="no" fromblockdirection="East" />
-    </section>
-    <section systemName="IY:AUTO:0019" userName="MML Track 2 PF3 L&lt;R" creationtype="userdefined">
-      <systemName>IY:AUTO:0019</systemName>
-      <userName>MML Track 2 PF3 L&lt;R</userName>
-      <blockentry sName="IB1:AUTO:013" order="0" />
-      <entrypoint fromblock="IB1:AUTO:010" toblock="IB1:AUTO:013" direction="4" fixed="no" fromblockdirection="West" />
-      <entrypoint fromblock="IB1:AUTO:008" toblock="IB1:AUTO:013" direction="8" fixed="no" fromblockdirection="East" />
-    </section>
-    <section systemName="IY:AUTO:0020" userName="MML Track 2 PF3 L&gt;R" creationtype="userdefined">
-      <systemName>IY:AUTO:0020</systemName>
-      <userName>MML Track 2 PF3 L&gt;R</userName>
-      <blockentry sName="IB1:AUTO:013" order="0" />
-      <entrypoint fromblock="IB1:AUTO:008" toblock="IB1:AUTO:013" direction="4" fixed="no" fromblockdirection="East" />
-      <entrypoint fromblock="IB1:AUTO:010" toblock="IB1:AUTO:013" direction="8" fixed="no" fromblockdirection="West" />
-    </section>
   </sections>
-  <transits class="jmri.configurexml.TransitManagerXml">
-    <transit systemName="IZ:AUTO:0001" userName="MML Track 1 Stop at Station">
-      <systemName>IZ:AUTO:0001</systemName>
-      <userName>MML Track 1 Stop at Station</userName>
-      <transitsection sectionname="IY:AUTO:0011" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0012" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0013" sequence="2" direction="4" alternate="yes" safe="no" stopallocatingsensor="" />
-    </transit>
-    <transit systemName="IZ:AUTO:0002" userName="MML Track 1 Skip Station">
-      <systemName>IZ:AUTO:0002</systemName>
-      <userName>MML Track 1 Skip Station</userName>
-      <transitsection sectionname="IY:AUTO:0011" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0012" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0013" sequence="2" direction="4" alternate="yes" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0014" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0017" sequence="3" direction="4" alternate="yes" safe="no" stopallocatingsensor="" />
-    </transit>
-    <transit systemName="IZ:AUTO:0003" userName="MML Track 2 Skip Station">
-      <systemName>IZ:AUTO:0003</systemName>
-      <userName>MML Track 2 Skip Station</userName>
-      <transitsection sectionname="IY:AUTO:0016" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0018" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0019" sequence="2" direction="4" alternate="yes" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0015" sequence="3" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-    </transit>
-    <transit systemName="IZ:AUTO:0004" userName="MML Track 2 PF3 Stop">
-      <systemName>IZ:AUTO:0004</systemName>
-      <userName>MML Track 2 PF3 Stop</userName>
-      <comment>For use to let express overtake on Track 2 mainline</comment>
-      <transitsection sectionname="IY:AUTO:0016" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0019" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-    </transit>
-    <transit systemName="IZ:AUTO:0005" userName="MML Track 2 Stop at Station">
-      <systemName>IZ:AUTO:0005</systemName>
-      <userName>MML Track 2 Stop at Station</userName>
-      <transitsection sectionname="IY:AUTO:0016" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0019" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0018" sequence="2" direction="4" alternate="yes" safe="no" stopallocatingsensor="" />
-    </transit>
-    <transit systemName="IZ:AUTO:0006" userName="MML PF3 Exit on Track 1">
-      <systemName>IZ:AUTO:0006</systemName>
-      <userName>MML PF3 Exit on Track 1</userName>
-      <transitsection sectionname="IY:AUTO:0020" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0017" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-    </transit>
-    <transit systemName="IZ:AUTO:0008" userName="MML PF1 to Exit">
-      <systemName>IZ:AUTO:0008</systemName>
-      <userName>MML PF1 to Exit</userName>
-      <transitsection sectionname="IY:AUTO:0012" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-      <transitsection sectionname="IY:AUTO:0014" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
-    </transit>
-  </transits>
-  <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
-    <route userName="MML Track 1 to PF3">
-      <systemName>IO:AUTO:0001</systemName>
-      <userName>MML Track 1 to PF3</userName>
-      <routeOutputTurnout systemName="MML SW 1a RH" state="THROWN" />
-      <routeOutputTurnout systemName="MML SW 1b RH" state="THROWN" />
-      <routeOutputTurnout systemName="MML SW 3 RH" state="THROWN" />
-      <routeOutputSensor systemName="MML BCD MML BLK 2 OS" state="INACTIVE" />
-      <routeOutputSensor systemName="MML BCD MML BLK 7 OS" state="INACTIVE" />
-      <routeOutputSensor systemName="MML BCD MML BLK 8 OS" state="INACTIVE" />
-      <routeOutputSensor systemName="MML SNR IND MML SW 1a RH" state="ACTIVE" />
-      <routeOutputSensor systemName="MML SNR IND MML SW 1b RH" state="ACTIVE" />
-      <routeOutputSensor systemName="MML SNR IND MML SW 3 RH" state="ACTIVE" />
-    </route>
-  </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sat Feb 27 00:55:56 EST 2021" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="MML Station" x="0" y="25" windowheight="804" windowwidth="1440" panelheight="560" panelwidth="1560" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="blue" defaultoccupiedtrackcolor="orange" defaultalternativetrackcolor="pink" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="MML Station" x="0" y="25" windowheight="804" windowwidth="1440" panelheight="560" panelwidth="1663" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="#990033" defaultoccupiedtrackcolor="orange" defaultalternativetrackcolor="pink" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="204" greenBackground="255" blueBackground="204" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="MML Station" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>2</mainBallastWidth>
       <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
       <mainBlockLineWidth>4</mainBlockLineWidth>
-      <mainRailColor>#404040</mainRailColor>
+      <mainRailColor>#C0C0C0</mainRailColor>
       <mainRailCount>1</mainRailCount>
       <mainRailGap>0</mainRailGap>
       <mainRailWidth>4</mainRailWidth>
@@ -2056,19 +1942,23 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <layoutturnout ident="TO6" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="920.0" ycen="300.0" xa="980.0" ya="300.0" xb="860.0" yb="300.0" xc="860.0" yc="360.0" xd="980.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MML SW 4 LH" blockname="MML BLK 10 OS" connectaname="T7" connectbname="T6" connectcname="T11" />
-    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="540.0" ycen="300.0" xa="480.0" ya="300.0" xb="600.0" yb="300.0" xc="600.0" yc="360.0" xd="480.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MML SW 3 RH" blockname="MML BLK 8 OS" connectaname="T5" connectbname="T6" connectcname="T11" />
-    <layoutturnout ident="TO1" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="340.0" ycen="260.0" xa="260.0" ya="220.0" xb="367.15383837113524" yb="220.99750379960463" xc="420.0" yc="300.0" xd="312.84616162886476" yd="299.00249620039534" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="MML SW 1a RH" secondturnoutname="MML SW 1b RH" blockname="MML BLK 2 OS" blockcname="MML BLK 7 OS" blockdname="MML BLK 7 OS" connectaname="T1" connectbname="T2" connectcname="T5" connectdname="T4" />
-    <layoutturnout ident="TO3" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1160.0" ycen="260.0" xa="1140.0" ya="220.0" xb="1220.0" yb="220.0" xc="1180.0" yc="300.0" xd="1100.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="MML SW 2a LH" secondturnoutname="MML SW 2b LH" blockname="MML BLK 4 OS" blockcname="MML BLK 11 OS" blockdname="MML BLK 11 OS" connectaname="T2" connectbname="T3" connectcname="T8" connectdname="T7" />
+    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="300.0" ycen="220.0" xa="260.0" ya="220.0" xb="340.0" yb="220.0" xc="320.0" yc="240.0" xd="260.0" yd="220.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MML SW 1a RH" secondturnoutname="MML SW 1b RH" blockname="MML BLK 2 OS" connectaname="T1" connectbname="T2" connectcname="T9" />
+    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1180.0" ycen="220.0" xa="1200.0" ya="220.0" xb="1160.0" yb="220.0" xc="1140.0" yc="260.0" xd="1200.0" yd="220.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MML SW 2a LH" secondturnoutname="MML SW 2b LH" blockname="MML BLK 4 OS" connectaname="T3" connectbname="T2" connectcname="T10" />
+    <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="380.0" ycen="300.0" xa="500.0" ya="300.0" xb="260.0" yb="300.0" xc="360.0" yc="280.0" xd="500.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MML SW 1b RH" secondturnoutname="MML SW 1a RH" blockname="MML BLK 7 OS" connectaname="T5" connectbname="T4" connectcname="T9" />
+    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1100.0" ycen="300.0" xa="1000.0" ya="300.0" xb="1200.0" yb="300.0" xc="1140.0" yc="260.0" xd="1000.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MML SW 2b LH" secondturnoutname="MML SW 2a LH" blockname="MML BLK 11 OS" connectaname="T7" connectbname="T8" connectcname="T10" />
+    <layoutturnout ident="TO6" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="920.0" ycen="300.0" xa="940.0" ya="300.0" xb="900.0" yb="300.0" xc="860.0" yc="360.0" xd="940.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MML SW 4 LH" blockname="MML BLK 10 OS" connectaname="T7" connectbname="T6" connectcname="T11" />
+    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="540.0" ycen="300.0" xa="520.0" ya="300.0" xb="560.0" yb="300.0" xc="600.0" yc="360.0" xd="520.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MML SW 3 RH" blockname="MML BLK 8 OS" connectaname="T5" connectbname="T6" connectcname="T11" />
     <tracksegment ident="T1" blockname="MML BLK 1" connect1name="EC1" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T2" blockname="MML BLK 3 PF1" connect1name="TO1" type1="TURNOUT_B" connect2name="TO3" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T4" blockname="MML BLK 6" connect1name="EC2" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" blockname="MML BLK 3 PF1" connect1name="TO1" type1="TURNOUT_B" connect2name="TO3" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" blockname="MML BLK 5" connect1name="TO3" type1="TURNOUT_A" connect2name="EC3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" blockname="MML BLK 6" connect1name="EC2" type1="POS_POINT" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" blockname="MML BLK 7 OS" connect1name="TO4" type1="TURNOUT_A" connect2name="TO7" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T6" blockname="MML BLK 9 PF2" connect1name="TO7" type1="TURNOUT_B" connect2name="TO6" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T7" blockname="MML BLK 10 OS" connect1name="TO6" type1="TURNOUT_A" connect2name="TO3" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T8" blockname="MML BLK 12" connect1name="TO3" type1="TURNOUT_C" connect2name="EC4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T11" blockname="MML BLK 13 PF3" connect1name="TO7" type1="TURNOUT_C" connect2name="TO6" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T3" blockname="MML BLK 5" connect1name="TO3" type1="TURNOUT_B" connect2name="EC3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T5" blockname="MML BLK 7 OS" connect1name="TO1" type1="TURNOUT_C" connect2name="TO7" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T7" blockname="MML BLK 11 OS" connect1name="TO6" type1="TURNOUT_A" connect2name="TO5" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T8" blockname="MML BLK 12" connect1name="TO5" type1="TURNOUT_B" connect2name="EC4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T9" blockname="MML BLK 2 OS" connect1name="TO1" type1="TURNOUT_C" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T10" blockname="MML BLK 11 OS" connect1name="TO3" type1="TURNOUT_C" connect2name="TO5" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T11" blockname="MML BLK 13 PF3" connect1name="TO7" type1="TURNOUT_C" connect2name="TO6" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EC1" type="EDGE_CONNECTOR" x="100.0" y="220.0" connect1name="T1" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="101.0" y="298.0" connect1name="T4" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC3" type="EDGE_CONNECTOR" x="1360.0" y="220.0" connect1name="T3" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -2077,31 +1967,65 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Feb 26 23:37:35 EST 2021</date>
+      <date>Fri Feb 26 20:37:13 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Feb 26 23:37:43 EST 2021</date>
-      <filename>/Users/banerjia/Library/Preferences/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_no_assignments.xml</filename>
+      <date>Fri Feb 26 20:37:16 EST 2021</date>
+      <filename>/Users/banerjia/Library/Preferences/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_assigned.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Feb 26 13:09:07 EST 2021</date>
+          <date>Fri Feb 26 13:50:01 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
+          <type>Load OK</type>
+          <date>Fri Feb 26 13:50:06 EST 2021</date>
+          <filename>/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_assigned.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Fri Feb 26 13:29:16 EST 2021</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Fri Feb 26 13:29:28 EST 2021</date>
+              <filename>/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Fri Feb 26 13:09:07 EST 2021</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Fri Feb 26 13:25:50 EST 2021</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Fri Feb 26 13:42:05 EST 2021</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
           <type>Store</type>
-          <date>Fri Feb 26 13:26:09 EST 2021</date>
+          <date>Fri Feb 26 15:13:32 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Feb 27 01:30:25 EST 2021</date>
+      <date>Fri Feb 26 20:40:08 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Feb 27 01:30:25 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Fri Feb 26 20:40:08 EST 2021-->
 </layout-config>

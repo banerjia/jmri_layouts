@@ -1030,110 +1030,109 @@
   <lights class="jmri.jmrix.cmri.serial.configurexml.SerialLightManagerXml">
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3001</systemName>
-      <userName>MML PNL IND BLK MML BLK 1</userName>
+      <userName>MML PNL LGT IND MML BLK 1</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 1" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3002</systemName>
-      <userName>MML PNL IND BLK MML BLK 2 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 2 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 2 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3003</systemName>
-      <userName>MML PNL IND BLKOS MML SW 1a RH</userName>
+      <userName>MML PNL BLK SW IND MML SW 1a RH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1a RH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3004</systemName>
-      <userName>MML PNL IND BLK MML BLK 3 PF1</userName>
+      <userName>MML PNL LGT IND MML BLK 3 PF1</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 3 PF1" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3005</systemName>
-      <userName>MML PNL IND BLK MML BLK 4 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 4 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 4 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3006</systemName>
-      <userName>MML PNL IND BLKOS MML SW 2a LH</userName>
+      <userName>MML PNL BLK SW IND MML SW 2a LH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 2a LH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3007</systemName>
-      <userName>MML PNL IND BLK MML BLK 5</userName>
+      <userName>MML PNL LGT IND MML BLK 5</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 5" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3008</systemName>
-      <userName>MML PNL IND BLK MML BLK 6</userName>
+      <userName>MML PNL LGT IND MML BLK 6</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 6" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3009</systemName>
-      <userName>MML PNL IND BLK MML BLK 7 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 7 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 7 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3010</systemName>
-      <userName>MML PNL IND BLKOS MML SW 1b RH</userName>
+      <userName>MML PNL BLK SW IND MML SW 1b RH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1b RH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3011</systemName>
-      <userName>MML PNL IND BLK MML BLK 8 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 8 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 8 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3012</systemName>
-      <userName>MML PNL IND BLKOS MML SW 3 RH</userName>
+      <userName>MML PNL BLK SW IND MML SW 3 RH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 3 RH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3013</systemName>
-      <userName>MML PNL IND BLK MML BLK 9 PF2</userName>
+      <userName>MML PNL LGT IND MML BLK 9 PF2</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 9 PF2" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3014</systemName>
-      <userName>MML PNL IND BLK MML BLK 10 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 10 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 10 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3015</systemName>
-      <userName>MML PNL IND BLKOS MML SW 4 LH</userName>
+      <userName>MML PNL BLK SW IND MML SW 4 LH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 4 LH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3016</systemName>
-      <userName>MML PNL IND BLK MML BLK 11 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 11 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 11 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3017</systemName>
-      <userName>MML PNL IND BLKOS MML SW 2b LH</userName>
+      <userName>MML PNL BLK SW IND MML SW 2b LH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 2b LH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3018</systemName>
-      <userName>MML PNL IND BLK MML BLK 12</userName>
+      <userName>MML PNL LGT IND MML BLK 12</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 12" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3019</systemName>
-      <userName>MML PNL IND BLK MML BLK 13 PF3</userName>
+      <userName>MML PNL LGT IND MML BLK 13 PF3</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 13 PF3" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3040</systemName>
-      <userName>MML PNL RTE IND T1 PF3</userName>
-      <comment>Panel Indicator for Route: Track 1 to PF3</comment>
-      <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1a RH" sensorSense="2" />
-      <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1b RH" sensorSense="2" />
-      <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 3 RH" sensorSense="2" />
+      <userName>MML PNL LGHT IND RTE T1 PF3</userName>
+      <lightcontrol controlType="3" controlTurnout="MML SW 1a RH" turnoutState="4" />
+      <lightcontrol controlType="3" controlTurnout="MML SW 1b RH" turnoutState="4" />
+      <lightcontrol controlType="3" controlTurnout="MML SW 3 RH" turnoutState="4" />
     </light>
   </lights>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="1:30 AM">
+    <memory value="1:03 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -2099,9 +2098,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Feb 27 01:30:25 EST 2021</date>
+      <date>Sat Feb 27 01:03:45 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Feb 27 01:30:25 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Feb 27 01:03:45 EST 2021-->
 </layout-config>

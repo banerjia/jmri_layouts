@@ -37,7 +37,7 @@ class CreateSensors(jmri.jmrit.automat.AbstractAutomaton):
                 continue
 
             # Create Feedback Sensor
-            sensor_systemName = "CS{:d}{:03d}".format(self.NODE_ADDR["SENSORS"], sensors_count)
+            sensor_systemName = "CS{:d}{:03d}".format(self.NODE_ADDR["TURNOUTS"], sensors_count)
             sensor_userName = "{} SNR IND {}".format(self.STATION_CD, switch_userName)
             
             obj_sensor = sensors.provideSensor(sensor_systemName)
@@ -67,7 +67,6 @@ class CreateSensors(jmri.jmrit.automat.AbstractAutomaton):
                 sensors.register(obj_sensor)   
 
                 switch.setProperty("PanelSwitchSystemName", sensor_systemName)            
-
 
 
         # Create sensors for block detection

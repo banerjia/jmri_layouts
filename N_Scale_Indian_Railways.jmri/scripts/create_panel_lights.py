@@ -45,7 +45,7 @@ class CreatePanelLights(jmri.jmrit.automat.AbstractAutomaton):
                 
                 # Construct the names for the light object
                 block_panel_light_systemName = "CL{}{:03d}".format(self.NODE_ADDR["PANELS"], panel_lights_count)
-                block_panel_light_userName = "{} PNL LGT IND {}".format(self.STATION_CODE, station_block.getUserName())
+                block_panel_light_userName = "{} PNL IND BLK {}".format(self.STATION_CODE, station_block.getUserName())
 
                 # Build Light Control
                 block_light_control = jmri.implementation.LightControl()
@@ -76,7 +76,7 @@ class CreatePanelLights(jmri.jmrit.automat.AbstractAutomaton):
                     blockos_feedback_sensor = blockos_switch.getFirstNamedSensor().getBean()
 
                     blockos_panel_light_systemName = "CL{}{:03d}".format(self.NODE_ADDR["PANELS"], panel_lights_count)
-                    blockos_panel_light_userName = "{} PNL BLK SW IND {}".format(self.STATION_CODE, blockos_switch.getUserName())
+                    blockos_panel_light_userName = "{} PNL IND BLKOS {}".format(self.STATION_CODE, blockos_switch.getUserName())
 
 
                     # Build Light Control

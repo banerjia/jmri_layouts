@@ -28,7 +28,7 @@ class CreateBlocks(jmri.jmrit.automat.AbstractAutomaton) :
     """
      Script Configuration
     """
-    BASEDIR = "/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/resources"
+    BASEDIR = "/Users/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/resources"
             
     # Node Addresses
     NODE_ADDR = {

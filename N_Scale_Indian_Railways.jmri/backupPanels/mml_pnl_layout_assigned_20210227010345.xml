@@ -339,12 +339,6 @@
       </properties>
     </sensor>
   </sensors>
-  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
-    <defaultInitialState>unknown</defaultInitialState>
-    <sensor inverted="false">
-      <systemName>ISCLOCKRUNNING</systemName>
-    </sensor>
-  </sensors>
   <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
     <operations automate="false">
       <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
@@ -1030,116 +1024,100 @@
   <lights class="jmri.jmrix.cmri.serial.configurexml.SerialLightManagerXml">
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3001</systemName>
-      <userName>MML PNL IND BLK MML BLK 1</userName>
+      <userName>MML PNL LGT IND MML BLK 1</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 1" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3002</systemName>
-      <userName>MML PNL IND BLK MML BLK 2 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 2 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 2 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3003</systemName>
-      <userName>MML PNL IND BLKOS MML SW 1a RH</userName>
+      <userName>MML PNL BLK SW IND MML SW 1a RH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1a RH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3004</systemName>
-      <userName>MML PNL IND BLK MML BLK 3 PF1</userName>
+      <userName>MML PNL LGT IND MML BLK 3 PF1</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 3 PF1" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3005</systemName>
-      <userName>MML PNL IND BLK MML BLK 4 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 4 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 4 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3006</systemName>
-      <userName>MML PNL IND BLKOS MML SW 2a LH</userName>
+      <userName>MML PNL BLK SW IND MML SW 2a LH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 2a LH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3007</systemName>
-      <userName>MML PNL IND BLK MML BLK 5</userName>
+      <userName>MML PNL LGT IND MML BLK 5</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 5" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3008</systemName>
-      <userName>MML PNL IND BLK MML BLK 6</userName>
+      <userName>MML PNL LGT IND MML BLK 6</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 6" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3009</systemName>
-      <userName>MML PNL IND BLK MML BLK 7 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 7 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 7 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3010</systemName>
-      <userName>MML PNL IND BLKOS MML SW 1b RH</userName>
+      <userName>MML PNL BLK SW IND MML SW 1b RH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1b RH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3011</systemName>
-      <userName>MML PNL IND BLK MML BLK 8 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 8 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 8 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3012</systemName>
-      <userName>MML PNL IND BLKOS MML SW 3 RH</userName>
+      <userName>MML PNL BLK SW IND MML SW 3 RH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 3 RH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3013</systemName>
-      <userName>MML PNL IND BLK MML BLK 9 PF2</userName>
+      <userName>MML PNL LGT IND MML BLK 9 PF2</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 9 PF2" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3014</systemName>
-      <userName>MML PNL IND BLK MML BLK 10 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 10 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 10 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3015</systemName>
-      <userName>MML PNL IND BLKOS MML SW 4 LH</userName>
+      <userName>MML PNL BLK SW IND MML SW 4 LH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 4 LH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3016</systemName>
-      <userName>MML PNL IND BLK MML BLK 11 OS</userName>
+      <userName>MML PNL LGT IND MML BLK 11 OS</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 11 OS" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3017</systemName>
-      <userName>MML PNL IND BLKOS MML SW 2b LH</userName>
+      <userName>MML PNL BLK SW IND MML SW 2b LH</userName>
       <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 2b LH" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3018</systemName>
-      <userName>MML PNL IND BLK MML BLK 12</userName>
+      <userName>MML PNL LGT IND MML BLK 12</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 12" sensorSense="2" />
     </light>
     <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
       <systemName>CL3019</systemName>
-      <userName>MML PNL IND BLK MML BLK 13 PF3</userName>
+      <userName>MML PNL LGT IND MML BLK 13 PF3</userName>
       <lightcontrol controlType="1" controlSensor="MML BCD MML BLK 13 PF3" sensorSense="2" />
     </light>
-    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
-      <systemName>CL3040</systemName>
-      <userName>MML PNL RTE IND T1 PF3</userName>
-      <comment>Panel Indicator for Route: Track 1 to PF3</comment>
-      <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1a RH" sensorSense="2" />
-      <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 1b RH" sensorSense="2" />
-      <lightcontrol controlType="1" controlSensor="MML SNR IND MML SW 3 RH" sensorSense="2" />
-    </light>
   </lights>
-  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="1:30 AM">
-      <systemName>IMCURRENTTIME</systemName>
-    </memory>
-    <memory value="1.0">
-      <systemName>IMRATEFACTOR</systemName>
-    </memory>
-  </memories>
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
     <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
       <systemName>MH1</systemName>
@@ -2010,25 +1988,9 @@
       <transitsection sectionname="IY:AUTO:0014" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
   </transits>
-  <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
-    <route userName="MML Track 1 to PF3">
-      <systemName>IO:AUTO:0001</systemName>
-      <userName>MML Track 1 to PF3</userName>
-      <routeOutputTurnout systemName="MML SW 1a RH" state="THROWN" />
-      <routeOutputTurnout systemName="MML SW 1b RH" state="THROWN" />
-      <routeOutputTurnout systemName="MML SW 3 RH" state="THROWN" />
-      <routeOutputSensor systemName="MML BCD MML BLK 2 OS" state="INACTIVE" />
-      <routeOutputSensor systemName="MML BCD MML BLK 7 OS" state="INACTIVE" />
-      <routeOutputSensor systemName="MML BCD MML BLK 8 OS" state="INACTIVE" />
-      <routeOutputSensor systemName="MML SNR IND MML SW 1a RH" state="ACTIVE" />
-      <routeOutputSensor systemName="MML SNR IND MML SW 1b RH" state="ACTIVE" />
-      <routeOutputSensor systemName="MML SNR IND MML SW 3 RH" state="ACTIVE" />
-    </route>
-  </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sat Feb 27 00:55:56 EST 2021" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
   <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="MML Station" x="0" y="25" windowheight="804" windowwidth="1440" panelheight="560" panelwidth="1560" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="blue" defaultoccupiedtrackcolor="orange" defaultalternativetrackcolor="pink" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="MML Station" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
@@ -2099,9 +2061,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Feb 27 01:30:25 EST 2021</date>
+      <date>Sat Feb 27 00:46:33 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Feb 27 01:30:25 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Feb 27 00:46:33 EST 2021-->
 </layout-config>
