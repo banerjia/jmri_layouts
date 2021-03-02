@@ -1133,7 +1133,7 @@
     </light>
   </lights>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="1:30 AM">
+    <memory value="10:55 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1962,6 +1962,7 @@
     <transit systemName="IZ:AUTO:0001" userName="MML Track 1 Stop at Station">
       <systemName>IZ:AUTO:0001</systemName>
       <userName>MML Track 1 Stop at Station</userName>
+      <comment>Normal halt at station on PF1/PF3</comment>
       <transitsection sectionname="IY:AUTO:0011" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
       <transitsection sectionname="IY:AUTO:0012" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
       <transitsection sectionname="IY:AUTO:0013" sequence="2" direction="4" alternate="yes" safe="no" stopallocatingsensor="" />
@@ -1986,7 +1987,7 @@
     <transit systemName="IZ:AUTO:0004" userName="MML Track 2 PF3 Stop">
       <systemName>IZ:AUTO:0004</systemName>
       <userName>MML Track 2 PF3 Stop</userName>
-      <comment>For use to let express overtake on Track 2 mainline</comment>
+      <comment>Primarily used to let express trains on Track 2 overtake other trains</comment>
       <transitsection sectionname="IY:AUTO:0016" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
       <transitsection sectionname="IY:AUTO:0019" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
@@ -1997,17 +1998,25 @@
       <transitsection sectionname="IY:AUTO:0019" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
       <transitsection sectionname="IY:AUTO:0018" sequence="2" direction="4" alternate="yes" safe="no" stopallocatingsensor="" />
     </transit>
-    <transit systemName="IZ:AUTO:0006" userName="MML PF3 Exit on Track 1">
+    <transit systemName="IZ:AUTO:0006" userName="MML Track 1 Exit from PF3">
       <systemName>IZ:AUTO:0006</systemName>
-      <userName>MML PF3 Exit on Track 1</userName>
+      <userName>MML Track 1 Exit from PF3</userName>
       <transitsection sectionname="IY:AUTO:0020" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
       <transitsection sectionname="IY:AUTO:0017" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
-    <transit systemName="IZ:AUTO:0008" userName="MML PF1 to Exit">
+    <transit systemName="IZ:AUTO:0008" userName="MML Track 1 Exit from PF1">
       <systemName>IZ:AUTO:0008</systemName>
-      <userName>MML PF1 to Exit</userName>
+      <userName>MML Track 1 Exit from PF1</userName>
+      <comment>Exit on Track 1 from PF1</comment>
       <transitsection sectionname="IY:AUTO:0012" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
       <transitsection sectionname="IY:AUTO:0014" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+    </transit>
+    <transit systemName="IZ:AUTO:0009" userName="MML Track 1 Stop at PF3">
+      <systemName>IZ:AUTO:0009</systemName>
+      <userName>MML Track 1 Stop at PF3</userName>
+      <comment>Primarily used to let express trains on Track 1 overtake other trains</comment>
+      <transitsection sectionname="IY:AUTO:0011" sequence="1" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
+      <transitsection sectionname="IY:AUTO:0013" sequence="2" direction="4" alternate="no" safe="no" stopallocatingsensor="" />
     </transit>
   </transits>
   <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
@@ -2029,7 +2038,7 @@
     <logicDelay>500</logicDelay>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sat Feb 27 00:55:56 EST 2021" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="MML Station" x="0" y="25" windowheight="804" windowwidth="1440" panelheight="560" panelwidth="1560" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="blue" defaultoccupiedtrackcolor="orange" defaultalternativetrackcolor="pink" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="MML Station" x="0" y="27" windowheight="804" windowwidth="1440" panelheight="560" panelwidth="1560" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="blue" defaultoccupiedtrackcolor="orange" defaultalternativetrackcolor="pink" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="MML Station" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>2</mainBallastWidth>
@@ -2058,7 +2067,7 @@
     </layoutTrackDrawingOptions>
     <layoutturnout ident="TO6" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="920.0" ycen="300.0" xa="980.0" ya="300.0" xb="860.0" yb="300.0" xc="860.0" yc="360.0" xd="980.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MML SW 4 LH" blockname="MML BLK 10 OS" connectaname="T7" connectbname="T6" connectcname="T11" />
     <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="540.0" ycen="300.0" xa="480.0" ya="300.0" xb="600.0" yb="300.0" xc="600.0" yc="360.0" xd="480.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MML SW 3 RH" blockname="MML BLK 8 OS" connectaname="T5" connectbname="T6" connectcname="T11" />
-    <layoutturnout ident="TO1" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="340.0" ycen="260.0" xa="260.0" ya="220.0" xb="367.15383837113524" yb="220.99750379960463" xc="420.0" yc="300.0" xd="312.84616162886476" yd="299.00249620039534" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="MML SW 1a RH" secondturnoutname="MML SW 1b RH" blockname="MML BLK 2 OS" blockcname="MML BLK 7 OS" blockdname="MML BLK 7 OS" connectaname="T1" connectbname="T2" connectcname="T5" connectdname="T4" />
+    <layoutturnout ident="TO1" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="340.0" ycen="260.0" xa="260.0" ya="220.0" xb="367.15383537797175" yb="220.99749752383985" xc="420.0" yc="300.0" xd="312.84616462202825" yd="299.00250247616015" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="MML SW 1a RH" secondturnoutname="MML SW 1b RH" blockname="MML BLK 2 OS" blockcname="MML BLK 7 OS" blockdname="MML BLK 7 OS" connectaname="T1" connectbname="T2" connectcname="T5" connectdname="T4" />
     <layoutturnout ident="TO3" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1160.0" ycen="260.0" xa="1140.0" ya="220.0" xb="1220.0" yb="220.0" xc="1180.0" yc="300.0" xd="1100.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="MML SW 2a LH" secondturnoutname="MML SW 2b LH" blockname="MML BLK 4 OS" blockcname="MML BLK 11 OS" blockdname="MML BLK 11 OS" connectaname="T2" connectbname="T3" connectcname="T8" connectdname="T7" />
     <tracksegment ident="T1" blockname="MML BLK 1" connect1name="EC1" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" blockname="MML BLK 3 PF1" connect1name="TO1" type1="TURNOUT_B" connect2name="TO3" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -2077,31 +2086,48 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Feb 26 23:37:35 EST 2021</date>
+      <date>Tue Mar 02 10:30:34 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Feb 26 23:37:43 EST 2021</date>
-      <filename>/Users/banerjia/Library/Preferences/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_no_assignments.xml</filename>
+      <date>Tue Mar 02 10:30:59 EST 2021</date>
+      <filename>/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_assigned.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Feb 26 13:09:07 EST 2021</date>
+          <date>Fri Feb 26 23:37:35 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
+          <type>Load OK</type>
+          <date>Fri Feb 26 23:37:43 EST 2021</date>
+          <filename>/Users/banerjia/Library/Preferences/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_no_assignments.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Fri Feb 26 13:09:07 EST 2021</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Fri Feb 26 13:26:09 EST 2021</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
           <type>Store</type>
-          <date>Fri Feb 26 13:26:09 EST 2021</date>
+          <date>Sat Feb 27 01:30:25 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Feb 27 01:30:25 EST 2021</date>
+      <date>Tue Mar 02 10:55:33 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Feb 27 01:30:25 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Mar 02 10:55:33 EST 2021-->
 </layout-config>
