@@ -26,7 +26,8 @@
   <appearances>
     <appearance>
       <aspectname>Proceed</aspectname>
-      <show>yellow</show>
+      <!-- GREEN is used here instead of YELLO because the two output signal head produces a RED+GREEN combo to represent YELLOW-->
+      <show>green</show>
     </appearance>
     <appearance>
       <aspectname>Stop</aspectname>
