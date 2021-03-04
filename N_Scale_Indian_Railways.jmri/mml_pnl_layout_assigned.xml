@@ -9,7 +9,7 @@
   </jmriversion>
   <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
     <sensor inverted="false">
-      <systemName>CS1007</systemName>
+      <systemName>CS1001</systemName>
       <userName>MML BCD MML BLK 1</userName>
       <comment>Block occupancy detector for  MML BLK 1</comment>
       <properties>
@@ -24,7 +24,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1008</systemName>
+      <systemName>CS1002</systemName>
       <userName>MML BCD MML BLK 2 OS</userName>
       <comment>Block occupancy detector for  MML BLK 2 OS</comment>
       <properties>
@@ -39,7 +39,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1009</systemName>
+      <systemName>CS1003</systemName>
       <userName>MML BCD MML BLK 3 PF1</userName>
       <comment>Block occupancy detector for  MML BLK 3 PF1</comment>
       <properties>
@@ -54,7 +54,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1010</systemName>
+      <systemName>CS1004</systemName>
       <userName>MML BCD MML BLK 4 OS</userName>
       <comment>Block occupancy detector for  MML BLK 4 OS</comment>
       <properties>
@@ -69,7 +69,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1011</systemName>
+      <systemName>CS1005</systemName>
       <userName>MML BCD MML BLK 5</userName>
       <comment>Block occupancy detector for  MML BLK 5</comment>
       <properties>
@@ -84,7 +84,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1012</systemName>
+      <systemName>CS1006</systemName>
       <userName>MML BCD MML BLK 6</userName>
       <comment>Block occupancy detector for  MML BLK 6</comment>
       <properties>
@@ -99,7 +99,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1013</systemName>
+      <systemName>CS1007</systemName>
       <userName>MML BCD MML BLK 7 OS</userName>
       <comment>Block occupancy detector for  MML BLK 7 OS</comment>
       <properties>
@@ -114,7 +114,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1014</systemName>
+      <systemName>CS1008</systemName>
       <userName>MML BCD MML BLK 8 OS</userName>
       <comment>Block occupancy detector for  MML BLK 8 OS</comment>
       <properties>
@@ -129,7 +129,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1015</systemName>
+      <systemName>CS1009</systemName>
       <userName>MML BCD MML BLK 9 PF2</userName>
       <comment>Block occupancy detector for  MML BLK 9 PF2</comment>
       <properties>
@@ -144,7 +144,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1016</systemName>
+      <systemName>CS1010</systemName>
       <userName>MML BCD MML BLK 10 OS</userName>
       <comment>Block occupancy detector for  MML BLK 10 OS</comment>
       <properties>
@@ -159,7 +159,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1017</systemName>
+      <systemName>CS1011</systemName>
       <userName>MML BCD MML BLK 11 OS</userName>
       <comment>Block occupancy detector for  MML BLK 11 OS</comment>
       <properties>
@@ -174,7 +174,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1018</systemName>
+      <systemName>CS1012</systemName>
       <userName>MML BCD MML BLK 12</userName>
       <comment>Block occupancy detector for  MML BLK 12</comment>
       <properties>
@@ -189,7 +189,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>CS1019</systemName>
+      <systemName>CS1013</systemName>
       <userName>MML BCD MML BLK 13 PF3</userName>
       <comment>Block occupancy detector for  MML BLK 13 PF3</comment>
       <properties>
@@ -338,6 +338,11 @@
         </property>
       </properties>
     </sensor>
+    <sensor inverted="false">
+      <systemName>CS3004</systemName>
+      <userName>MML PNL SNSR MML SW4 LH</userName>
+      <comment>Panel toggle sensor for  MML SW 4 LH</comment>
+    </sensor>
   </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
     <defaultInitialState>unknown</defaultInitialState>
@@ -348,6 +353,7 @@
   <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
     <operations automate="false">
       <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
       <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
     </operations>
     <defaultclosedspeed>Normal</defaultclosedspeed>
@@ -1133,7 +1139,7 @@
     </light>
   </lights>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="10:55 AM">
+    <memory value="4:40 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1320,7 +1326,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1007</occupancysensor>
+      <occupancysensor>CS1001</occupancysensor>
       <path todir="64" fromdir="128" block="IB1:AUTO:002" />
     </block>
     <block systemName="IB1:AUTO:002" length="0.0" curve="0">
@@ -1354,7 +1360,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1008</occupancysensor>
+      <occupancysensor>CS1002</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:001" />
       <path todir="64" fromdir="128" block="IB1:AUTO:003">
         <beansetting setting="2">
@@ -1398,7 +1404,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1009</occupancysensor>
+      <occupancysensor>CS1003</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:002">
         <beansetting setting="2">
           <turnout systemName="MML SW 1a RH" />
@@ -1441,7 +1447,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1010</occupancysensor>
+      <occupancysensor>CS1004</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:003">
         <beansetting setting="2">
           <turnout systemName="MML SW 2a LH" />
@@ -1481,7 +1487,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1011</occupancysensor>
+      <occupancysensor>CS1005</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:004" />
     </block>
     <block systemName="IB1:AUTO:006" length="0.0" curve="0">
@@ -1511,7 +1517,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1012</occupancysensor>
+      <occupancysensor>CS1006</occupancysensor>
       <path todir="64" fromdir="128" block="IB1:AUTO:007">
         <beansetting setting="2">
           <turnout systemName="MML SW 1a RH" />
@@ -1549,7 +1555,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1013</occupancysensor>
+      <occupancysensor>CS1007</occupancysensor>
       <path todir="144" fromdir="96" block="IB1:AUTO:002">
         <beansetting setting="4">
           <turnout systemName="MML SW 1a RH" />
@@ -1593,7 +1599,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1014</occupancysensor>
+      <occupancysensor>CS1008</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:007" />
       <path todir="64" fromdir="128" block="IB1:AUTO:009">
         <beansetting setting="2">
@@ -1637,7 +1643,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1015</occupancysensor>
+      <occupancysensor>CS1009</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:008">
         <beansetting setting="2">
           <turnout systemName="MML SW 3 RH" />
@@ -1680,7 +1686,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1016</occupancysensor>
+      <occupancysensor>CS1010</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:009">
         <beansetting setting="2">
           <turnout systemName="MML SW 4 LH" />
@@ -1724,7 +1730,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1017</occupancysensor>
+      <occupancysensor>CS1011</occupancysensor>
       <path todir="80" fromdir="160" block="IB1:AUTO:004">
         <beansetting setting="4">
           <turnout systemName="MML SW 2a LH" />
@@ -1764,7 +1770,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1018</occupancysensor>
+      <occupancysensor>CS1012</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:011">
         <beansetting setting="2">
           <turnout systemName="MML SW 2a LH" />
@@ -1802,7 +1808,7 @@
         </property>
       </properties>
       <permissive>no</permissive>
-      <occupancysensor>CS1019</occupancysensor>
+      <occupancysensor>CS1013</occupancysensor>
       <path todir="128" fromdir="64" block="IB1:AUTO:008">
         <beansetting setting="4">
           <turnout systemName="MML SW 3 RH" />
@@ -1816,55 +1822,55 @@
     </block>
   </blocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
-    <layoutblock systemName="ILB1" occupancysensor="CS1007" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB1" occupancysensor="CS1001" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB1</systemName>
       <userName>MML BLK 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB2" occupancysensor="CS1008" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB2" occupancysensor="CS1002" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB2</systemName>
       <userName>MML BLK 2 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB3" occupancysensor="CS1009" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB3" occupancysensor="CS1003" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB3</systemName>
       <userName>MML BLK 3 PF1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB4" occupancysensor="CS1010" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB4" occupancysensor="CS1004" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB4</systemName>
       <userName>MML BLK 4 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB5" occupancysensor="CS1011" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB5" occupancysensor="CS1005" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB5</systemName>
       <userName>MML BLK 5</userName>
     </layoutblock>
-    <layoutblock systemName="ILB6" occupancysensor="CS1012" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB6" occupancysensor="CS1006" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB6</systemName>
       <userName>MML BLK 6</userName>
     </layoutblock>
-    <layoutblock systemName="ILB7" occupancysensor="CS1013" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB7" occupancysensor="CS1007" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB7</systemName>
       <userName>MML BLK 7 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB8" occupancysensor="CS1014" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB8" occupancysensor="CS1008" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB8</systemName>
       <userName>MML BLK 8 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB9" occupancysensor="CS1015" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB9" occupancysensor="CS1009" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB9</systemName>
       <userName>MML BLK 9 PF2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB10" occupancysensor="CS1016" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB10" occupancysensor="CS1010" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB10</systemName>
       <userName>MML BLK 10 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB11" occupancysensor="CS1017" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB11" occupancysensor="CS1011" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB11</systemName>
       <userName>MML BLK 11 OS</userName>
     </layoutblock>
-    <layoutblock systemName="ILB12" occupancysensor="CS1018" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB12" occupancysensor="CS1012" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB12</systemName>
       <userName>MML BLK 12</userName>
     </layoutblock>
-    <layoutblock systemName="ILB13" occupancysensor="CS1019" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
+    <layoutblock systemName="ILB13" occupancysensor="CS1013" occupiedsense="2" trackcolor="blue" occupiedcolor="orange" extracolor="pink">
       <systemName>ILB13</systemName>
       <userName>MML BLK 13 PF3</userName>
     </layoutblock>
@@ -2026,19 +2032,13 @@
       <routeOutputTurnout systemName="MML SW 1a RH" state="THROWN" />
       <routeOutputTurnout systemName="MML SW 1b RH" state="THROWN" />
       <routeOutputTurnout systemName="MML SW 3 RH" state="THROWN" />
-      <routeOutputSensor systemName="MML BCD MML BLK 2 OS" state="INACTIVE" />
-      <routeOutputSensor systemName="MML BCD MML BLK 7 OS" state="INACTIVE" />
-      <routeOutputSensor systemName="MML BCD MML BLK 8 OS" state="INACTIVE" />
-      <routeOutputSensor systemName="MML SNR IND MML SW 1a RH" state="ACTIVE" />
-      <routeOutputSensor systemName="MML SNR IND MML SW 1b RH" state="ACTIVE" />
-      <routeOutputSensor systemName="MML SNR IND MML SW 3 RH" state="ACTIVE" />
     </route>
   </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sat Feb 27 00:55:56 EST 2021" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="MML Station" x="0" y="27" windowheight="804" windowwidth="1440" panelheight="560" panelwidth="1560" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="blue" defaultoccupiedtrackcolor="orange" defaultalternativetrackcolor="pink" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="MML Station" x="0" y="27" windowheight="850" windowwidth="1680" panelheight="560" panelwidth="1560" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="blue" defaultoccupiedtrackcolor="orange" defaultalternativetrackcolor="pink" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="MML Station" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>2</mainBallastWidth>
@@ -2086,48 +2086,65 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Mar 02 10:30:34 EST 2021</date>
+      <date>Thu Mar 04 16:27:03 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Mar 02 10:30:59 EST 2021</date>
+      <date>Thu Mar 04 16:27:09 EST 2021</date>
       <filename>/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_assigned.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Feb 26 23:37:35 EST 2021</date>
+          <date>Tue Mar 02 10:30:34 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Feb 26 23:37:43 EST 2021</date>
-          <filename>/Users/banerjia/Library/Preferences/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_no_assignments.xml</filename>
+          <date>Tue Mar 02 10:30:59 EST 2021</date>
+          <filename>/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_assigned.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Feb 26 13:09:07 EST 2021</date>
+              <date>Fri Feb 26 23:37:35 EST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
+              <type>Load OK</type>
+              <date>Fri Feb 26 23:37:43 EST 2021</date>
+              <filename>/Users/banerjia/Library/Preferences/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_no_assignments.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Fri Feb 26 13:09:07 EST 2021</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Fri Feb 26 13:26:09 EST 2021</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
               <type>Store</type>
-              <date>Fri Feb 26 13:26:09 EST 2021</date>
+              <date>Sat Feb 27 01:30:25 EST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sat Feb 27 01:30:25 EST 2021</date>
+          <date>Tue Mar 02 10:55:33 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Mar 02 10:55:33 EST 2021</date>
+      <date>Thu Mar 04 16:40:44 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Mar 02 10:55:33 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Mar 04 16:40:44 EST 2021-->
 </layout-config>

@@ -21,6 +21,7 @@ class CreateSensors(jmri.jmrit.automat.AbstractAutomaton):
     def init(self):
 
         sensors_count = 1
+        turnouts_sensors_counts = 1
         panel_sensors_count = 1
 
         #  Sensors for Turnouts
@@ -37,7 +38,7 @@ class CreateSensors(jmri.jmrit.automat.AbstractAutomaton):
                 continue
 
             # Create Feedback Sensor
-            sensor_systemName = "CS{:d}{:03d}".format(self.NODE_ADDR["TURNOUTS"], sensors_count)
+            sensor_systemName = "CS{:d}{:03d}".format(self.NODE_ADDR["TURNOUTS"], turnouts_sensors_counts)
             sensor_userName = "{} SNR IND {}".format(self.STATION_CD, switch_userName)
             
             obj_sensor = sensors.provideSensor(sensor_systemName)
@@ -45,7 +46,7 @@ class CreateSensors(jmri.jmrit.automat.AbstractAutomaton):
             obj_sensor.setComment("Feedback sensor for  {}".format(switch_userName))
             obj_sensor.setProperty("Purpose", "SwitchFeedback")
             obj_sensor.setProperty("StationCode", self.STATION_CD)
-            sensors_count = sensors_count + 1
+            turnouts_sensors_counts = turnouts_sensors_counts + 1
             sensors.register(obj_sensor)
             nmh_sensor = jmri.NamedBeanHandle(sensor_systemName, obj_sensor)
 
