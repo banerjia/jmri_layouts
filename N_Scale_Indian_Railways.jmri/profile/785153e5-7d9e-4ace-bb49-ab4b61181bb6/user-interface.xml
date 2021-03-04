@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
-        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager">
             <reminderPrompts>
                 <reminder>reminder</reminder>
@@ -15,21 +11,11 @@
                 <option item="deleteInUse" value="0"/>
             </multipleChoice>
         </preferences>
-        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
     </classPreferences>
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
         <comboBox xmlns="" lastSelected="python" name="jmri.jmrit.jython.InputWindow.language"/>
         <comboBox xmlns="" lastSelected="9,600 bps" name="jmri.jmrix.cmri.serial.serialdriver.SerialDriverAdapter.baud"/>
-        <comboBox xmlns="" lastSelected="Serial" name="C/MRI"/>
+        <comboBox xmlns="" lastSelected="C/MRI Simulator" name="C/MRI"/>
     </comboBoxLastValue>
     <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Layout Editor - Madan Mahal Station (MML).antialiasingOn</setting>
@@ -379,7 +365,7 @@
         <window xmlns="" class="Add New Signal Head" locX="28.0" locY="26.0"/>
         <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Layout Editor - Madan Mahal Station (MML)" height="853.0" locX="0.0" locY="27.0" width="1684.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Blocks" height="725.0" locX="0.0" locY="39.0" width="1440.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="740.0" locX="0.0" locY="26.0" width="1440.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="740.0" locX="0.0" locY="39.0" width="1440.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.serialmon.SerialMonFrame" height="342.0" locX="0.0" locY="25.0" width="1440.0"/>
         <window xmlns="" class="jmri.jmrit.picker.PickFrame" height="408.0" locX="760.0" locY="142.0" width="370.0"/>
         <window xmlns="" class="Add New Light Controller" locX="120.0" locY="25.0"/>
@@ -390,7 +376,7 @@
         <window xmlns="" class="Dispatcher Options" locX="28.0" locY="26.0"/>
         <window xmlns="" class="Edit Signal Head" locX="28.0" locY="26.0"/>
         <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame" locX="28.0" locY="26.0"/>
-        <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="604.0" locX="200.0" locY="200.0" width="470.0"/>
+        <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="550.0" locX="100.0" locY="100.0" width="950.0"/>
         <window xmlns="" class="jmri.jmrit.dispatcher.DispatcherFrame" height="577.0" locX="651.0" locY="190.0" width="772.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.AbstractTableAction$1" height="511.0" locX="145.0" locY="202.0" width="749.0"/>
         <window xmlns="" class="Set Grid Sizes" height="151.0" locX="70.0" locY="30.0" width="232.0"/>
