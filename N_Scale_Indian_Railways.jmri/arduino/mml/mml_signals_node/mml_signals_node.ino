@@ -36,20 +36,60 @@ void setup() {
 void loop() {
   // Part of the CMRI process
   cmri.process();
-
-  uint8_t num_of_bytes = 3;
+  
   byte data_recd[3];
 
+  // Gather all the data from CMRI transmission
   data_recd[0] = cmri.get_byte(0);
   data_recd[1] = cmri.get_byte(1);
   data_recd[2] = cmri.get_byte(2);
 
+/***************************************************************
+ * 
+ *  CMRI Address  Get_Byte  Arduino Pin   Port Register
+ *  ************************************************************
+ *  3001          0          2           D
+ *  3002          0          3           
+ *  3003          0          4
+ *  3004          0          5
+ *  3005          0          6
+ *  3006          0          7           D
+ *                           ********************************** 
+ *  3007          0          8           B
+ *  3008          0          9
+ *  ****************
+ *  3009          1          10
+ *  3010          1          11
+ *  3011          1          12
+ *  3012          1          13
+ *                           **********************************  
+ *  3013          1          A0
+ *  3014          1          A1
+ *  3015          1          A2
+ *  3016          1          A3
+ *  ****************
+ *  3017          2          A4
+ *  3018          2          A5 
+ * 
+ ***************************************************************/
+
+
   // Set the pins from D2 - D7
+  // Data received is shifted 2 bits to the left so that the 
+  // first bit coincides with PIN 2; Refer to OUTPUT BIT to PIN Map
   PORTD = data_recd[0] << 2;
 
   // Set pins D8 - D13
-  // PORTB >> 6 << 6 : clear the right 6 bits of PORTB; PORTB only hosts 6 pins as opposed to 8
-  // data_recd[1] << 2 >> 2: clears the left 2 bits of data_recd[1]
+  // data_recd[0] >> 6 shifts the left two bits for the first byte to 
+  //                    to the very right
+  // data_recd[1] << 4 shifts the right 4 bits of the second byte all
+  //                    the way to the left and the >> 2 then shifts
+  //                    them back to the right by 2 so that the two leftmost
+  //                    bits coming out from the resulting operation are set 
+  //                    to 0. PORTB doesn't have an assignment for the left
+  //                    1 bits (PB7). This operation leaves the the right 2 bits 
+  //                    to 0 so that the left 2 bits of data_recd[1] can be
+  //                    inserted in there using a bitwise OR operation. 
   PORTB = (data_recd[0] >> 6) | ((data_recd[1] << 4) >>  2);
 
   // Bits to set for A0-A5 spans the last two bits of byte[1] and first 2 bits of byte[2]
