@@ -1,15 +1,10 @@
 #include <CMRI.h>
 #include <Auto485.h>
+#include "/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/arduino/node_def.h"
 
-#define NODE_ADDR 4
-#define NODE_BITS_IN 24
-#define NODE_BITS_OUT 48
-#define CMRI_BAUD_RATE 9600
-#define ARDUINO_AUTO485_PIN 2
-
-//Auto485 cmri_bus(ARDUINO_AUTO485_PIN);
-// CMRI cmri(NODE_ADDR, NODE_BITS_IN, NODE_BITS_OUT, cmri_bus);
-CMRI cmri(NODE_ADDR, NODE_BITS_IN, NODE_BITS_OUT);
+//Auto485 cmri_bus(MML_SIGNALS_ARDUINO_AUTO485_PIN);
+// CMRI cmri(MML_SIGNALS_NODE_ADDR, MML_SIGNALS_NODE_BITS_IN, MML_SIGNALS_NODE_BITS_OUT, cmri_bus);
+CMRI cmri(MML_SIGNALS_NODE_ADDR, MML_SIGNALS_NODE_BITS_IN, MML_SIGNALS_NODE_BITS_OUT);
 
 void setup() {
   // Cofigure port registers for input/output setup
