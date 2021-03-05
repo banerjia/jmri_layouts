@@ -6,21 +6,13 @@
                 <reminder>reminder</reminder>
             </reminderPrompts>
         </preferences>
-        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction">
-            <multipleChoice>
-                <option item="deleteInUse" value="2"/>
-            </multipleChoice>
-        </preferences>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableDataModel">
             <multipleChoice>
                 <option item="deleteInUse" value="0"/>
             </multipleChoice>
         </preferences>
-        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction">
-            <multipleChoice>
-                <option item="deleteInUse" value="2"/>
-            </multipleChoice>
-        </preferences>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
     </classPreferences>
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
         <comboBox xmlns="" lastSelected="C/MRI" name="jmri.jmrit.beantable.SensorTableAction.SystemSelected"/>
@@ -282,8 +274,8 @@
                 <column hidden="false" name="System Name" order="0" width="59"/>
             </columns>
             <sortOrder>
-                <sortKey column="4" sortOrder="ASCENDING"/>
                 <sortKey column="0" sortOrder="ASCENDING"/>
+                <sortKey column="4" sortOrder="ASCENDING"/>
                 <sortKey column="1" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
@@ -307,7 +299,7 @@
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="Set Signal Masts at Turnout" locX="70.0" locY="25.0"/>
         <window xmlns="" class="Add New Transit" height="516.0" locX="407.0" locY="294.0" width="923.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Lights" height="853.0" locX="0.0" locY="27.0" width="1644.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Lights" height="750.0" locX="6.0" locY="54.0" width="1434.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.routetable.RouteEditFrame:Edit Route" locX="100.0" locY="25.0"/>
         <window xmlns="" class="Add New Section" height="751.0" locX="619.0" locY="25.0" width="782.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame" height="600.0" locX="28.0" locY="53.0" width="676.0"/>
@@ -337,7 +329,7 @@
         <window xmlns="" class="jmri.jmrit.operations.setup.OperationsSetupFrame:OperationsPro Settings" height="615.0" locX="0.0" locY="25.0" width="903.0"/>
         <window xmlns="" class="Script Output" height="255.0" locX="195.0" locY="546.0" width="434.0"/>
         <window xmlns="" class="Edit Signal Group - Signal Head" locX="100.0" locY="30.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:MML Station" height="853.0" locX="0.0" locY="27.0" width="1684.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:MML Station" height="804.0" locX="0.0" locY="25.0" width="1440.0">
             <properties>
                 <property>
                     <key>zoom</key>

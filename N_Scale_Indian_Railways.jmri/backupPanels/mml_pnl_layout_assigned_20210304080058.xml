@@ -343,42 +343,6 @@
       <userName>MML PNL SNSR MML SW4 LH</userName>
       <comment>Panel toggle sensor for  MML SW 4 LH</comment>
     </sensor>
-    <sensor inverted="false">
-      <systemName>CS3005</systemName>
-      <userName>MML PNL SNR SIG 2R R</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS3006</systemName>
-      <userName>MML PNL SNR SIG 2R G</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS3007</systemName>
-      <userName>MML PNL SNR SIG 2L R</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS3008</systemName>
-      <userName>MML PNL SNR SIG 2L Y</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS3009</systemName>
-      <userName>MML PNL SNR SIG 2L G</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS3010</systemName>
-      <userName>MML PNL SNR SIG 4L R</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS3011</systemName>
-      <userName>MML PNL SNR SIG 4L Y</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS3012</systemName>
-      <userName>MML PNL SNR SIG 3R R</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS3013</systemName>
-      <userName>MML PNL SNR SIG 3R Y</userName>
-    </sensor>
   </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
     <defaultInitialState>unknown</defaultInitialState>
@@ -1175,7 +1139,7 @@
     </light>
   </lights>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="8:00 PM">
+    <memory value="4:40 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -2074,7 +2038,7 @@
     <logicDelay>500</logicDelay>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sat Feb 27 00:55:56 EST 2021" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="MML Station" x="0" y="25" windowheight="804" windowwidth="1440" panelheight="560" panelwidth="1560" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="blue" defaultoccupiedtrackcolor="orange" defaultalternativetrackcolor="pink" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="MML Station" x="0" y="27" windowheight="850" windowwidth="1680" panelheight="560" panelwidth="1560" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="blue" defaultoccupiedtrackcolor="orange" defaultalternativetrackcolor="pink" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="20" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="MML Station" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>2</mainBallastWidth>
@@ -2122,82 +2086,65 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Mar 04 19:47:48 EST 2021</date>
+      <date>Thu Mar 04 16:27:03 EST 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Mar 04 19:47:50 EST 2021</date>
-      <filename>/Users/banerjia/Library/Preferences/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_assigned.xml</filename>
+      <date>Thu Mar 04 16:27:09 EST 2021</date>
+      <filename>/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_assigned.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Thu Mar 04 16:27:03 EST 2021</date>
+          <date>Tue Mar 02 10:30:34 EST 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Thu Mar 04 16:27:09 EST 2021</date>
+          <date>Tue Mar 02 10:30:59 EST 2021</date>
           <filename>/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_assigned.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Tue Mar 02 10:30:34 EST 2021</date>
+              <date>Fri Feb 26 23:37:35 EST 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Tue Mar 02 10:30:59 EST 2021</date>
-              <filename>/home/banerjia/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_assigned.xml</filename>
+              <date>Fri Feb 26 23:37:43 EST 2021</date>
+              <filename>/Users/banerjia/Library/Preferences/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_no_assignments.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Feb 26 23:37:35 EST 2021</date>
+                  <date>Fri Feb 26 13:09:07 EST 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
-                  <type>Load OK</type>
-                  <date>Fri Feb 26 23:37:43 EST 2021</date>
-                  <filename>/Users/banerjia/Library/Preferences/jmri_layouts/N_Scale_Indian_Railways.jmri/mml_pnl_layout_no_assignments.xml</filename>
-                  <filehistory>
-                    <operation>
-                      <type>app</type>
-                      <date>Fri Feb 26 13:09:07 EST 2021</date>
-                      <filename>JMRI program</filename>
-                    </operation>
-                    <operation>
-                      <type>Store</type>
-                      <date>Fri Feb 26 13:26:09 EST 2021</date>
-                      <filename />
-                    </operation>
-                  </filehistory>
-                </operation>
-                <operation>
                   <type>Store</type>
-                  <date>Sat Feb 27 01:30:25 EST 2021</date>
+                  <date>Fri Feb 26 13:26:09 EST 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Tue Mar 02 10:55:33 EST 2021</date>
+              <date>Sat Feb 27 01:30:25 EST 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Thu Mar 04 16:40:44 EST 2021</date>
+          <date>Tue Mar 02 10:55:33 EST 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Mar 04 20:00:58 EST 2021</date>
+      <date>Thu Mar 04 16:40:44 EST 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Mar 04 20:00:58 EST 2021-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Mar 04 16:40:44 EST 2021-->
 </layout-config>
