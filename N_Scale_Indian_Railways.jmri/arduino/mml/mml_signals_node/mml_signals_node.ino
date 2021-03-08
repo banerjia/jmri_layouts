@@ -10,7 +10,7 @@ void setup() {
   // Cofigure port registers for input/output setup
 
   // Set pins D2 - D7 as output
-  DDRD = DDRD | B11111100;
+  DDRD |= B11111100;
 
   // Set pins D8 - D13 as output
   DDRB |= B00111111;

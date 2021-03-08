@@ -329,7 +329,7 @@
         <window xmlns="" class="jmri.jmrit.operations.setup.OperationsSetupFrame:OperationsPro Settings" height="615.0" locX="0.0" locY="25.0" width="903.0"/>
         <window xmlns="" class="Script Output" height="255.0" locX="195.0" locY="546.0" width="434.0"/>
         <window xmlns="" class="Edit Signal Group - Signal Head" locX="100.0" locY="30.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:MML Station" height="804.0" locX="0.0" locY="25.0" width="1440.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:MML Station" height="807.0" locX="0.0" locY="27.0" width="1444.0">
             <properties>
                 <property>
                     <key>zoom</key>
@@ -340,11 +340,11 @@
         <window xmlns="" class="Edit Turnout" locX="50.0" locY="25.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Masts" height="740.0" locX="0.0" locY="26.0" width="1440.0"/>
         <window xmlns="" class="Add Logix" height="176.0" locX="50.0" locY="25.0" width="606.0"/>
-        <window xmlns="" class="PanelPro" height="413.0" locX="872.0" locY="170.0" width="558.0"/>
+        <window xmlns="" class="PanelPro" height="423.0" locX="872.0" locY="170.0" width="552.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="535.0" locX="0.0" locY="25.0" width="1198.0"/>
         <window xmlns="" class="Activate New Train" locX="28.0" locY="26.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sections" height="735.0" locX="48.0" locY="108.0" width="1438.0"/>
-        <window xmlns="" class="jmri.jmrix.cmri.serial.assignment.ListFrame" height="726.0" locX="0.0" locY="27.0" width="1411.0"/>
+        <window xmlns="" class="jmri.jmrix.cmri.serial.assignment.ListFrame" height="736.0" locX="0.0" locY="27.0" width="1405.0"/>
         <window xmlns="" class="Edit Track Segment" locX="50.0" locY="25.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.LogixTableAction">
             <properties>
