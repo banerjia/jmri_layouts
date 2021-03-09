@@ -49,5 +49,8 @@
                 <parameter name="cmrinodedesc">MML Panel Node</parameter>
             </node>
         </connection>
+        <connection xmlns="" class="jmri.jmrix.dccpp.serial.configurexml.ConnectionConfigXml" disabled="no" manufacturer="DCC++" port="cu.usbmodem14101" speed="115200" systemPrefix="D" userName="DCC++">
+            <options/>
+        </connection>
     </connections>
 </auxiliary-configuration>
