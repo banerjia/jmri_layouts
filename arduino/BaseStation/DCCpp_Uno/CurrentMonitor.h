@@ -13,7 +13,7 @@ Part of DCC++ BASE STATION for the Arduino
 #include "Arduino.h"
 
 #define  CURRENT_SAMPLE_SMOOTHING   0.01
-#define  CURRENT_SAMPLE_MAX         750
+#define  CURRENT_SAMPLE_MAX         300
 
 #ifdef ARDUINO_AVR_UNO                        // Configuration for UNO
   #define  CURRENT_SAMPLE_TIME        10
@@ -32,4 +32,3 @@ struct CurrentMonitor{
 };
 
 #endif
-
