@@ -30,7 +30,7 @@ void setup() {
 
 void loop() {
   // Part of the CMRI process
-  cmri.process();
+    cmri.process();
   
   byte data_recd[3];
 
@@ -90,4 +90,6 @@ void loop() {
   // Bits to set for A0-A5 spans the last two bits of byte[1] and first 2 bits of byte[2]
   byte PORTC_bits = (data_recd[1] >> 3) | (data_recd[2] << 4);
   PORTC = PORTC_bits;
+ 
+
 }
