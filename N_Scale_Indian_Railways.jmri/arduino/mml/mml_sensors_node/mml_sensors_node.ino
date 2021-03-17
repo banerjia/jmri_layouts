@@ -12,8 +12,10 @@ CMRI cmri(MML_SENSORS_NODE_ADDR, MML_SENSORS_NODE_BITS_IN, MML_SENSORS_NODE_BITS
 void setup(){
     Serial.begin(CMRI_BAUD_RATE);
 
+    // Set all the registers to INPUT
     DDRB = B00000000;
     DDRC = B00000000;
+    // DDRD has to be handled specially because of PIN 1 & 2 being RX and TX pins
     DDRD |= B00000000;
 }
 
